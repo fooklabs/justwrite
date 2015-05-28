@@ -26,7 +26,11 @@
     <div class="container relative">
 
     <div class="jw-alert-panel">
-      <div class="jw-alert">%= $error %</div> 
+      <div class="jw-alert">
+         % if ( stash('error') ) {
+            <%= stash('error') %>
+         % }
+      </div> 
     </div>
 
         <!-- Nav Tabs -->

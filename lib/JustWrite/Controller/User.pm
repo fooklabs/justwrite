@@ -48,7 +48,7 @@ sub register {
   $validation->error(login => ['not available'])
     if $db->query('select * from "user" where login = ?', $output->{login})->hash;
 
-  return $c->render(template => 'user/register', status => 400) if $validation->has_error;
+  return $c->render(template => 'user/register', error => '', status => 400) if $validation->has_error;
 
   my $user = $db->query(
     'insert into "user" (login,password) values(?,?) returning login',

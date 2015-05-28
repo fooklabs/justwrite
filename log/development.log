@@ -973,3 +973,174 @@ LINE 1: select * from "users" where login = $1
 [Thu May 28 14:32:48 2015] [debug] Rendering template "user/register.html.ep"
 [Thu May 28 14:32:48 2015] [debug] Rendering template "layouts/default.html.ep"
 [Thu May 28 14:32:48 2015] [debug] 200 OK (0.017374s, 57.557/s)
+[Thu May 28 14:38:31 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 14:38:31 2015] [debug] GET "/login"
+[Thu May 28 14:38:31 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "login"
+[Thu May 28 14:38:31 2015] [debug] Rendering template "user/register.html.ep"
+[Thu May 28 14:38:31 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 14:38:31 2015] [debug] 200 OK (0.032008s, 31.242/s)
+[Thu May 28 14:38:35 2015] [debug] POST "/login"
+[Thu May 28 14:38:35 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "login"
+[Thu May 28 14:38:35 2015] [debug] Rendering template "user/register.html.ep"
+[Thu May 28 14:38:35 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 14:38:35 2015] [debug] 200 OK (0.020251s, 49.380/s)
+[Thu May 28 14:39:26 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 14:39:26 2015] [debug] GET "/login"
+[Thu May 28 14:39:26 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "login"
+[Thu May 28 14:39:26 2015] [debug] Rendering template "user/register.html.ep"
+[Thu May 28 14:39:26 2015] [error] Global symbol "$error" requires explicit package name at template user/register.html.ep line 29.
+24: <!-- Section -->
+25: <section class="page-section">
+26:     <div class="container relative">
+27: 
+28:     <div class="jw-alert-panel">
+29:       <div class="jw-alert"><%= $error %></div> 
+30:     </div>
+31: 
+32:         <!-- Nav Tabs -->
+33:         <div class="align-center mb-40 mb-xxs-30">
+34:             <ul class="nav nav-tabs tpl-minimal-tabs">
+
+[Thu May 28 14:39:26 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 14:39:26 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 14:39:26 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 14:39:26 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 14:39:26 2015] [debug] 500 Internal Server Error (0.050664s, 19.738/s)
+[Thu May 28 14:41:02 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 14:41:02 2015] [debug] GET "/login"
+[Thu May 28 14:41:02 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "login"
+[Thu May 28 14:41:02 2015] [debug] Rendering template "user/register.html.ep"
+[Thu May 28 14:41:02 2015] [error] Global symbol "$error" requires explicit package name at template user/register.html.ep line 30.
+Global symbol "$error" requires explicit package name at template user/register.html.ep line 31.
+syntax error at template user/register.html.ep line 31, at EOF
+25: <section class="page-section">
+26:     <div class="container relative">
+27: 
+28:     <div class="jw-alert-panel">
+29:       <div class="jw-alert">
+30:          % if ( $error ) {
+31:             %= $error %
+32:          % }
+33:       </div> 
+34:     </div>
+35: 
+
+[Thu May 28 14:41:02 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 14:41:02 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 14:41:02 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 14:41:02 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 14:41:02 2015] [debug] 500 Internal Server Error (0.051324s, 19.484/s)
+[Thu May 28 14:41:26 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 14:41:26 2015] [debug] GET "/login"
+[Thu May 28 14:41:26 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "login"
+[Thu May 28 14:41:26 2015] [debug] Rendering template "user/register.html.ep"
+[Thu May 28 14:41:26 2015] [error] Global symbol "$error" requires explicit package name at template user/register.html.ep line 30.
+Global symbol "$error" requires explicit package name at template user/register.html.ep line 31.
+syntax error at template user/register.html.ep line 31, at EOF
+25: <section class="page-section">
+26:     <div class="container relative">
+27: 
+28:     <div class="jw-alert-panel">
+29:       <div class="jw-alert">
+30:          % if ( defined $error ) {
+31:             %= $error %
+32:          % }
+33:       </div> 
+34:     </div>
+35: 
+
+[Thu May 28 14:41:26 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 14:41:26 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 14:41:26 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 14:41:26 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 14:41:26 2015] [debug] 500 Internal Server Error (0.051561s, 19.395/s)
+[Thu May 28 14:42:12 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 14:42:12 2015] [debug] GET "/login"
+[Thu May 28 14:42:12 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "login"
+[Thu May 28 14:42:12 2015] [debug] Rendering template "user/register.html.ep"
+[Thu May 28 14:42:12 2015] [error] Global symbol "$error" requires explicit package name at template user/register.html.ep line 30.
+Global symbol "$error" requires explicit package name at template user/register.html.ep line 31.
+syntax error at template user/register.html.ep line 31, at EOF
+25: <section class="page-section">
+26:     <div class="container relative">
+27: 
+28:     <div class="jw-alert-panel">
+29:       <div class="jw-alert">
+30:          % if ( $error ) {
+31:             %= $error %
+32:          % }
+33:       </div> 
+34:     </div>
+35: 
+
+[Thu May 28 14:42:12 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 14:42:12 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 14:42:12 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 14:42:12 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 14:42:12 2015] [debug] 500 Internal Server Error (0.051097s, 19.571/s)
+[Thu May 28 14:42:48 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 14:42:48 2015] [debug] GET "/login"
+[Thu May 28 14:42:48 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "login"
+[Thu May 28 14:42:48 2015] [debug] Rendering template "user/register.html.ep"
+[Thu May 28 14:42:48 2015] [error] syntax error at template user/register.html.ep line 31, at EOF
+26:     <div class="container relative">
+27: 
+28:     <div class="jw-alert-panel">
+29:       <div class="jw-alert">
+30:          % if ( $error ) {
+31:             %= $error %
+32:          % }
+33:       </div> 
+34:     </div>
+35: 
+36:         <!-- Nav Tabs -->
+
+[Thu May 28 14:42:48 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 14:42:48 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 14:42:48 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 14:42:48 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 14:42:48 2015] [debug] 500 Internal Server Error (0.051170s, 19.543/s)
+[Thu May 28 14:43:13 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 14:43:13 2015] [debug] GET "/login"
+[Thu May 28 14:43:13 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "login"
+[Thu May 28 14:43:13 2015] [debug] Rendering template "user/register.html.ep"
+[Thu May 28 14:43:13 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 14:43:13 2015] [debug] 200 OK (0.032284s, 30.975/s)
+[Thu May 28 14:43:18 2015] [debug] POST "/login"
+[Thu May 28 14:43:18 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "login"
+[Thu May 28 14:43:18 2015] [debug] Rendering cached template "user/register.html.ep"
+[Thu May 28 14:43:18 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Thu May 28 14:43:18 2015] [debug] 200 OK (0.011357s, 88.051/s)
+[Thu May 28 14:49:17 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 14:49:17 2015] [debug] GET "/login"
+[Thu May 28 14:49:17 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "login"
+[Thu May 28 14:49:17 2015] [debug] Rendering template "user/register.html.ep"
+[Thu May 28 14:49:17 2015] [error] Global symbol "$error" requires explicit package name at template user/register.html.ep line 31.
+26:     <div class="container relative">
+27: 
+28:     <div class="jw-alert-panel">
+29:       <div class="jw-alert">
+30:          % if ( stash('error') ) {
+31:             <%= $error %>
+32:          % }
+33:       </div> 
+34:     </div>
+35: 
+36:         <!-- Nav Tabs -->
+
+[Thu May 28 14:49:17 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 14:49:17 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 14:49:17 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 14:49:17 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 14:49:17 2015] [debug] 500 Internal Server Error (0.051097s, 19.571/s)
+[Thu May 28 14:50:11 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 14:50:11 2015] [debug] GET "/login"
+[Thu May 28 14:50:11 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "login"
+[Thu May 28 14:50:11 2015] [debug] Rendering template "user/register.html.ep"
+[Thu May 28 14:50:11 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 14:50:11 2015] [debug] 200 OK (0.032718s, 30.564/s)
+[Thu May 28 14:50:19 2015] [debug] POST "/login"
+[Thu May 28 14:50:19 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "login"
+[Thu May 28 14:50:20 2015] [debug] Rendering template "user/register.html.ep"
+[Thu May 28 14:50:20 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 14:50:20 2015] [debug] 200 OK (0.020156s, 49.613/s)
