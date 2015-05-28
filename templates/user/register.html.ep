@@ -5,12 +5,12 @@
 <section class="page-section">
     <div class="container relative">
 
-    <div class="jw-alert-panel">
-      <div class="jw-alert">
+    <div class="alert error">
+      <i class="fa fa-lg fa-times-circle">
          % if ( stash('error') ) {
             <%= stash('error') %>
          % }
-      </div> 
+      </i> 
     </div>
 
         <!-- Nav Tabs -->
