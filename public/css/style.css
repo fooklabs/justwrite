@@ -110,6 +110,7 @@ Section Text:       15px/1.7 "Open Sans", arial, sans-serif;
 .inline-block{display:inline-block;}
 .white{ color: #fff !important; }
 .black{ color: #000 !important; }
+.slate{ color: #00A0B0 !important; }
 .color{ color: #e41919 !important; }
 .stick-fixed{
 	position: fixed !important;
@@ -1408,16 +1409,11 @@ a.btn-mod:focus{
 	margin-right: 20px;
 }
 .nav-logo-wrap .logo{
-	display: table-cell;
-	vertical-align: middle;
-	max-width: 118px;
+    display: table-cell;
+    vertical-align: middle;
+    max-width: 118px;
     height: 75px;
-
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    font-family: 'Josefin Slab', serif; 
 }
 .nav-logo-wrap .logo img{
 	max-height: 90%;
@@ -1428,7 +1424,6 @@ a.btn-mod:focus{
 }
 .logo,
 a.logo:hover{
-    font-family: Dosis, arial, sans-serif;
 	font-size: 18px;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -1647,7 +1642,9 @@ a.logo:hover{
 /*
  * Mobile nav
  */
-
+.mobile-on .black {
+  color: #777 !important;
+}
 .mobile-on .desktop-nav{
 	display: none;
 	width: 100%;

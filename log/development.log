@@ -1144,3 +1144,118 @@ syntax error at template user/register.html.ep line 31, at EOF
 [Thu May 28 14:50:20 2015] [debug] Rendering template "user/register.html.ep"
 [Thu May 28 14:50:20 2015] [debug] Rendering template "layouts/default.html.ep"
 [Thu May 28 14:50:20 2015] [debug] 200 OK (0.020156s, 49.613/s)
+[Thu May 28 15:03:55 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 15:03:55 2015] [debug] GET "/logout"
+[Thu May 28 15:03:55 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "logout"
+[Thu May 28 15:03:55 2015] [debug] 302 Found (0.003220s, 310.559/s)
+[Thu May 28 15:03:55 2015] [debug] GET "/index"
+[Thu May 28 15:03:55 2015] [debug] Rendering template "index.html.ep"
+[Thu May 28 15:03:55 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 15:03:56 2015] [debug] 200 OK (0.008948s, 111.757/s)
+[Thu May 28 15:05:09 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 15:05:09 2015] [debug] GET "/index"
+[Thu May 28 15:05:09 2015] [debug] Rendering template "index.html.ep"
+[Thu May 28 15:05:09 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 15:05:09 2015] [debug] 200 OK (0.010073s, 99.275/s)
+[Thu May 28 15:06:14 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 15:06:14 2015] [debug] GET "/register"
+[Thu May 28 15:06:14 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "register"
+[Thu May 28 15:06:14 2015] [debug] Rendering template "user/register.html.ep"
+[Thu May 28 15:06:14 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 15:06:14 2015] [debug] 200 OK (0.032633s, 30.644/s)
+[Thu May 28 15:08:55 2015] [debug] GET "/"
+[Thu May 28 15:08:55 2015] [debug] Template "not_found.development.html.ep" not found
+[Thu May 28 15:08:55 2015] [debug] Template "not_found.html.ep" not found
+[Thu May 28 15:08:55 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 15:08:56 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 15:08:56 2015] [debug] 404 Not Found (0.022732s, 43.991/s)
+[Thu May 28 15:08:59 2015] [debug] GET "/index"
+[Thu May 28 15:08:59 2015] [debug] Rendering template "index.html.ep"
+[Thu May 28 15:08:59 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 15:08:59 2015] [debug] 200 OK (0.007524s, 132.908/s)
+[Thu May 28 15:10:17 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 15:10:17 2015] [debug] GET "/index"
+[Thu May 28 15:10:17 2015] [debug] Rendering template "index.html.ep"
+[Thu May 28 15:10:17 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 15:10:17 2015] [debug] 200 OK (0.010157s, 98.454/s)
+[Thu May 28 15:10:26 2015] [debug] GET "/register"
+[Thu May 28 15:10:26 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "register"
+[Thu May 28 15:10:26 2015] [debug] Rendering template "user/register.html.ep"
+[Thu May 28 15:10:26 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 15:10:26 2015] [debug] 200 OK (0.029893s, 33.453/s)
+[Thu May 28 15:12:33 2015] [debug] GET "/mp-index.html"
+[Thu May 28 15:12:33 2015] [debug] Template "not_found.development.html.ep" not found
+[Thu May 28 15:12:33 2015] [debug] Template "not_found.html.ep" not found
+[Thu May 28 15:12:33 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 15:12:33 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 15:12:33 2015] [debug] 404 Not Found (0.022601s, 44.246/s)
+[Thu May 28 15:13:55 2015] [debug] GET "/index"
+[Thu May 28 15:13:55 2015] [debug] Rendering cached template "index.html.ep"
+[Thu May 28 15:13:55 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Thu May 28 15:13:55 2015] [debug] 200 OK (0.000831s, 1203.369/s)
+[Thu May 28 15:18:46 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 15:18:46 2015] [debug] GET "/index"
+[Thu May 28 15:18:46 2015] [debug] Rendering template "index.html.ep"
+[Thu May 28 15:18:46 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 15:18:46 2015] [debug] 200 OK (0.010037s, 99.631/s)
+[Thu May 28 15:20:33 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 15:20:33 2015] [debug] GET "/index"
+[Thu May 28 15:20:33 2015] [debug] Rendering template "index.html.ep"
+[Thu May 28 15:20:33 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 15:20:33 2015] [debug] 200 OK (0.009659s, 103.530/s)
+[Thu May 28 15:22:02 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 15:22:02 2015] [debug] GET "/index"
+[Thu May 28 15:22:02 2015] [debug] Rendering template "index.html.ep"
+[Thu May 28 15:22:02 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 15:22:02 2015] [debug] 200 OK (0.010059s, 99.413/s)
+[Thu May 28 15:22:06 2015] [debug] GET "/index"
+[Thu May 28 15:22:06 2015] [debug] Rendering cached template "index.html.ep"
+[Thu May 28 15:22:06 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Thu May 28 15:22:06 2015] [debug] 200 OK (0.000822s, 1216.545/s)
+[Thu May 28 15:24:55 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 15:24:55 2015] [debug] GET "/index"
+[Thu May 28 15:24:55 2015] [debug] Rendering template "index.html.ep"
+[Thu May 28 15:24:55 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 15:24:55 2015] [debug] 200 OK (0.010091s, 99.098/s)
+[Thu May 28 15:25:03 2015] [debug] GET "/index"
+[Thu May 28 15:25:03 2015] [debug] Rendering cached template "index.html.ep"
+[Thu May 28 15:25:03 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Thu May 28 15:25:03 2015] [debug] 200 OK (0.000978s, 1022.495/s)
+[Thu May 28 15:25:44 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 15:25:44 2015] [debug] GET "/index"
+[Thu May 28 15:25:44 2015] [debug] Rendering template "index.html.ep"
+[Thu May 28 15:25:44 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 15:25:44 2015] [debug] 200 OK (0.010103s, 98.981/s)
+[Thu May 28 15:25:54 2015] [debug] GET "/index"
+[Thu May 28 15:25:54 2015] [debug] Rendering cached template "index.html.ep"
+[Thu May 28 15:25:54 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Thu May 28 15:25:54 2015] [debug] 200 OK (0.000831s, 1203.369/s)
+[Thu May 28 15:26:19 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 15:26:19 2015] [debug] GET "/index"
+[Thu May 28 15:26:19 2015] [debug] Rendering template "index.html.ep"
+[Thu May 28 15:26:19 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 15:26:19 2015] [debug] 200 OK (0.010146s, 98.561/s)
+[Thu May 28 15:26:41 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 15:26:41 2015] [debug] GET "/index"
+[Thu May 28 15:26:41 2015] [debug] Rendering template "index.html.ep"
+[Thu May 28 15:26:41 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 15:26:41 2015] [debug] 200 OK (0.010201s, 98.030/s)
+[Thu May 28 15:28:31 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 15:28:31 2015] [debug] GET "/index"
+[Thu May 28 15:28:31 2015] [debug] Rendering template "index.html.ep"
+[Thu May 28 15:28:31 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 15:28:31 2015] [debug] 200 OK (0.010188s, 98.155/s)
+[Thu May 28 15:28:39 2015] [debug] GET "/index"
+[Thu May 28 15:28:39 2015] [debug] Rendering cached template "index.html.ep"
+[Thu May 28 15:28:39 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Thu May 28 15:28:39 2015] [debug] 200 OK (0.000850s, 1176.471/s)
+[Thu May 28 15:29:11 2015] [debug] GET "/register"
+[Thu May 28 15:29:11 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "register"
+[Thu May 28 15:29:11 2015] [debug] Rendering template "user/register.html.ep"
+[Thu May 28 15:29:11 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 15:29:11 2015] [debug] 200 OK (0.029273s, 34.161/s)
+[Thu May 28 15:29:18 2015] [debug] POST "/login"
+[Thu May 28 15:29:18 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "login"
+[Thu May 28 15:29:18 2015] [debug] Rendering template "user/register.html.ep"
+[Thu May 28 15:29:18 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 15:29:18 2015] [debug] 200 OK (0.019643s, 50.909/s)
