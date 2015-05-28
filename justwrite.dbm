@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+CAUTION: Do not modify this file unless you know what you are doing.
+         Unexpected results may occur if the code is changed deliberately.
+-->
+<dbmodel pgmodeler-ver="0.8.0" last-position="0,0" last-zoom="1"
+	 default-schema="public" default-owner="postgres">
+<database name="new_database">
+</database>
+
+<schema name="public" protected="true" fill-color="#e1e1e1" sql-disabled="true">
+</schema>
+
+<table name="member">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="11" y="96"/>
+	<column name="member_id" not-null="true">
+		<type name="bigserial"/>
+	</column>
+	<column name="email" not-null="true">
+		<type name="text"/>
+	</column>
+	<column name="password" not-null="true">
+		<type name="text"/>
+	</column>
+	<constraint name="member_member_id_pk" type="pk-constr" table="public.member">
+		<columns names="member_id" ref-type="src-columns"/>
+	</constraint>
+	<constraint name="member_email_uq" type="uq-constr" table="public.member">
+		<columns names="email" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="post">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="123" y="507"/>
+	<column name="post_id" not-null="true">
+		<type name="bigserial"/>
+	</column>
+	<column name="member_id" not-null="true">
+		<type name="bigint"/>
+	</column>
+	<column name="book_id" not-null="true">
+		<type name="bigint"/>
+	</column>
+	<column name="book_order">
+		<type name="smallint"/>
+	</column>
+	<column name="path" not-null="true">
+		<type name="smallint"/>
+	</column>
+	<column name="title" not-null="true">
+		<type name="text"/>
+	</column>
+	<column name="body" not-null="true">
+		<type name="text"/>
+	</column>
+	<column name="interesting" not-null="true" default-value="0">
+		<type name="integer"/>
+	</column>
+	<column name="not_interesting" not-null="true" default-value="0">
+		<type name="integer"/>
+	</column>
+	<column name="shit_writing" not-null="true" default-value="0">
+		<type name="integer"/>
+	</column>
+	<column name="good_writing" not-null="true" default-value="0">
+		<type name="integer"/>
+	</column>
+	<column name="outdated" not-null="true" default-value="0">
+		<type name="integer"/>
+	</column>
+	<column name="inaccurate" not-null="true" default-value="0">
+		<type name="integer"/>
+	</column>
+	<column name="date_created" not-null="true" default-value="now()">
+		<type name="timestamp" with-timezone="true"/>
+	</column>
+	<constraint name="post_post_id_pk" type="pk-constr" table="public.post">
+		<columns names="post_id" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="tag">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1116" y="152"/>
+	<column name="tag_id" not-null="true">
+		<type name="bigserial"/>
+	</column>
+	<column name="name" not-null="true">
+		<type name="text"/>
+	</column>
+	<column name="count" not-null="true" default-value="0">
+		<type name="bigint"/>
+	</column>
+	<constraint name="tag_tag_id_pk" type="pk-constr" table="public.tag">
+		<columns names="tag_id" ref-type="src-columns"/>
+	</constraint>
+	<constraint name="tag_name_uq" type="uq-constr" table="public.tag">
+		<columns names="name" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="comment">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="839" y="446"/>
+	<column name="comment_id" not-null="true">
+		<type name="bigserial"/>
+	</column>
+	<column name="member_id" not-null="true">
+		<type name="bigint"/>
+	</column>
+	<column name="post_id" not-null="true">
+		<type name="bigint"/>
+	</column>
+	<column name="body" not-null="true">
+		<type name="text"/>
+	</column>
+	<column name="path" not-null="true">
+		<type name="text"/>
+	</column>
+	<column name="created" not-null="true" default-value="now()">
+		<type name="timestamp" with-timezone="true"/>
+	</column>
+	<constraint name="comment_comment_id_pk" type="pk-constr" table="public.comment">
+		<columns names="comment_id" ref-type="src-columns"/>
+	</constraint>
+	<constraint name="post_body_uq" type="uq-constr" table="public.comment">
+		<columns names="post_id,body" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="book">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="349" y="42"/>
+	<column name="book_id" not-null="true">
+		<type name="bigserial"/>
+	</column>
+	<column name="member_id" not-null="true">
+		<type name="bigint"/>
+	</column>
+	<column name="title" not-null="true">
+		<type name="text"/>
+	</column>
+	<column name="last_updated" not-null="true" default-value="now()">
+		<type name="timestamp" with-timezone="true"/>
+	</column>
+	<column name="date_created" not-null="true" default-value="now()">
+		<type name="timestamp" with-timezone="true"/>
+	</column>
+	<column name="public_writeable" not-null="true" default-value="FALSE">
+		<type name="boolean"/>
+	</column>
+	<constraint name="book_book_id_pk" type="pk-constr" table="public.book">
+		<columns names="book_id" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="book_tag">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="801" y="69"/>
+	<column name="book_tag_id" not-null="true">
+		<type name="bigserial"/>
+	</column>
+	<column name="book_id" not-null="true">
+		<type name="bigint"/>
+	</column>
+	<column name="tag_id" not-null="true">
+		<type name="bigint"/>
+	</column>
+	<constraint name="book_tag_book_tag_id_pk" type="pk-constr" table="public.book_tag">
+		<columns names="book_tag_id" ref-type="src-columns"/>
+	</constraint>
+	<constraint name="book_tag_uq" type="uq-constr" table="public.book_tag">
+		<columns names="book_id,tag_id" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="post_tag">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="824" y="303"/>
+	<column name="post_tag_id" not-null="true">
+		<type name="bigserial"/>
+	</column>
+	<column name="post_id" not-null="true">
+		<type name="bigint"/>
+	</column>
+	<column name="tag_id" not-null="true">
+		<type name="bigint"/>
+	</column>
+	<constraint name="post_tag_post_tag_id_pk" type="pk-constr" table="public.post_tag">
+		<columns names="post_tag_id" ref-type="src-columns"/>
+	</constraint>
+	<constraint name="post_tag_uq" type="uq-constr" table="public.post_tag">
+		<columns names="post_id,tag_id" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<constraint name="post_member_id_fk" type="fk-constr" comparison-type="MATCH FULL"
+	 upd-action="NO ACTION" del-action="NO ACTION" ref-table="public.member" table="public.post">
+	<columns names="member_id" ref-type="src-columns"/>
+	<columns names="member_id" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="post_book_id_fk" type="fk-constr" comparison-type="MATCH FULL"
+	 upd-action="NO ACTION" del-action="NO ACTION" ref-table="public.book" table="public.post">
+	<columns names="book_id" ref-type="src-columns"/>
+	<columns names="book_id" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="comment_member_id_fk" type="fk-constr" comparison-type="MATCH FULL"
+	 upd-action="NO ACTION" del-action="NO ACTION" ref-table="public.member" table="public.comment">
+	<columns names="member_id" ref-type="src-columns"/>
+	<columns names="member_id" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="comment_post_id_fk" type="fk-constr" comparison-type="MATCH FULL"
+	 upd-action="NO ACTION" del-action="NO ACTION" ref-table="public.post" table="public.comment">
+	<columns names="post_id" ref-type="src-columns"/>
+	<columns names="post_id" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="book_member_id_fk" type="fk-constr" comparison-type="MATCH FULL"
+	 upd-action="NO ACTION" del-action="NO ACTION" ref-table="public.member" table="public.book">
+	<columns names="member_id" ref-type="src-columns"/>
+	<columns names="member_id" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="book_tag_book_id_fk" type="fk-constr" comparison-type="MATCH FULL"
+	 upd-action="NO ACTION" del-action="NO ACTION" ref-table="public.book" table="public.book_tag">
+	<columns names="book_id" ref-type="src-columns"/>
+	<columns names="book_id" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="book_tag_tag_id_fk" type="fk-constr" comparison-type="MATCH FULL"
+	 upd-action="NO ACTION" del-action="NO ACTION" ref-table="public.tag" table="public.book_tag">
+	<columns names="tag_id" ref-type="src-columns"/>
+	<columns names="tag_id" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="post_tag_post_id_fk" type="fk-constr" comparison-type="MATCH FULL"
+	 upd-action="NO ACTION" del-action="NO ACTION" ref-table="public.post" table="public.post_tag">
+	<columns names="post_id" ref-type="src-columns"/>
+	<columns names="post_id" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="post_tag_tag_id_fk" type="fk-constr" comparison-type="MATCH FULL"
+	 upd-action="NO ACTION" del-action="NO ACTION" ref-table="public.tag" table="public.post_tag">
+	<columns names="tag_id" ref-type="src-columns"/>
+	<columns names="tag_id" ref-type="dst-columns"/>
+</constraint>
+
+<relationship name="rel_post_member" type="relfk"
+	 src-table="public.post"
+	 dst-table="public.member"
+	 src-required="false" dst-required="false"/>
+
+<relationship name="rel_post_book" type="relfk"
+	 src-table="public.post"
+	 dst-table="public.book"
+	 src-required="false" dst-required="false"/>
+
+<relationship name="rel_book_tag_book" type="relfk"
+	 src-table="public.book_tag"
+	 dst-table="public.book"
+	 src-required="false" dst-required="false"/>
+
+<relationship name="rel_book_tag_tag" type="relfk"
+	 src-table="public.book_tag"
+	 dst-table="public.tag"
+	 src-required="false" dst-required="false"/>
+
+<relationship name="rel_post_tag_post" type="relfk"
+	 src-table="public.post_tag"
+	 dst-table="public.post"
+	 src-required="false" dst-required="false"/>
+
+<relationship name="rel_post_tag_tag" type="relfk"
+	 src-table="public.post_tag"
+	 dst-table="public.tag"
+	 src-required="false" dst-required="false"/>
+
+<relationship name="rel_comment_member" type="relfk"
+	 src-table="public.comment"
+	 dst-table="public.member"
+	 src-required="false" dst-required="false"/>
+
+<relationship name="rel_comment_post" type="relfk"
+	 src-table="public.comment"
+	 dst-table="public.post"
+	 src-required="false" dst-required="false"/>
+
+<relationship name="rel_book_member" type="relfk"
+	 src-table="public.book"
+	 dst-table="public.member"
+	 src-required="false" dst-required="false"/>
+
+</dbmodel>

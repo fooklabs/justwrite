@@ -1,0 +1,74 @@
+% layout 'default';
+% title 'Play with your asshole';
+
+<!-- Head Section -->
+<section class="small-section bg-gray-lighter">
+    <div class="relative container align-left">
+
+        <div class="row">
+
+            <div class="col-md-8">
+                <h1 class="hs-line-11 font-alt mb-20 mb-xs-0">Just Write</h1>
+                <div class="hs-line-4 font-alt black">
+                    This is your soapbox.
+                </div>
+            </div>
+            </div>
+        </div>
+
+    </div>
+<!-- End Head Section -->
+
+
+
+<!-- Alternative Services Section -->
+<section class="page-section smallest-section" id="start">
+  <div class="container relative">
+
+      <!-- Row -->
+      <div class="row">
+
+          <!-- Col -->
+
+          <div class="col-sm-8 col-sm-offset-2">
+
+              <!-- Form -->
+              <form method="post" action="#" id="form" role="form" class="form">
+
+                  <div class="mb-20 mb-md-10">
+                      <!-- Name -->
+                      <input type="text" name="name" id="name" class="input-md form-control" placeholder="Title" maxlength="100">
+
+
+                  </div>
+
+              </form>
+            </div>
+            <div class="col-sm-12 mb-10">
+              <!-- Form -->
+              <form method="post" action="#" id="form" role="form" class="form">
+
+                  <div class="mb-20 mb-md-10">
+                    <a href="#" class="go-zen--textarea"><i class="s s--zen">Edit in Zen Mode</i></a>
+                    <textarea name="text" class="fuck input-md form-control graybg zen-mode--textarea" rows="20" placeholder="Text" maxlength="400"></textarea>
+                  </div>
+              </form>
+            </div>
+            <div class="col-sm-8 col-sm-offset-2">
+              <!-- Form -->
+              <form method="post" action="#" id="form" role="form" class="form">
+
+                  <div class="mb-20 mb-md-10">
+                    <div data-tags-input-name="tag" id="tagBox"></div>
+                  </div>
+              </form>
+            </div>
+            <div class="col-sm-8 col-sm-offset-2 align-center">
+              <a href="#" class="btn btn-mod btn-border btn-large btn-round">Publish</a>
+            </div>
+        </div>
+        <!-- End Section Headings -->
+
+    </div>
+</section>
+<!-- End Alternative Services Section -->
