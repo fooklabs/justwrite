@@ -1,4 +1,4 @@
-﻿/*********************************************
+/*********************************************
 
 	jQuery extended placeholder plugin.
 	Text, password, and textarea fields supported.
