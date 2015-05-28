@@ -766,3 +766,210 @@ LINE 1: ...."password", "me"."font" FROM "user" "me" WHERE ( "me"."user...
 [Thu May 28 09:39:09 2015] [debug] Rendering cached template "index.html.ep"
 [Thu May 28 09:39:09 2015] [debug] Rendering cached template "layouts/default.html.ep"
 [Thu May 28 09:39:09 2015] [debug] 200 OK (0.001792s, 558.036/s)
+[Thu May 28 14:24:26 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 14:24:26 2015] [debug] GET "/"
+[Thu May 28 14:24:26 2015] [debug] Template "not_found.development.html.ep" not found
+[Thu May 28 14:24:26 2015] [debug] Template "not_found.html.ep" not found
+[Thu May 28 14:24:26 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 14:24:26 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 14:24:26 2015] [debug] 404 Not Found (0.025147s, 39.766/s)
+[Thu May 28 14:24:32 2015] [debug] GET "/index"
+[Thu May 28 14:24:32 2015] [debug] Rendering template "index.html.ep"
+[Thu May 28 14:24:32 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 14:24:32 2015] [debug] 200 OK (0.007878s, 126.936/s)
+[Thu May 28 14:24:40 2015] [debug] GET "/register"
+[Thu May 28 14:24:40 2015] [error] Global symbol "$login" requires explicit package name at lib/JustWrite/Controller/User.pm line 49.
+syntax error at lib/JustWrite/Controller/User.pm line 57, near ")
+  }"
+Global symbol "$c" requires explicit package name at lib/JustWrite/Controller/User.pm line 59.
+Global symbol "$output" requires explicit package name at lib/JustWrite/Controller/User.pm line 59.
+Global symbol "$c" requires explicit package name at lib/JustWrite/Controller/User.pm line 60.
+Unmatched right curly bracket at lib/JustWrite/Controller/User.pm line 61, at end of line
+syntax error at lib/JustWrite/Controller/User.pm line 61, near "}"
+syntax error at lib/JustWrite/Controller/User.pm line 68, near "}"
+Compilation failed in require at (eval 33) line 1.
+
+[Thu May 28 14:24:40 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 14:24:40 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 14:24:40 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 14:24:40 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 14:24:40 2015] [debug] 500 Internal Server Error (0.022933s, 43.605/s)
+[Thu May 28 14:25:35 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 14:25:35 2015] [debug] GET "/register"
+[Thu May 28 14:25:35 2015] [error] syntax error at lib/JustWrite/Controller/User.pm line 57, near ")
+  }"
+Global symbol "$c" requires explicit package name at lib/JustWrite/Controller/User.pm line 59.
+Global symbol "$output" requires explicit package name at lib/JustWrite/Controller/User.pm line 59.
+Global symbol "$c" requires explicit package name at lib/JustWrite/Controller/User.pm line 60.
+Unmatched right curly bracket at lib/JustWrite/Controller/User.pm line 61, at end of line
+syntax error at lib/JustWrite/Controller/User.pm line 61, near "}"
+syntax error at lib/JustWrite/Controller/User.pm line 68, near "}"
+Compilation failed in require at (eval 29) line 1.
+
+[Thu May 28 14:25:35 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 14:25:35 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 14:25:35 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 14:25:35 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 14:25:35 2015] [debug] 500 Internal Server Error (0.027467s, 36.407/s)
+[Thu May 28 14:25:51 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 14:25:51 2015] [debug] GET "/register"
+[Thu May 28 14:25:51 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "register"
+[Thu May 28 14:25:51 2015] [error] Can't locate object method "new" via package "Mojo::Pg" (perhaps you forgot to load "Mojo::Pg"?) at lib/JustWrite.pm line 33.
+
+[Thu May 28 14:25:51 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 14:25:51 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 14:25:51 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 14:25:51 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 14:25:51 2015] [debug] 500 Internal Server Error (0.027813s, 35.954/s)
+[Thu May 28 14:26:09 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 14:26:09 2015] [debug] GET "/register"
+[Thu May 28 14:26:09 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "register"
+[Thu May 28 14:26:09 2015] [debug] Rendering template "user/register.html.ep"
+[Thu May 28 14:26:09 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 14:26:09 2015] [debug] 200 OK (0.032559s, 30.713/s)
+[Thu May 28 14:26:20 2015] [debug] POST "/register"
+[Thu May 28 14:26:20 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "register"
+[Thu May 28 14:26:20 2015] [error] DBD::Pg::st execute failed: ERROR:  relation "users" does not exist
+LINE 1: select * from "users" where login = $1
+                      ^ at /opt/justwrite/perl5/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.2/Mojo/Pg/Database.pm line 82.
+
+[Thu May 28 14:26:20 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 14:26:20 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 14:26:20 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 14:26:20 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 14:26:20 2015] [debug] 500 Internal Server Error (0.026738s, 37.400/s)
+[Thu May 28 14:27:09 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 14:27:09 2015] [debug] POST "/register"
+[Thu May 28 14:27:09 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "register"
+[Thu May 28 14:27:09 2015] [error] DBD::Pg::st execute failed: ERROR:  relation "users" does not exist
+LINE 1: select * from "users" where login = $1
+                      ^ at /opt/justwrite/perl5/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.2/Mojo/Pg/Database.pm line 82.
+
+[Thu May 28 14:27:09 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 14:27:09 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 14:27:09 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 14:27:09 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 14:27:09 2015] [debug] 500 Internal Server Error (0.047462s, 21.069/s)
+[Thu May 28 14:27:35 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 14:27:35 2015] [debug] GET "/register"
+[Thu May 28 14:27:35 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "register"
+[Thu May 28 14:27:35 2015] [debug] Rendering template "user/register.html.ep"
+[Thu May 28 14:27:35 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 14:27:35 2015] [debug] 200 OK (0.032440s, 30.826/s)
+[Thu May 28 14:27:44 2015] [debug] POST "/register"
+[Thu May 28 14:27:44 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "register"
+[Thu May 28 14:27:44 2015] [error] Can't use an undefined value as a HASH reference at lib/JustWrite/Controller/User.pm line 48.
+
+[Thu May 28 14:27:44 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 14:27:44 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 14:27:44 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 14:27:44 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 14:27:44 2015] [debug] 500 Internal Server Error (0.027939s, 35.792/s)
+[Thu May 28 14:28:16 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 14:28:16 2015] [debug] POST "/register"
+[Thu May 28 14:28:16 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "register"
+[Thu May 28 14:28:16 2015] [error] Can't call method "execute" on an undefined value at /opt/justwrite/perl5/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.2/Mojo/Pg/Database.pm line 82.
+
+[Thu May 28 14:28:16 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 14:28:16 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 14:28:16 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 14:28:16 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 14:28:16 2015] [debug] 500 Internal Server Error (0.054439s, 18.369/s)
+[Thu May 28 14:28:34 2015] [debug] GET "/register"
+[Thu May 28 14:28:34 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "register"
+[Thu May 28 14:28:34 2015] [debug] Rendering template "user/register.html.ep"
+[Thu May 28 14:28:34 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 14:28:34 2015] [debug] 200 OK (0.011969s, 83.549/s)
+[Thu May 28 14:28:42 2015] [debug] POST "/register"
+[Thu May 28 14:28:42 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "register"
+[Thu May 28 14:28:42 2015] [error] Can't call method "execute" on an undefined value at /opt/justwrite/perl5/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.2/Mojo/Pg/Database.pm line 82.
+
+[Thu May 28 14:28:42 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 14:28:42 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 14:28:42 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 14:28:42 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 14:28:42 2015] [debug] 500 Internal Server Error (0.015363s, 65.091/s)
+[Thu May 28 14:29:16 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 14:29:16 2015] [debug] POST "/register"
+[Thu May 28 14:29:16 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "register"
+[Thu May 28 14:29:16 2015] [error] Can't call method "execute" on an undefined value at /opt/justwrite/perl5/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.2/Mojo/Pg/Database.pm line 82.
+
+[Thu May 28 14:29:16 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 14:29:16 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 14:29:16 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 14:29:16 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 14:29:16 2015] [debug] 500 Internal Server Error (0.054923s, 18.207/s)
+[Thu May 28 14:30:45 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 14:30:45 2015] [debug] POST "/register"
+[Thu May 28 14:30:45 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "register"
+[Thu May 28 14:30:45 2015] [error] Can't call method "execute" on an undefined value at /opt/justwrite/perl5/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.2/Mojo/Pg/Database.pm line 82.
+
+[Thu May 28 14:30:45 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 14:30:45 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 14:30:45 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 14:30:45 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 14:30:45 2015] [debug] 500 Internal Server Error (0.054629s, 18.305/s)
+[Thu May 28 14:31:23 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 14:31:23 2015] [debug] POST "/register"
+[Thu May 28 14:31:23 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "register"
+[Thu May 28 14:31:23 2015] [error] Can't call method "execute" on an undefined value at /opt/justwrite/perl5/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.2/Mojo/Pg/Database.pm line 82.
+
+[Thu May 28 14:31:23 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 14:31:23 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 14:31:23 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 14:31:23 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 14:31:23 2015] [debug] 500 Internal Server Error (0.054281s, 18.423/s)
+[Thu May 28 14:31:46 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 14:31:46 2015] [debug] POST "/register"
+[Thu May 28 14:31:46 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "register"
+[Thu May 28 14:31:46 2015] [error] Can't call method "execute" on an undefined value at /opt/justwrite/perl5/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.2/Mojo/Pg/Database.pm line 82.
+
+[Thu May 28 14:31:46 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 14:31:46 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 14:31:46 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 14:31:46 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 14:31:46 2015] [debug] 500 Internal Server Error (0.054602s, 18.314/s)
+[Thu May 28 14:32:12 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 14:32:12 2015] [debug] POST "/register"
+[Thu May 28 14:32:12 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "register"
+[Thu May 28 14:32:12 2015] [debug] 302 Found (0.030844s, 32.421/s)
+[Thu May 28 14:32:12 2015] [debug] GET "/index"
+[Thu May 28 14:32:12 2015] [debug] Rendering template "index.html.ep"
+[Thu May 28 14:32:12 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 14:32:12 2015] [debug] 200 OK (0.009644s, 103.691/s)
+[Thu May 28 14:32:23 2015] [debug] GET "/logout"
+[Thu May 28 14:32:23 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "logout"
+[Thu May 28 14:32:23 2015] [debug] 302 Found (0.001014s, 986.193/s)
+[Thu May 28 14:32:23 2015] [debug] GET "/index"
+[Thu May 28 14:32:23 2015] [debug] Rendering cached template "index.html.ep"
+[Thu May 28 14:32:23 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Thu May 28 14:32:23 2015] [debug] 200 OK (0.000893s, 1119.821/s)
+[Thu May 28 14:32:28 2015] [debug] GET "/register"
+[Thu May 28 14:32:28 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "register"
+[Thu May 28 14:32:28 2015] [debug] Rendering template "user/register.html.ep"
+[Thu May 28 14:32:28 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 14:32:28 2015] [debug] 200 OK (0.011527s, 86.753/s)
+[Thu May 28 14:32:35 2015] [debug] POST "/login"
+[Thu May 28 14:32:35 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "login"
+[Thu May 28 14:32:35 2015] [debug] 302 Found (0.008188s, 122.130/s)
+[Thu May 28 14:32:35 2015] [debug] GET "/index"
+[Thu May 28 14:32:35 2015] [debug] Rendering cached template "index.html.ep"
+[Thu May 28 14:32:35 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Thu May 28 14:32:35 2015] [debug] 200 OK (0.000986s, 1014.199/s)
+[Thu May 28 14:32:39 2015] [debug] GET "/logout"
+[Thu May 28 14:32:39 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "logout"
+[Thu May 28 14:32:39 2015] [debug] 302 Found (0.000771s, 1297.017/s)
+[Thu May 28 14:32:39 2015] [debug] GET "/index"
+[Thu May 28 14:32:39 2015] [debug] Rendering cached template "index.html.ep"
+[Thu May 28 14:32:39 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Thu May 28 14:32:39 2015] [debug] 200 OK (0.000751s, 1331.558/s)
+[Thu May 28 14:32:44 2015] [debug] GET "/register"
+[Thu May 28 14:32:44 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "register"
+[Thu May 28 14:32:44 2015] [debug] Rendering cached template "user/register.html.ep"
+[Thu May 28 14:32:44 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Thu May 28 14:32:44 2015] [debug] 200 OK (0.002693s, 371.333/s)
+[Thu May 28 14:32:48 2015] [debug] POST "/login"
+[Thu May 28 14:32:48 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "login"
+[Thu May 28 14:32:48 2015] [debug] Rendering template "user/register.html.ep"
+[Thu May 28 14:32:48 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 14:32:48 2015] [debug] 200 OK (0.017374s, 57.557/s)

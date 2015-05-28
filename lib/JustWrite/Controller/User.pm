@@ -5,6 +5,7 @@ use Data::Dumper;
 
 sub login {
   my $c = shift;
+  my $db = $c->pg->db;
   my $login    = $c->param('login');
   my $password = $c->param('password');
 
@@ -15,13 +16,13 @@ sub login {
     return $c->render(template => 'user/register');
   }
 
-  my $user = $c->db->resultset('User')->find({login => $login});
+  my $user = $db->query('select * from "user" where login = ?', $login)->hash;
 
   return $c->render(template => 'user/register', error => 'invalid username')
-    unless defined $user;
+    unless defined $user->{login};
 
   return $c->render(template => 'user/register', error => 'invalid password')
-    unless $c->check_password($password, $user->password);
+    unless $c->check_password($password, $user->{password});
 
   $c->session(login => $login);
   $c->redirect_to('index');
@@ -30,7 +31,7 @@ sub login {
 sub register {
   my $c = shift;
   my $validation = $c->validation;
-  my $db = $c->db;
+  my $db = $c->pg->db;
 
   if ($c->session('login')) {
     return $c->redirect_to('index');
@@ -43,15 +44,17 @@ sub register {
   $validation->required('repassword')->equal_to('password');
   $validation->required('password')->size(5, 255);
   my $output = $validation->output;
-  print Dumper $output;
+
   $validation->error(login => ['not available'])
-    if $db->resultset('User')->find({ login => $output->{login} });
+    if $db->query('select * from "user" where login = ?', $output->{login})->hash;
+
   return $c->render(template => 'user/register', status => 400) if $validation->has_error;
 
-  my $user = $db->resultset('User')->create({
-    login    => $output->{login},
-    password => $c->bcrypt($output->{password})
-  });
+  my $user = $db->query(
+    'insert into "user" (login,password) values(?,?) returning login',
+    $output->{login},
+    $c->bcrypt($output->{password})
+  )->hash->{login};
 
   $c->session(login => $output->{login});
   $c->redirect_to('index');
