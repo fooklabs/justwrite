@@ -1259,3 +1259,366 @@ syntax error at template user/register.html.ep line 31, at EOF
 [Thu May 28 15:29:18 2015] [debug] Rendering template "user/register.html.ep"
 [Thu May 28 15:29:18 2015] [debug] Rendering template "layouts/default.html.ep"
 [Thu May 28 15:29:18 2015] [debug] 200 OK (0.019643s, 50.909/s)
+[Thu May 28 15:34:47 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 15:34:47 2015] [debug] GET "/login"
+[Thu May 28 15:34:47 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "login"
+[Thu May 28 15:34:47 2015] [debug] Rendering template "user/register.html.ep"
+[Thu May 28 15:34:47 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 15:34:47 2015] [debug] 200 OK (0.032759s, 30.526/s)
+[Thu May 28 15:34:50 2015] [debug] POST "/login"
+[Thu May 28 15:34:50 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "login"
+[Thu May 28 15:34:50 2015] [debug] Rendering template "user/register.html.ep"
+[Thu May 28 15:34:50 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 15:34:50 2015] [debug] 200 OK (0.019610s, 50.994/s)
+[Thu May 28 15:37:08 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 15:37:08 2015] [debug] POST "/login"
+[Thu May 28 15:37:08 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "login"
+[Thu May 28 15:37:08 2015] [debug] Rendering template "user/register.html.ep"
+[Thu May 28 15:37:08 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 15:37:08 2015] [debug] 200 OK (0.040904s, 24.447/s)
+[Thu May 28 15:37:47 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 15:37:47 2015] [debug] POST "/login"
+[Thu May 28 15:37:47 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "login"
+[Thu May 28 15:37:47 2015] [debug] Rendering template "user/register.html.ep"
+[Thu May 28 15:37:47 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 15:37:47 2015] [debug] 200 OK (0.040429s, 24.735/s)
+[Thu May 28 15:38:22 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 15:38:22 2015] [debug] POST "/login"
+[Thu May 28 15:38:22 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "login"
+[Thu May 28 15:38:22 2015] [debug] Rendering template "user/register.html.ep"
+[Thu May 28 15:38:22 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 15:38:22 2015] [debug] 200 OK (0.040825s, 24.495/s)
+[Thu May 28 15:40:00 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 15:40:00 2015] [debug] POST "/login"
+[Thu May 28 15:40:00 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "login"
+[Thu May 28 15:40:00 2015] [debug] Rendering template "user/register.html.ep"
+[Thu May 28 15:40:00 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 15:40:00 2015] [debug] 200 OK (0.041705s, 23.978/s)
+[Thu May 28 15:44:12 2015] [debug] GET "/index"
+[Thu May 28 15:44:12 2015] [debug] Rendering template "index.html.ep"
+[Thu May 28 15:44:12 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 15:44:12 2015] [debug] 200 OK (0.007541s, 132.608/s)
+[Thu May 28 17:31:07 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 17:31:07 2015] [debug] GET "/index"
+[Thu May 28 17:31:07 2015] [debug] Rendering template "index.html.ep"
+[Thu May 28 17:31:07 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 17:31:07 2015] [debug] 200 OK (0.010388s, 96.265/s)
+[Thu May 28 17:32:33 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 17:32:33 2015] [debug] GET "/index"
+[Thu May 28 17:32:33 2015] [debug] Rendering template "index.html.ep"
+[Thu May 28 17:32:33 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 17:32:33 2015] [debug] 200 OK (0.010169s, 98.338/s)
+[Thu May 28 17:35:12 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 17:35:12 2015] [debug] GET "/index"
+[Thu May 28 17:35:12 2015] [debug] Rendering template "index.html.ep"
+[Thu May 28 17:35:12 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 17:35:12 2015] [debug] 200 OK (0.010284s, 97.238/s)
+[Thu May 28 17:35:22 2015] [debug] POST "/p/create"
+[Thu May 28 17:35:22 2015] [error] Global symbol "$output" requires explicit package name at lib/JustWrite/Controller/Post.pm line 22.
+Compilation failed in require at (eval 32) line 1.
+
+[Thu May 28 17:35:22 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 17:35:22 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 17:35:22 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 17:35:22 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 17:35:22 2015] [debug] 500 Internal Server Error (0.025254s, 39.598/s)
+[Thu May 28 17:36:02 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 17:36:02 2015] [debug] POST "/p/create"
+[Thu May 28 17:36:02 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Thu May 28 17:36:02 2015] [debug] 200 OK (0.019755s, 50.620/s)
+[Thu May 28 17:36:22 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 17:36:22 2015] [debug] POST "/p/create"
+[Thu May 28 17:36:22 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Thu May 28 17:36:22 2015] [debug] 200 OK (0.021282s, 46.988/s)
+[Thu May 28 17:37:21 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 17:37:21 2015] [debug] POST "/p/create"
+[Thu May 28 17:37:21 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Thu May 28 17:37:21 2015] [debug] 200 OK (0.020115s, 49.714/s)
+[Thu May 28 17:37:46 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 17:37:46 2015] [debug] POST "/p/create"
+[Thu May 28 17:37:46 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Thu May 28 17:37:46 2015] [debug] 200 OK (0.019705s, 50.749/s)
+[Thu May 28 17:40:15 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 17:40:15 2015] [debug] POST "/p/create"
+[Thu May 28 17:40:15 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Thu May 28 17:40:15 2015] [debug] 200 OK (0.020128s, 49.682/s)
+[Thu May 28 17:42:56 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 17:42:56 2015] [debug] POST "/p/create"
+[Thu May 28 17:42:56 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Thu May 28 17:42:56 2015] [debug] 200 OK (0.020659s, 48.405/s)
+[Thu May 28 17:44:01 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 17:44:01 2015] [debug] POST "/p/create"
+[Thu May 28 17:44:01 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Thu May 28 17:44:01 2015] [debug] 200 OK (0.020274s, 49.324/s)
+[Thu May 28 17:44:20 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 17:44:20 2015] [debug] POST "/p/create"
+[Thu May 28 17:44:20 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Thu May 28 17:44:20 2015] [debug] 200 OK (0.020226s, 49.441/s)
+[Thu May 28 17:59:55 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 17:59:55 2015] [debug] POST "/p/create"
+[Thu May 28 17:59:55 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Thu May 28 17:59:55 2015] [debug] 200 OK (0.022761s, 43.935/s)
+[Thu May 28 18:00:44 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 18:00:44 2015] [debug] POST "/p/create"
+[Thu May 28 18:00:44 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Thu May 28 18:00:44 2015] [error] Unknown pattern character "\"! at lib/JustWrite/Controller/Post.pm line 15.
+
+[Thu May 28 18:00:44 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 18:00:44 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 18:00:44 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 18:00:44 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 18:00:44 2015] [debug] 500 Internal Server Error (0.048046s, 20.813/s)
+[Thu May 28 18:01:02 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 18:01:02 2015] [debug] POST "/p/create"
+[Thu May 28 18:01:02 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Thu May 28 18:01:02 2015] [debug] 200 OK (0.022643s, 44.164/s)
+[Thu May 28 18:03:31 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 18:03:31 2015] [debug] POST "/p/create"
+[Thu May 28 18:03:31 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Thu May 28 18:03:31 2015] [debug] 200 OK (0.022736s, 43.983/s)
+[Thu May 28 18:15:34 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 18:15:34 2015] [debug] GET "/index"
+[Thu May 28 18:15:34 2015] [debug] Rendering template "index.html.ep"
+[Thu May 28 18:15:34 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 18:15:34 2015] [debug] 200 OK (0.010441s, 95.776/s)
+[Thu May 28 18:16:12 2015] [debug] GET "/index"
+[Thu May 28 18:16:12 2015] [debug] Rendering cached template "index.html.ep"
+[Thu May 28 18:16:12 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Thu May 28 18:16:12 2015] [debug] 200 OK (0.001210s, 826.446/s)
+[Thu May 28 18:16:20 2015] [debug] GET "/register"
+[Thu May 28 18:16:20 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "register"
+[Thu May 28 18:16:20 2015] [debug] Rendering template "user/register.html.ep"
+[Thu May 28 18:16:20 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 18:16:20 2015] [debug] 200 OK (0.028705s, 34.837/s)
+[Thu May 28 18:16:26 2015] [debug] GET "/register"
+[Thu May 28 18:16:26 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "register"
+[Thu May 28 18:16:26 2015] [debug] Rendering cached template "user/register.html.ep"
+[Thu May 28 18:16:26 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Thu May 28 18:16:26 2015] [debug] 200 OK (0.002223s, 449.843/s)
+[Thu May 28 19:45:51 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 19:45:51 2015] [debug] GET "/index"
+[Thu May 28 19:45:51 2015] [debug] Rendering template "index.html.ep"
+[Thu May 28 19:45:51 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 19:45:51 2015] [debug] 200 OK (0.010274s, 97.333/s)
+[Thu May 28 19:46:10 2015] [debug] POST "/p/create"
+[Thu May 28 19:46:10 2015] [error] Global symbol "$pid" requires explicit package name at lib/JustWrite/Controller/Post.pm line 33.
+Compilation failed in require at (eval 32) line 1.
+
+[Thu May 28 19:46:10 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 19:46:10 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 19:46:10 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 19:46:10 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 19:46:10 2015] [debug] 500 Internal Server Error (0.027489s, 36.378/s)
+[Thu May 28 19:46:41 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 19:46:41 2015] [debug] POST "/p/create"
+[Thu May 28 19:46:41 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Thu May 28 19:46:41 2015] [error] DBD::Pg::st execute failed: ERROR:  column "guid" does not exist
+LINE 1: select guid from post where guid = $1
+               ^ at /opt/justwrite/perl5/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.2/Mojo/Pg/Database.pm line 82.
+
+[Thu May 28 19:46:41 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 19:46:41 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 19:46:41 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 19:46:41 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 19:46:41 2015] [debug] 500 Internal Server Error (0.048918s, 20.442/s)
+[Thu May 28 19:48:09 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 19:48:09 2015] [debug] POST "/p/create"
+[Thu May 28 19:48:09 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Thu May 28 19:48:10 2015] [error] DBD::Pg::st execute failed: ERROR:  syntax error at or near "return"
+LINE 1: insert into tag (name) values($1) return tag_id
+                                          ^ at /opt/justwrite/perl5/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.2/Mojo/Pg/Database.pm line 82.
+
+[Thu May 28 19:48:10 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 19:48:10 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 19:48:10 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 19:48:10 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 19:48:10 2015] [debug] 500 Internal Server Error (0.052348s, 19.103/s)
+[Thu May 28 19:50:48 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 19:50:48 2015] [debug] POST "/p/create"
+[Thu May 28 19:50:48 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Thu May 28 19:50:48 2015] [error] DBD::Pg::st execute failed: ERROR:  syntax error at or near "return"
+LINE 1: insert into tag (name) values ($1) return tag_id
+                                           ^ at /opt/justwrite/perl5/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.2/Mojo/Pg/Database.pm line 82.
+
+[Thu May 28 19:50:48 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 19:50:48 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 19:50:48 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 19:50:48 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 19:50:48 2015] [debug] 500 Internal Server Error (0.050580s, 19.771/s)
+[Thu May 28 19:51:10 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 19:51:10 2015] [debug] POST "/p/create"
+[Thu May 28 19:51:10 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Thu May 28 19:51:10 2015] [error] DBD::Pg::st execute failed: ERROR:  syntax error at or near "return"
+LINE 1: insert into tag (name) values ($1) return tag_id
+                                           ^ at /opt/justwrite/perl5/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.2/Mojo/Pg/Database.pm line 82.
+
+[Thu May 28 19:51:10 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 19:51:10 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 19:51:10 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 19:51:10 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 19:51:10 2015] [debug] 500 Internal Server Error (0.051198s, 19.532/s)
+[Thu May 28 19:51:43 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 19:51:43 2015] [debug] POST "/p/create"
+[Thu May 28 19:51:43 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Thu May 28 19:51:43 2015] [error] DBD::Pg::st execute failed: ERROR:  syntax error at or near "return"
+LINE 1: insert into tag ("name") values ($1) return tag_id
+                                             ^ at /opt/justwrite/perl5/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.2/Mojo/Pg/Database.pm line 82.
+
+[Thu May 28 19:51:43 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 19:51:43 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 19:51:43 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 19:51:43 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 19:51:43 2015] [debug] 500 Internal Server Error (0.051098s, 19.570/s)
+[Thu May 28 19:53:12 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 19:53:12 2015] [debug] POST "/p/create"
+[Thu May 28 19:53:12 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Thu May 28 19:53:12 2015] [error] DBD::Pg::st execute failed: ERROR:  null value in column "post_id" violates not-null constraint
+DETAIL:  Failing row contains (1, null, 1). at /opt/justwrite/perl5/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.2/Mojo/Pg/Database.pm line 82.
+
+[Thu May 28 19:53:12 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 19:53:12 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 19:53:12 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 19:53:12 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 19:53:12 2015] [debug] 500 Internal Server Error (0.053215s, 18.792/s)
+[Thu May 28 19:56:05 2015] [debug] POST "/p/create"
+[Thu May 28 19:56:05 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Thu May 28 19:56:05 2015] [error] DBD::Pg::st execute failed: ERROR:  null value in column "post_id" violates not-null constraint
+DETAIL:  Failing row contains (1, null, 1). at /opt/justwrite/perl5/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.2/Mojo/Pg/Database.pm line 82.
+
+[Thu May 28 19:56:05 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 19:56:05 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 19:56:05 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 19:56:05 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 19:56:05 2015] [debug] 500 Internal Server Error (0.027198s, 36.767/s)
+[Thu May 28 21:19:27 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 21:19:27 2015] [debug] POST "/p/create"
+[Thu May 28 21:19:27 2015] [error] Global symbol "$guid" requires explicit package name at lib/JustWrite/Controller/Post.pm line 21.
+Compilation failed in require at (eval 30) line 1.
+
+[Thu May 28 21:19:27 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 21:19:27 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 21:19:27 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 21:19:27 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 21:19:27 2015] [debug] 500 Internal Server Error (0.027549s, 36.299/s)
+[Thu May 28 21:21:03 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 21:21:03 2015] [debug] POST "/p/create"
+[Thu May 28 21:21:03 2015] [error] syntax error at lib/JustWrite/Controller/Post.pm line 14, near "$query "
+Global symbol "$query" requires explicit package name at lib/JustWrite/Controller/Post.pm line 14.
+Global symbol "$query" requires explicit package name at lib/JustWrite/Controller/Post.pm line 17.
+Compilation failed in require at (eval 30) line 1.
+
+[Thu May 28 21:21:03 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 21:21:03 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 21:21:03 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 21:21:03 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 21:21:03 2015] [debug] 500 Internal Server Error (0.027490s, 36.377/s)
+[Thu May 28 21:23:05 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 21:23:05 2015] [debug] POST "/p/create"
+[Thu May 28 21:23:05 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Thu May 28 21:23:05 2015] [error] DBD::Pg::st execute failed: called with 3 bind variables when 2 are needed at /opt/justwrite/perl5/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.2/Mojo/Pg/Database.pm line 82.
+
+[Thu May 28 21:23:05 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 21:23:05 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 21:23:05 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 21:23:05 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 21:23:05 2015] [debug] 500 Internal Server Error (0.045583s, 21.938/s)
+[Thu May 28 21:23:32 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 21:23:32 2015] [debug] POST "/p/create"
+[Thu May 28 21:23:32 2015] [error] syntax error at lib/JustWrite/Controller/Post.pm line 18, near "$login if"
+Global symbol "$tags" requires explicit package name at lib/JustWrite/Controller/Post.pm line 23.
+Global symbol "$db" requires explicit package name at lib/JustWrite/Controller/Post.pm line 25.
+Global symbol "$db" requires explicit package name at lib/JustWrite/Controller/Post.pm line 26.
+Global symbol "$pid" requires explicit package name at lib/JustWrite/Controller/Post.pm line 26.
+Global symbol "$c" requires explicit package name at lib/JustWrite/Controller/Post.pm line 29.
+syntax error at lib/JustWrite/Controller/Post.pm line 30, near "}"
+Global symbol "$c" requires explicit package name at lib/JustWrite/Controller/Post.pm line 34.
+syntax error at lib/JustWrite/Controller/Post.pm line 36, near "}"
+syntax error at lib/JustWrite/Controller/Post.pm line 42, near "}"
+lib/JustWrite/Controller/Post.pm has too many errors.
+Compilation failed in require at (eval 30) line 1.
+
+[Thu May 28 21:23:32 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 21:23:32 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 21:23:32 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 21:23:32 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 21:23:32 2015] [debug] 500 Internal Server Error (0.027762s, 36.020/s)
+[Thu May 28 21:24:53 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 21:24:53 2015] [debug] POST "/p/create"
+[Thu May 28 21:24:53 2015] [error] Global symbol "$pid" requires explicit package name at lib/JustWrite/Controller/Post.pm line 32.
+Compilation failed in require at (eval 30) line 1.
+
+[Thu May 28 21:24:53 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 21:24:53 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 21:24:53 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 21:24:53 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 21:24:53 2015] [debug] 500 Internal Server Error (0.027506s, 36.356/s)
+[Thu May 28 21:25:12 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 21:25:12 2015] [debug] POST "/p/create"
+[Thu May 28 21:25:12 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Thu May 28 21:25:12 2015] [error] DBD::Pg::st execute failed: ERROR:  column "tag_id" does not exist
+LINE 1: insert into tag (name) values ($1) returning tag_id
+                                                     ^ at /opt/justwrite/perl5/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.2/Mojo/Pg/Database.pm line 82.
+
+[Thu May 28 21:25:12 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 21:25:12 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 21:25:12 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 21:25:12 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 21:25:12 2015] [debug] 500 Internal Server Error (0.051460s, 19.433/s)
+[Thu May 28 21:26:10 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 21:26:10 2015] [debug] POST "/p/create"
+[Thu May 28 21:26:10 2015] [error] syntax error at lib/JustWrite/Controller/Post.pm line 33, near "$db"
+Compilation failed in require at (eval 30) line 1.
+
+[Thu May 28 21:26:10 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 21:26:10 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 21:26:10 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 21:26:10 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 21:26:10 2015] [debug] 500 Internal Server Error (0.027651s, 36.165/s)
+[Thu May 28 21:26:26 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 21:26:26 2015] [debug] POST "/p/create"
+[Thu May 28 21:26:26 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Thu May 28 21:26:26 2015] [error] DBD::Pg::st execute failed: ERROR:  duplicate key value violates unique constraint "post_body_uq"
+DETAIL:  Key (body)=(asdfasdfasdfasdfasdf) already exists. at /opt/justwrite/perl5/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.2/Mojo/Pg/Database.pm line 82.
+
+[Thu May 28 21:26:26 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 21:26:26 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 21:26:26 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 21:26:26 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 21:26:26 2015] [debug] 500 Internal Server Error (0.050085s, 19.966/s)
+[Thu May 28 21:27:53 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 21:27:53 2015] [debug] POST "/p/create"
+[Thu May 28 21:27:53 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Thu May 28 21:27:53 2015] [debug] 200 OK (0.037466s, 26.691/s)
+[Thu May 28 21:39:46 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 21:39:46 2015] [debug] POST "/p/create"
+[Thu May 28 21:39:46 2015] [error] syntax error at lib/JustWrite/Controller/Post.pm line 43, near "',"
+  (Might be a runaway multi-line '' string starting on line 42)
+Compilation failed in require at (eval 30) line 1.
+
+[Thu May 28 21:39:46 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 21:39:46 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 21:39:46 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 21:39:46 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 21:39:46 2015] [debug] 500 Internal Server Error (0.028442s, 35.159/s)
+[Thu May 28 21:42:15 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 21:42:15 2015] [debug] POST "/p/create"
+[Thu May 28 21:42:15 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Thu May 28 21:42:15 2015] [error] DBD::Pg::st execute failed: ERROR:  duplicate key value violates unique constraint "tag_name_uq"
+DETAIL:  Key (name)=(perl) already exists. at /opt/justwrite/perl5/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.2/Mojo/Pg/Database.pm line 82.
+
+[Thu May 28 21:42:15 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 21:42:15 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 21:42:15 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 21:42:15 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 21:42:15 2015] [debug] 500 Internal Server Error (0.050877s, 19.655/s)
+[Thu May 28 21:54:53 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 21:54:53 2015] [debug] POST "/p/create"
+[Thu May 28 21:54:53 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Thu May 28 21:54:53 2015] [error] DBD::Pg::st execute failed: ERROR:  duplicate key value violates unique constraint "post_body_uq"
+DETAIL:  Key (body)=(rotten cunt) already exists. at /opt/justwrite/perl5/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.2/Mojo/Pg/Database.pm line 82.
+
+[Thu May 28 21:54:53 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 21:54:53 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 21:54:53 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 21:54:53 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 21:54:53 2015] [debug] 500 Internal Server Error (0.050249s, 19.901/s)

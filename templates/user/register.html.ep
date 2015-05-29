@@ -5,13 +5,11 @@
 <section class="page-section">
     <div class="container relative">
 
-    <div class="alert error">
+    % if ( stash('error') ) {
       <i class="fa fa-lg fa-times-circle">
-         % if ( stash('error') ) {
             <%= stash('error') %>
-         % }
       </i> 
-    </div>
+    % }
 
         <!-- Nav Tabs -->
         <div class="align-center mb-40 mb-xxs-30">
