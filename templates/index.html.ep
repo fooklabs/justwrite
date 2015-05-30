@@ -26,7 +26,7 @@
 
                  <div class="col-sm-12">
                   <div class="mb-20 mb-md-10">
-                    <textarea name="body" class="fuck input-md form-control graybg zen-mode--textarea" rows="20" placeholder="Text" maxlength="40000000" data-provide="markdown" data-iconlibrary="fa"></textarea>
+                    <textarea name="body" class="fuck input-md form-control graybg zen-mode--textarea" rows="20" placeholder="Text" maxlength="40000000" data-provide="markdown" data-iconlibrary="fa" data-hidden-buttons="cmdImage cmdLink"></textarea>
                   </div>
                  </div>
 
@@ -45,3 +45,20 @@
     </div>
 </section>
 <!-- End Alternative Services Section -->
+
+% content_for javascript => begin
+  <script type="text/javascript">
+
+    $(function() {
+      $(".edit_area").editable("http://198.23.74.165:3000/p/edit", {
+       type      : 'textarea',
+       cancel    : 'Cancel',
+       submit    : 'OK',
+       event     : "edit_area"
+     });
+     $(".edit_trigger").bind("click", function() {
+       $('.edit_area').trigger("edit_area");
+      });
+    });
+  </script>
+% end

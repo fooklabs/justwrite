@@ -13,7 +13,7 @@ sub create {
   my $login    = $c->session('login');
 
   my $pid;
-  if ( $login ) { 
+  if ( $login ) {
     $pid = $db->query(
       'insert into post (login,title,body,published) values(?, ?, ?, ?) returning post_id',
       $login,
@@ -22,7 +22,7 @@ sub create {
       'true'
     )->hash->{post_id};
   }
-  else { 
+  else {
     $pid = $db->query(
       'insert into post (title,body,published) values(?, ?, ?) returning post_id',
       $title,
@@ -53,9 +53,9 @@ sub view {
     print Dumper $post;
     return $c->render(template => 'post/view', post => $post);
   }
-  
-  $c->render(text => 'good'); 
-  
+
+  $c->render(text => 'good');
+
 }
 
 sub list {
@@ -73,10 +73,15 @@ sub list {
 sub edit {
   my $c = shift;
   my $db = $c->pg->db;
-  
-  my $pid = $c->param('id');
-  my $body = $c->param('value');
 
+  my $pid =   $c->param('id');
+  my $login = $c->param('login');
+  my $body =  $c->param('value');
+
+  if ( $c->session('login') ne $login ) {
+    return $c->render(text => body);
+  }
+  
   $db->query('update post set body = ? where post_id = ?', $body, $pid);
   $c->render(text => $body);
 }
