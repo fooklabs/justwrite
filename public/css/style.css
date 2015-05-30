@@ -2234,6 +2234,15 @@ a.logo:hover{
     letter-spacing: 0.5em;
     line-height: 1.4;
 }
+.section-subtitle {
+    margin-bottom: 15px;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.5em;
+    line-height: 1.4;
+}
 .section-more{
     margin-top: 7px;
     color: #999;

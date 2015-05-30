@@ -1,0 +1,194 @@
+% layout 'default';
+% title 'blah';
+
+<!-- Alternative Services Section -->
+<section class="page-section smallest-section" id="start">
+<div class="container relative">
+  <!-- Row -->
+  <div class="row">
+
+      <!-- Col -->
+
+      <div class="col-sm-12 mb-40">
+
+	  <!-- Paragraph -->
+	  <div class="text">
+              % if ( $post->[0]->{login} eq session('login') ) {
+                <a href="#" class="edit_trigger">edit</a>
+              % }
+              <div class="section-title font-alt">
+                <%= $post->[0]->{title} %>
+              </div>
+              <div class="section-subtitle font-alt mb-70 mb-sm-40">
+                By 
+                % if ( $post->[0]->{login} ) {
+                  <%= $post->[0]->{login} %>
+                % }
+                % else {
+                  Anonymouse
+                % }
+              </div>
+	      <p>
+                <div class="edit_area" id="<%= $post->[0]->{post_id} %>"><%= $post->[0]->{body} %></div>
+	      </p>
+              <div>
+                <%= $post->[0]->{date_created} %>
+              </div>
+              % for ( @{$post} ) {
+                <b><%=$_->{tag_name} %></b>
+              % }
+	  </div>
+	<!-- End Paragraph -->
+
+      </div>
+    </div>
+    <div class="row">
+      <p>
+	<em>Replies: </em>
+	<a href="#">blah1</a>
+	<a href="#">blah2</a>
+      </p>
+
+    </div>
+
+    <div class="mb-80 mb-xs-40">
+
+	<h4 class="blog-page-title font-alt">Comments<small class="number">(3)</small></h4>
+
+	<ul class="media-list text comment-list clearlist">
+
+	    <!-- Comment Item -->
+	    <li class="media comment-item">
+
+		<a class="pull-left" href="#"><img class="media-object comment-avatar" src="images/user-avatar.png" alt="" width="50" height="50"></a>
+
+<div class="media-body">
+
+		    <div class="comment-item-data">
+			<div class="comment-author">
+			    <a href="#">John Doe</a>
+			</div>
+			Feb 9, 2014, at 10:23<span class="separator">&mdash;</span>
+			<a href="#"><i class="fa fa-comment"></i>&nbsp;Reply</a>
+		    </div>
+
+		    <p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at magna ut ante eleifend eleifend.
+		    </p>
+
+		    <!-- Comment of second level -->
+		    <div class="media comment-item">
+
+  <a class="pull-left" href="#"><img class="media-object comment-avatar" src="images/user-avatar.png" alt=""></a>
+
+  <div class="media-body">
+
+			    <div class="comment-item-data">
+				<div class="comment-author">
+				    <a href="#">Sam Brin</a>
+				</div>
+				Feb 9, 2014, at 10:27<span class="separator">&mdash;</span>
+				<a href="#"><i class="fa fa-comment"></i>&nbsp;Reply</a>
+			    </div>
+
+    <p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at magna ut ante eleifend eleifend.
+			    </p>
+
+
+  </div>
+
+		    </div>
+		    <!-- End Comment of second level -->
+
+		</div>
+
+	    </li>
+	    <!-- End Comment Item -->
+
+<!-- Comment Item -->
+	    <li class="media comment-item">
+
+<a class="pull-left" href="#"><img class="media-object comment-avatar" src="images/user-avatar.png" alt=""></a>
+
+<div class="media-body">
+
+<div class="comment-item-data">
+			<div class="comment-author">
+			    <a href="#">Emma Johnson</a>
+			</div>
+			Feb 9, 2014, at 10:37<span class="separator">&mdash;</span>
+			<a href="#"><i class="fa fa-comment"></i>&nbsp;Reply</a>
+		    </div>
+
+<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at magna ut ante eleifend eleifend.
+		    </p>
+
+		</div>
+
+	    </li>
+	    <!-- End Comment Item -->
+
+<!-- Comment Item -->
+	    <li class="media comment-item">
+
+<a class="pull-left" href="#"><img class="media-object comment-avatar" src="images/user-avatar.png" alt=""></a>
+
+<div class="media-body">
+
+<div class="comment-item-data">
+			<div class="comment-author">
+			    <a href="#">John Doe</a>
+			</div>
+			Feb 9, 2014, at 10:3<span class="separator">&mdash;</span>
+			<a href="#"><i class="fa fa-comment"></i>&nbsp;Reply</a>
+		    </div>
+
+<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at magna ut ante eleifend eleifend.
+		    </p>
+
+		</div>
+
+	    </li>
+	    <!-- End Comment Item -->
+
+	</ul>
+
+    </div>
+<!-- End Comments -->
+
+
+<!-- Add Comment -->
+<div class="mb-80 mb-xs-40">
+
+	<h4 class="blog-page-title font-alt">Leave a comment</h4>
+
+<!-- Form -->
+	<form method="post" action="#" id="form" role="form" class="form">
+
+	    <div class="row mb-20 mb-md-10">
+
+
+	    <!-- Comment -->
+	    <div class="mb-30 mb-md-10">
+		<textarea name="text" id="text" class="input-md form-control" rows="6" placeholder="Comment" maxlength="400"></textarea>
+	    </div>
+
+	    <!-- Send Button -->
+	    <button type="submit" class="btn btn-mod btn-medium btn-round btn-round">
+		Send comment
+	    </button>
+
+	</form>
+<!-- End Form -->
+
+</div>
+<!-- End Add Comment -->
+
+</div>
+
+
+</section>
+<!-- End Alternative Services Section -->

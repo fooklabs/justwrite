@@ -2,6 +2,7 @@ package JustWrite::Controller::Post;
 use Mojo::Base 'Mojolicious::Controller';
 
 use Try::Tiny;
+use Data::Dumper;
 
 sub create {
   my $c = shift;
@@ -14,7 +15,7 @@ sub create {
   my $pid;
   if ( $login ) { 
     $pid = $db->query(
-      'insert into post (login,title,body, published) values(?, ?, ?, ?) returning post_id',
+      'insert into post (login,title,body,published) values(?, ?, ?, ?) returning post_id',
       $login,
       $title,
       $body,
@@ -43,22 +44,41 @@ sub create {
 sub view {
   my $c = shift;
   my $db = $c->pg->db;
-  my $pid = $c->param('post_id');
+  my $pid = $c->param('pid');
 
-  if ( my $post = $db->query("select * from post where post_id = '?'", $pid)->hash ) {
-    $self->render(template => 'post/view', post => $post);
-  }
-  else {
-    $self->render(template => 'post/view', error => 'No post like that exists.');
+  print "$pid\n";
+
+  if ( my $post = $db->query('select * from post a join post_tag b on a.post_id=b.post_id where a.post_id = ?', $pid)->hashes ) {
+    $post = $post->to_array;
+    print Dumper $post;
+    return $c->render(template => 'post/view', post => $post);
   }
   
+  $c->render(text => 'good'); 
   
 }
 
 sub list {
   my $c = shift;
   my $db = $c->pg->db;
+  my $tid = $c->param('tid');
 
+  if ( my $list = $db->query('select * from post')->hashes ) {
+    $list = $list->to_array;
+    return $c->render(template => 'post/list', post => $list);
+  }
+  $c->render(text => 'good');
+}
+
+sub edit {
+  my $c = shift;
+  my $db = $c->pg->db;
+  
+  my $pid = $c->param('id');
+  my $body = $c->param('value');
+
+  $db->query('update post set body = ? where post_id = ?', $body, $pid);
+  $c->render(text => $body);
 }
 
 1;

@@ -1622,3 +1622,1392 @@ DETAIL:  Key (body)=(rotten cunt) already exists. at /opt/justwrite/perl5/perlbr
 [Thu May 28 21:54:53 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
 [Thu May 28 21:54:53 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
 [Thu May 28 21:54:53 2015] [debug] 500 Internal Server Error (0.050249s, 19.901/s)
+[Thu May 28 22:38:38 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 22:38:38 2015] [debug] GET "/p/view/69f69fe8-d2ff-449a-8ee6-7894b880516b"
+[Thu May 28 22:38:38 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Thu May 28 22:38:38 2015] [error] DBD::Pg::st execute failed: called with 1 bind variables when 0 are needed at /opt/justwrite/perl5/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.2/Mojo/Pg/Database.pm line 82.
+
+[Thu May 28 22:38:38 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 22:38:38 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 22:38:38 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 22:38:38 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 22:38:38 2015] [debug] 500 Internal Server Error (0.048035s, 20.818/s)
+[Thu May 28 22:39:11 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 22:39:11 2015] [debug] GET "/p/view/69f69fe8-d2ff-449a-8ee6-7894b880516b"
+[Thu May 28 22:39:11 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Thu May 28 22:39:11 2015] [debug] 200 OK (0.025011s, 39.982/s)
+[Thu May 28 22:39:42 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 22:39:42 2015] [debug] GET "/p/view/69f69fe8-d2ff-449a-8ee6-7894b880516b"
+[Thu May 28 22:39:42 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Thu May 28 22:39:42 2015] [debug] 200 OK (0.026100s, 38.314/s)
+[Thu May 28 22:40:03 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 22:40:03 2015] [debug] GET "/p/view/69f69fe8-d2ff-449a-8ee6-7894b880516b"
+[Thu May 28 22:40:03 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Thu May 28 22:40:03 2015] [debug] 200 OK (0.024967s, 40.053/s)
+[Thu May 28 22:40:19 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 22:40:19 2015] [debug] GET "/p/view/69f69fe8-d2ff-449a-8ee6-7894b880516b"
+[Thu May 28 22:40:19 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Thu May 28 22:40:19 2015] [debug] 200 OK (0.025516s, 39.191/s)
+[Thu May 28 22:41:35 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 22:41:35 2015] [debug] GET "/p/view/69f69fe8-d2ff-449a-8ee6-7894b880516b"
+[Thu May 28 22:41:35 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Thu May 28 22:41:35 2015] [debug] 200 OK (0.025602s, 39.059/s)
+[Thu May 28 22:42:02 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 22:42:02 2015] [debug] GET "/p/view/69f69fe8-d2ff-449a-8ee6-7894b880516b"
+[Thu May 28 22:42:02 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Thu May 28 22:42:02 2015] [debug] Rendering template "post/view.html.ep"
+[Thu May 28 22:42:02 2015] [debug] 200 OK (0.030760s, 32.510/s)
+[Thu May 28 22:42:02 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Thu May 28 22:42:02 2015] [debug] Template "not_found.development.html.ep" not found
+[Thu May 28 22:42:02 2015] [debug] Template "not_found.html.ep" not found
+[Thu May 28 22:42:02 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 22:42:02 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 22:42:02 2015] [debug] 404 Not Found (0.023136s, 43.223/s)
+[Thu May 28 22:42:28 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 22:42:28 2015] [debug] GET "/p/view/69f69fe8-d2ff-449a-8ee6-7894b880516b"
+[Thu May 28 22:42:28 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Thu May 28 22:42:28 2015] [debug] Rendering template "post/view.html.ep"
+[Thu May 28 22:42:28 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 22:42:28 2015] [debug] 200 OK (0.036084s, 27.713/s)
+[Thu May 28 22:42:28 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Thu May 28 22:42:28 2015] [debug] Template "not_found.development.html.ep" not found
+[Thu May 28 22:42:28 2015] [debug] Template "not_found.html.ep" not found
+[Thu May 28 22:42:28 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 22:42:28 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 22:42:28 2015] [debug] 404 Not Found (0.022817s, 43.827/s)
+[Thu May 28 22:43:30 2015] [debug] GET "/p/view/69f69fe8-d2ff-449a-8ee6-7894b880516b"
+[Thu May 28 22:43:30 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Thu May 28 22:43:30 2015] [debug] Rendering cached template "post/view.html.ep"
+[Thu May 28 22:43:30 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Thu May 28 22:43:30 2015] [debug] 200 OK (0.002882s, 346.981/s)
+[Thu May 28 22:43:30 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Thu May 28 22:43:30 2015] [debug] Template "not_found.development.html.ep" not found
+[Thu May 28 22:43:30 2015] [debug] Template "not_found.html.ep" not found
+[Thu May 28 22:43:30 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 22:43:30 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 22:43:30 2015] [debug] 404 Not Found (0.006019s, 166.141/s)
+[Thu May 28 22:43:52 2015] [debug] GET "/index"
+[Thu May 28 22:43:52 2015] [debug] Rendering template "index.html.ep"
+[Thu May 28 22:43:52 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 22:43:52 2015] [debug] 200 OK (0.008016s, 124.750/s)
+[Thu May 28 22:50:56 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 22:50:57 2015] [debug] GET "/p/view/69f69fe8-d2ff-449a-8ee6-7894b880516b"
+[Thu May 28 22:50:57 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Thu May 28 22:50:57 2015] [debug] Rendering template "post/view.html.ep"
+[Thu May 28 22:50:57 2015] [error] Global symbol "$date_created" requires explicit package name at template post/view.html.ep line 24.
+19:               </div>
+20: 	      <p>
+21:                 <%= $post->{body} %>
+22: 	      </p>
+23:               <div>
+24:                 <%= $date_created %>
+25:               </div>
+26: 
+27: 	  </div>
+28: 	<!-- End Paragraph -->
+29: 
+
+[Thu May 28 22:50:57 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 22:50:57 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 22:50:57 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 22:50:57 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 22:50:57 2015] [debug] 500 Internal Server Error (0.055654s, 17.968/s)
+[Thu May 28 22:52:29 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 22:52:29 2015] [debug] GET "/p/view/69f69fe8-d2ff-449a-8ee6-7894b880516b"
+[Thu May 28 22:52:29 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Thu May 28 22:52:29 2015] [debug] Rendering template "post/view.html.ep"
+[Thu May 28 22:52:29 2015] [error] Can't call method "date_created" on unblessed reference at template post/view.html.ep line 24.
+19:               </div>
+20: 	      <p>
+21:                 <%= $post->{body} %>
+22: 	      </p>
+23:               <div>
+24:                 <%= $post->date_created %>
+25:               </div>
+26: 
+27: 	  </div>
+28: 	<!-- End Paragraph -->
+29: 
+
+[Thu May 28 22:52:29 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 22:52:29 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 22:52:29 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 22:52:29 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 22:52:29 2015] [debug] 500 Internal Server Error (0.055552s, 18.001/s)
+[Thu May 28 22:53:02 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 22:53:02 2015] [debug] GET "/p/view/69f69fe8-d2ff-449a-8ee6-7894b880516b"
+[Thu May 28 22:53:02 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Thu May 28 22:53:02 2015] [debug] Rendering template "post/view.html.ep"
+[Thu May 28 22:53:02 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 22:53:02 2015] [debug] 200 OK (0.036433s, 27.448/s)
+[Thu May 28 22:53:02 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Thu May 28 22:53:02 2015] [debug] Template "not_found.development.html.ep" not found
+[Thu May 28 22:53:02 2015] [debug] Template "not_found.html.ep" not found
+[Thu May 28 22:53:02 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 22:53:02 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 22:53:02 2015] [debug] 404 Not Found (0.022706s, 44.041/s)
+[Thu May 28 22:55:08 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 22:55:08 2015] [debug] GET "/p/view/69f69fe8-d2ff-449a-8ee6-7894b880516b"
+[Thu May 28 22:55:08 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Thu May 28 22:55:08 2015] [debug] Rendering template "post/view.html.ep"
+[Thu May 28 22:55:08 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 22:55:08 2015] [debug] 200 OK (0.036306s, 27.544/s)
+[Thu May 28 22:55:08 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Thu May 28 22:55:08 2015] [debug] Template "not_found.development.html.ep" not found
+[Thu May 28 22:55:08 2015] [debug] Template "not_found.html.ep" not found
+[Thu May 28 22:55:08 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 22:55:08 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 22:55:08 2015] [debug] 404 Not Found (0.022763s, 43.931/s)
+[Thu May 28 23:02:33 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 23:02:33 2015] [debug] GET "/p/view/69f69fe8-d2ff-449a-8ee6-7894b880516b"
+[Thu May 28 23:02:33 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Thu May 28 23:02:33 2015] [debug] 200 OK (0.026259s, 38.082/s)
+[Thu May 28 23:03:02 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 23:03:02 2015] [debug] GET "/p/view/69f69fe8-d2ff-449a-8ee6-7894b880516b"
+[Thu May 28 23:03:02 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Thu May 28 23:03:02 2015] [debug] 200 OK (0.025943s, 38.546/s)
+[Thu May 28 23:03:41 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 23:03:41 2015] [debug] GET "/p/view/69f69fe8-d2ff-449a-8ee6-7894b880516b"
+[Thu May 28 23:03:41 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Thu May 28 23:03:41 2015] [debug] 200 OK (0.027476s, 36.395/s)
+[Thu May 28 23:07:04 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 23:07:04 2015] [debug] GET "/p/view/69f69fe8-d2ff-449a-8ee6-7894b880516b"
+[Thu May 28 23:07:04 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Thu May 28 23:07:04 2015] [debug] 200 OK (0.027248s, 36.700/s)
+[Thu May 28 23:08:00 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 23:08:00 2015] [debug] GET "/p/view/69f69fe8-d2ff-449a-8ee6-7894b880516b"
+[Thu May 28 23:08:00 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Thu May 28 23:08:01 2015] [debug] 200 OK (0.026996s, 37.043/s)
+[Thu May 28 23:09:39 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 23:09:39 2015] [debug] GET "/p/view/69f69fe8-d2ff-449a-8ee6-7894b880516b"
+[Thu May 28 23:09:39 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Thu May 28 23:09:39 2015] [debug] Rendering template "post/view.html.ep"
+[Thu May 28 23:09:39 2015] [error] Not a HASH reference at template post/view.html.ep line 24.
+19:               </div>
+20: 	      <p>
+21:                 <%= $post->[0]->{body} %>
+22: 	      </p>
+23:               <div>
+24:                 <%= $post->{date_created} %>
+25:               </div>
+26:               % for ( @{$post} ) {
+27:                 <b><%=$_->{tag_name} %></b>
+28:               % }
+29: 	  </div>
+
+[Thu May 28 23:09:39 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 23:09:39 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 23:09:39 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 23:09:39 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 23:09:39 2015] [debug] 500 Internal Server Error (0.057516s, 17.386/s)
+[Thu May 28 23:10:11 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 23:10:11 2015] [debug] GET "/p/view/69f69fe8-d2ff-449a-8ee6-7894b880516b"
+[Thu May 28 23:10:11 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Thu May 28 23:10:11 2015] [debug] Rendering template "post/view.html.ep"
+[Thu May 28 23:10:11 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu May 28 23:10:11 2015] [debug] 200 OK (0.037793s, 26.460/s)
+[Thu May 28 23:10:11 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Thu May 28 23:10:11 2015] [debug] Template "not_found.development.html.ep" not found
+[Thu May 28 23:10:11 2015] [debug] Template "not_found.html.ep" not found
+[Thu May 28 23:10:11 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 23:10:11 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 23:10:11 2015] [debug] 404 Not Found (0.022627s, 44.195/s)
+[Thu May 28 23:54:52 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 23:54:52 2015] [debug] GET "/"
+[Thu May 28 23:54:52 2015] [debug] Template "not_found.development.html.ep" not found
+[Thu May 28 23:54:52 2015] [debug] Template "not_found.html.ep" not found
+[Thu May 28 23:54:52 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 23:54:52 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 23:54:52 2015] [debug] 404 Not Found (0.025642s, 38.999/s)
+[Thu May 28 23:55:00 2015] [debug] GET "/justwrite/list"
+[Thu May 28 23:55:00 2015] [debug] Template "not_found.development.html.ep" not found
+[Thu May 28 23:55:00 2015] [debug] Template "not_found.html.ep" not found
+[Thu May 28 23:55:00 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 23:55:00 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 23:55:00 2015] [debug] 404 Not Found (0.006295s, 158.856/s)
+[Thu May 28 23:55:05 2015] [debug] GET "/list"
+[Thu May 28 23:55:05 2015] [debug] Template "not_found.development.html.ep" not found
+[Thu May 28 23:55:05 2015] [debug] Template "not_found.html.ep" not found
+[Thu May 28 23:55:05 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 23:55:05 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 23:55:05 2015] [debug] 404 Not Found (0.006159s, 162.364/s)
+[Thu May 28 23:55:38 2015] [debug] GET "/p/list"
+[Thu May 28 23:55:38 2015] [error] syntax error at lib/JustWrite/Controller/Post.pm line 66, near "->hashes {"
+Global symbol "$c" requires explicit package name at lib/JustWrite/Controller/Post.pm line 69.
+syntax error at lib/JustWrite/Controller/Post.pm line 70, near "}"
+Compilation failed in require at (eval 32) line 1.
+
+[Thu May 28 23:55:38 2015] [debug] Template "exception.development.html.ep" not found
+[Thu May 28 23:55:38 2015] [debug] Template "exception.html.ep" not found
+[Thu May 28 23:55:38 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu May 28 23:55:38 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu May 28 23:55:38 2015] [debug] 500 Internal Server Error (0.025306s, 39.516/s)
+[Thu May 28 23:57:57 2015] [debug] Your secret passphrase needs to be changed
+[Thu May 28 23:57:57 2015] [debug] GET "/p/list"
+[Thu May 28 23:57:57 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Thu May 28 23:57:57 2015] [debug] 200 OK (0.025186s, 39.705/s)
+[Fri May 29 00:03:25 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 00:03:25 2015] [debug] GET "/p/list"
+[Fri May 29 00:03:25 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Fri May 29 00:03:25 2015] [debug] Rendering template "post/list.html.ep"
+[Fri May 29 00:03:25 2015] [debug] 200 OK (0.026547s, 37.669/s)
+[Fri May 29 00:05:27 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 00:05:27 2015] [debug] GET "/p/list"
+[Fri May 29 00:05:27 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Fri May 29 00:05:27 2015] [debug] Rendering template "post/list.html.ep"
+[Fri May 29 00:05:27 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 00:05:27 2015] [debug] 200 OK (0.032097s, 31.156/s)
+[Fri May 29 00:09:29 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 00:09:29 2015] [debug] GET "/p/list"
+[Fri May 29 00:09:29 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Fri May 29 00:09:29 2015] [debug] Rendering template "post/list.html.ep"
+[Fri May 29 00:09:29 2015] [error] Global symbol "$title" requires explicit package name at template post/list.html.ep line 16.
+Global symbol "$body" requires explicit package name at template post/list.html.ep line 18.
+11:     <!-- Row -->
+12:     <div class="row">
+13:       
+14:       <div class="text">
+15: 
+16: 	      <h5 class="uppercase mb-30"><i class="fa fa-pencil"></i><%= $title %></h5>
+17: 
+18: 	      <p><%= $body %></p>
+19: 
+20: 	  </div>
+21:     </div>
+
+[Fri May 29 00:09:29 2015] [debug] Template "exception.development.html.ep" not found
+[Fri May 29 00:09:29 2015] [debug] Template "exception.html.ep" not found
+[Fri May 29 00:09:29 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 00:09:29 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 00:09:29 2015] [debug] 500 Internal Server Error (0.053732s, 18.611/s)
+[Fri May 29 00:10:04 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 00:10:04 2015] [debug] GET "/p/list"
+[Fri May 29 00:10:04 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Fri May 29 00:10:05 2015] [debug] Rendering template "post/list.html.ep"
+[Fri May 29 00:10:05 2015] [error] Global symbol "$body" requires explicit package name at template post/list.html.ep line 18.
+13:       
+14:       <div class="text">
+15: 
+16: 	      <h5 class="uppercase mb-30"><i class="fa fa-pencil"></i><%= $post->{title} %></h5>
+17: 
+18: 	      <p><%= $body %></p>
+19: 
+20: 	  </div>
+21:     </div>
+22:     <!-- End Row -->
+23: 
+
+[Fri May 29 00:10:05 2015] [debug] Template "exception.development.html.ep" not found
+[Fri May 29 00:10:05 2015] [debug] Template "exception.html.ep" not found
+[Fri May 29 00:10:05 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 00:10:05 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 00:10:05 2015] [debug] 500 Internal Server Error (0.052002s, 19.230/s)
+[Fri May 29 00:10:26 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 00:10:26 2015] [debug] GET "/p/list"
+[Fri May 29 00:10:26 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Fri May 29 00:10:26 2015] [debug] Rendering template "post/list.html.ep"
+[Fri May 29 00:10:26 2015] [error] Not a HASH reference at template post/list.html.ep line 16.
+11:     <!-- Row -->
+12:     <div class="row">
+13:       
+14:       <div class="text">
+15: 
+16: 	      <h5 class="uppercase mb-30"><i class="fa fa-pencil"></i><%= $post->{title} %></h5>
+17: 
+18: 	      <p><%= $post->{body} %></p>
+19: 
+20: 	  </div>
+21:     </div>
+
+[Fri May 29 00:10:26 2015] [debug] Template "exception.development.html.ep" not found
+[Fri May 29 00:10:26 2015] [debug] Template "exception.html.ep" not found
+[Fri May 29 00:10:26 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 00:10:26 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 00:10:26 2015] [debug] 500 Internal Server Error (0.053601s, 18.656/s)
+[Fri May 29 00:11:39 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 00:11:39 2015] [debug] GET "/p/list"
+[Fri May 29 00:11:39 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Fri May 29 00:11:39 2015] [debug] Rendering template "post/list.html.ep"
+[Fri May 29 00:11:39 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 00:11:39 2015] [debug] 200 OK (0.032939s, 30.359/s)
+[Fri May 29 00:14:10 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 00:14:10 2015] [debug] GET "/p/list"
+[Fri May 29 00:14:10 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Fri May 29 00:14:10 2015] [debug] Rendering template "post/list.html.ep"
+[Fri May 29 00:14:10 2015] [error] syntax error at template post/list.html.ep line 13, near "+  for "
+Global symbol "@post" requires explicit package name at template post/list.html.ep line 13.
+syntax error at template post/list.html.ep line 24, near "} $_O "
+  (Might be a runaway multi-line "" string starting on line 20)
+Global symbol "$_O" requires explicit package name at template post/list.html.ep line 24.
+8: 	All
+9:     </h2>
+10: 
+11:     <!-- Row -->
+12:     <div class="row">
+13:       %= for each @post begin 
+14:       <div class="text">
+15: 	      <h5 class="uppercase mb-30"><i class="fa fa-pencil"></i><%= $post->[0]->{title} %></h5>
+16: 	      <p><%= $post->[0]->{body} %></p>
+17: 	  </div>
+18:     </div>
+
+[Fri May 29 00:14:10 2015] [debug] Template "exception.development.html.ep" not found
+[Fri May 29 00:14:10 2015] [debug] Template "exception.html.ep" not found
+[Fri May 29 00:14:10 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 00:14:10 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 00:14:10 2015] [debug] 500 Internal Server Error (0.053833s, 18.576/s)
+[Fri May 29 00:14:46 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 00:14:46 2015] [debug] GET "/p/list"
+[Fri May 29 00:14:46 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Fri May 29 00:14:46 2015] [debug] Rendering template "post/list.html.ep"
+[Fri May 29 00:14:46 2015] [error] syntax error at template post/list.html.ep line 13, near "+  for "
+Global symbol "@post" requires explicit package name at template post/list.html.ep line 13.
+syntax error at template post/list.html.ep line 24, near "} $_O "
+  (Might be a runaway multi-line "" string starting on line 20)
+Global symbol "$_O" requires explicit package name at template post/list.html.ep line 24.
+8: 	All
+9:     </h2>
+10: 
+11:     <!-- Row -->
+12:     <div class="row">
+13:       %= for each @post begin 
+14:       <div class="text">
+15: 	      <h5 class="uppercase mb-30"><i class="fa fa-pencil"></i><%= $post->{title} %></h5>
+16: 	      <p><%= $post->{body} %></p>
+17: 	  </div>
+18:     </div>
+
+[Fri May 29 00:14:46 2015] [debug] Template "exception.development.html.ep" not found
+[Fri May 29 00:14:46 2015] [debug] Template "exception.html.ep" not found
+[Fri May 29 00:14:46 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 00:14:46 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 00:14:46 2015] [debug] 500 Internal Server Error (0.053001s, 18.868/s)
+[Fri May 29 00:15:15 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 00:15:15 2015] [debug] GET "/p/list"
+[Fri May 29 00:15:15 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Fri May 29 00:15:15 2015] [debug] Rendering template "post/list.html.ep"
+[Fri May 29 00:15:15 2015] [error] syntax error at template post/list.html.ep line 13, near "+  for "
+syntax error at template post/list.html.ep line 24, near "} $_O "
+  (Might be a runaway multi-line "" string starting on line 20)
+Global symbol "$_O" requires explicit package name at template post/list.html.ep line 24.
+8: 	All
+9:     </h2>
+10: 
+11:     <!-- Row -->
+12:     <div class="row">
+13:       %= for each $post begin 
+14:       <div class="text">
+15: 	      <h5 class="uppercase mb-30"><i class="fa fa-pencil"></i><%= $post->{title} %></h5>
+16: 	      <p><%= $post->{body} %></p>
+17: 	  </div>
+18:     </div>
+
+[Fri May 29 00:15:15 2015] [debug] Template "exception.development.html.ep" not found
+[Fri May 29 00:15:15 2015] [debug] Template "exception.html.ep" not found
+[Fri May 29 00:15:15 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 00:15:15 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 00:15:15 2015] [debug] 500 Internal Server Error (0.053148s, 18.815/s)
+[Fri May 29 00:15:38 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 00:15:38 2015] [debug] GET "/p/list"
+[Fri May 29 00:15:38 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Fri May 29 00:15:38 2015] [debug] Rendering template "post/list.html.ep"
+[Fri May 29 00:15:38 2015] [error] syntax error at template post/list.html.ep line 13, near "+  for "
+syntax error at template post/list.html.ep line 24, near "} $_O "
+  (Might be a runaway multi-line "" string starting on line 20)
+Global symbol "$_O" requires explicit package name at template post/list.html.ep line 24.
+8: 	All
+9:     </h2>
+10: 
+11:     <!-- Row -->
+12:     <div class="row">
+13:       %= for each begin 
+14:       <div class="text">
+15: 	      <h5 class="uppercase mb-30"><i class="fa fa-pencil"></i><%= $post->{title} %></h5>
+16: 	      <p><%= $post->{body} %></p>
+17: 	  </div>
+18:     </div>
+
+[Fri May 29 00:15:38 2015] [debug] Template "exception.development.html.ep" not found
+[Fri May 29 00:15:38 2015] [debug] Template "exception.html.ep" not found
+[Fri May 29 00:15:38 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 00:15:38 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 00:15:38 2015] [debug] 500 Internal Server Error (0.053192s, 18.800/s)
+[Fri May 29 00:17:00 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 00:17:00 2015] [debug] GET "/p/list"
+[Fri May 29 00:17:00 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Fri May 29 00:17:00 2015] [debug] Rendering template "post/list.html.ep"
+[Fri May 29 00:17:00 2015] [error] syntax error at template post/list.html.ep line 13, near "+  for "
+syntax error at template post/list.html.ep line 24, near "} $_O "
+Global symbol "$_O" requires explicit package name at template post/list.html.ep line 24.
+Unmatched right curly bracket at template post/list.html.ep line 24, at end of line
+8: 	All
+9:     </h2>
+10: 
+11:     <!-- Row -->
+12:     <div class="row">
+13:       %= for each 
+14:       <div class="text">
+15: 	      <h5 class="uppercase mb-30"><i class="fa fa-pencil"></i><%= $post->{title} %></h5>
+16: 	      <p><%= $post->{body} %></p>
+17: 	  </div>
+18:     </div>
+
+[Fri May 29 00:17:00 2015] [debug] Template "exception.development.html.ep" not found
+[Fri May 29 00:17:00 2015] [debug] Template "exception.html.ep" not found
+[Fri May 29 00:17:00 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 00:17:00 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 00:17:00 2015] [debug] 500 Internal Server Error (0.051767s, 19.317/s)
+[Fri May 29 00:18:09 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 00:18:09 2015] [debug] GET "/p/list"
+[Fri May 29 00:18:09 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Fri May 29 00:18:09 2015] [debug] Rendering template "post/list.html.ep"
+[Fri May 29 00:18:09 2015] [error] syntax error at template post/list.html.ep line 13, near "+  for "
+syntax error at template post/list.html.ep line 24, near "; }"
+  (Might be a runaway multi-line "" string starting on line 20)
+Global symbol "$_O" requires explicit package name at template post/list.html.ep line 24.
+8: 	All
+9:     </h2>
+10: 
+11:     <!-- Row -->
+12:     <div class="row">
+13:       %= for (@{$post}) {
+14:       <div class="text">
+15: 	      <h5 class="uppercase mb-30"><i class="fa fa-pencil"></i><%= $_->{title} %></h5>
+16: 	      <p><%= $_->{body} %></p>
+17: 	  </div>
+18:     </div>
+
+[Fri May 29 00:18:09 2015] [debug] Template "exception.development.html.ep" not found
+[Fri May 29 00:18:09 2015] [debug] Template "exception.html.ep" not found
+[Fri May 29 00:18:09 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 00:18:09 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 00:18:09 2015] [debug] 500 Internal Server Error (0.051593s, 19.382/s)
+[Fri May 29 00:18:29 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 00:18:29 2015] [debug] GET "/p/list"
+[Fri May 29 00:18:29 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Fri May 29 00:18:29 2015] [debug] Rendering template "post/list.html.ep"
+[Fri May 29 00:18:29 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 00:18:29 2015] [debug] 200 OK (0.032408s, 30.857/s)
+[Fri May 29 00:22:38 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 00:22:38 2015] [debug] GET "/p/list"
+[Fri May 29 00:22:38 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Fri May 29 00:22:38 2015] [debug] Rendering template "post/list.html.ep"
+[Fri May 29 00:22:38 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 00:22:38 2015] [debug] 200 OK (0.033374s, 29.963/s)
+[Fri May 29 00:22:50 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 00:22:50 2015] [debug] GET "/register"
+[Fri May 29 00:22:50 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "register"
+[Fri May 29 00:22:50 2015] [debug] Rendering template "user/register.html.ep"
+[Fri May 29 00:22:50 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 00:22:50 2015] [debug] 200 OK (0.032029s, 31.222/s)
+[Fri May 29 00:22:52 2015] [debug] POST "/login"
+[Fri May 29 00:22:52 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "login"
+[Fri May 29 00:22:52 2015] [debug] Rendering template "user/register.html.ep"
+[Fri May 29 00:22:52 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 00:22:52 2015] [debug] 200 OK (0.013825s, 72.333/s)
+[Fri May 29 00:23:01 2015] [debug] POST "/register"
+[Fri May 29 00:23:01 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "register"
+[Fri May 29 00:23:01 2015] [debug] 302 Found (0.011905s, 83.998/s)
+[Fri May 29 00:23:01 2015] [debug] GET "/index"
+[Fri May 29 00:23:01 2015] [debug] Rendering template "index.html.ep"
+[Fri May 29 00:23:01 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 00:23:01 2015] [debug] 200 OK (0.008405s, 118.977/s)
+[Fri May 29 00:24:23 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 00:24:23 2015] [debug] GET "/index"
+[Fri May 29 00:24:23 2015] [debug] Rendering template "index.html.ep"
+[Fri May 29 00:24:23 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 00:24:23 2015] [debug] 200 OK (0.010993s, 90.967/s)
+[Fri May 29 00:24:38 2015] [debug] POST "/p/create"
+[Fri May 29 00:24:38 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Fri May 29 00:24:38 2015] [error] DBD::Pg::st execute failed: ERROR:  index row size 3384 exceeds maximum 2712 for index "post_body_uq"
+HINT:  Values larger than 1/3 of a buffer page cannot be indexed.
+Consider a function index of an MD5 hash of the value, or use full text indexing. at /opt/justwrite/perl5/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.2/Mojo/Pg/Database.pm line 82.
+
+[Fri May 29 00:24:38 2015] [debug] Template "exception.development.html.ep" not found
+[Fri May 29 00:24:38 2015] [debug] Template "exception.html.ep" not found
+[Fri May 29 00:24:38 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 00:24:38 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 00:24:38 2015] [debug] 500 Internal Server Error (0.049283s, 20.291/s)
+[Fri May 29 00:29:56 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 00:29:56 2015] [debug] POST "/p/create"
+[Fri May 29 00:29:56 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Fri May 29 00:29:56 2015] [error] DBD::Pg::st execute failed: ERROR:  index row size 3384 exceeds maximum 2712 for index "post_body_uq"
+HINT:  Values larger than 1/3 of a buffer page cannot be indexed.
+Consider a function index of an MD5 hash of the value, or use full text indexing. at /opt/justwrite/perl5/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.2/Mojo/Pg/Database.pm line 82.
+
+[Fri May 29 00:29:56 2015] [debug] Template "exception.development.html.ep" not found
+[Fri May 29 00:29:56 2015] [debug] Template "exception.html.ep" not found
+[Fri May 29 00:29:56 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 00:29:56 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 00:29:56 2015] [debug] 500 Internal Server Error (0.051948s, 19.250/s)
+[Fri May 29 00:35:16 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 00:35:16 2015] [debug] GET "/register"
+[Fri May 29 00:35:16 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "register"
+[Fri May 29 00:35:16 2015] [debug] 302 Found (0.020942s, 47.751/s)
+[Fri May 29 00:35:16 2015] [debug] GET "/index"
+[Fri May 29 00:35:16 2015] [debug] Rendering template "index.html.ep"
+[Fri May 29 00:35:16 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 00:35:16 2015] [debug] 200 OK (0.009607s, 104.091/s)
+[Fri May 29 00:35:21 2015] [debug] GET "/register"
+[Fri May 29 00:35:21 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "register"
+[Fri May 29 00:35:21 2015] [debug] 302 Found (0.001501s, 666.223/s)
+[Fri May 29 00:35:21 2015] [debug] GET "/index"
+[Fri May 29 00:35:21 2015] [debug] Rendering cached template "index.html.ep"
+[Fri May 29 00:35:21 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 29 00:35:21 2015] [debug] 200 OK (0.001381s, 724.113/s)
+[Fri May 29 00:35:33 2015] [debug] GET "/logout"
+[Fri May 29 00:35:33 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "logout"
+[Fri May 29 00:35:33 2015] [debug] 302 Found (0.000996s, 1004.016/s)
+[Fri May 29 00:35:33 2015] [debug] GET "/index"
+[Fri May 29 00:35:33 2015] [debug] Rendering cached template "index.html.ep"
+[Fri May 29 00:35:33 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 29 00:35:33 2015] [debug] 200 OK (0.001221s, 819.001/s)
+[Fri May 29 00:35:38 2015] [debug] GET "/register"
+[Fri May 29 00:35:38 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "register"
+[Fri May 29 00:35:38 2015] [debug] Rendering template "user/register.html.ep"
+[Fri May 29 00:35:38 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 00:35:38 2015] [debug] 200 OK (0.011367s, 87.974/s)
+[Fri May 29 00:35:47 2015] [debug] POST "/register"
+[Fri May 29 00:35:47 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "register"
+[Fri May 29 00:35:47 2015] [debug] 302 Found (0.011415s, 87.604/s)
+[Fri May 29 00:35:47 2015] [debug] GET "/index"
+[Fri May 29 00:35:47 2015] [debug] Rendering cached template "index.html.ep"
+[Fri May 29 00:35:47 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 29 00:35:47 2015] [debug] 200 OK (0.001320s, 757.576/s)
+[Fri May 29 00:36:16 2015] [debug] GET "/index"
+[Fri May 29 00:36:16 2015] [debug] Rendering cached template "index.html.ep"
+[Fri May 29 00:36:16 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 29 00:36:16 2015] [debug] 200 OK (0.001537s, 650.618/s)
+[Fri May 29 00:36:34 2015] [debug] POST "/p/create"
+[Fri May 29 00:36:34 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Fri May 29 00:36:34 2015] [debug] 200 OK (0.030070s, 33.256/s)
+[Fri May 29 00:36:40 2015] [debug] GET "/p/list"
+[Fri May 29 00:36:40 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Fri May 29 00:36:40 2015] [debug] Rendering template "post/list.html.ep"
+[Fri May 29 00:36:40 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 00:36:40 2015] [debug] 200 OK (0.009722s, 102.859/s)
+[Fri May 29 00:58:49 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 00:58:49 2015] [debug] GET "/p/list"
+[Fri May 29 00:58:49 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Fri May 29 00:58:49 2015] [debug] Rendering template "post/list.html.ep"
+[Fri May 29 00:58:49 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 00:58:49 2015] [debug] 200 OK (0.032160s, 31.095/s)
+[Fri May 29 00:59:11 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 00:59:11 2015] [debug] GET "/p/list"
+[Fri May 29 00:59:11 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Fri May 29 00:59:11 2015] [debug] Rendering template "post/list.html.ep"
+[Fri May 29 00:59:11 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 00:59:11 2015] [debug] 200 OK (0.034256s, 29.192/s)
+[Fri May 29 00:59:27 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 00:59:27 2015] [debug] GET "/p/list"
+[Fri May 29 00:59:27 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Fri May 29 00:59:27 2015] [debug] Rendering template "post/list.html.ep"
+[Fri May 29 00:59:27 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 00:59:27 2015] [debug] 200 OK (0.032247s, 31.011/s)
+[Fri May 29 01:00:39 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 01:00:39 2015] [debug] GET "/p/list"
+[Fri May 29 01:00:39 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Fri May 29 01:00:39 2015] [debug] Rendering template "post/list.html.ep"
+[Fri May 29 01:00:39 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:00:39 2015] [debug] 200 OK (0.032589s, 30.685/s)
+[Fri May 29 01:01:33 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 01:01:33 2015] [debug] GET "/p/list"
+[Fri May 29 01:01:33 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Fri May 29 01:01:33 2015] [debug] Rendering template "post/list.html.ep"
+[Fri May 29 01:01:33 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:01:33 2015] [debug] 200 OK (0.032782s, 30.505/s)
+[Fri May 29 01:02:39 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 01:02:39 2015] [debug] GET "/p/list"
+[Fri May 29 01:02:39 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Fri May 29 01:02:39 2015] [debug] Rendering template "post/list.html.ep"
+[Fri May 29 01:02:39 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:02:39 2015] [debug] 200 OK (0.033506s, 29.845/s)
+[Fri May 29 01:02:41 2015] [debug] GET "/p/view/6f407700-5306-4023-b5f3-6cc723bfb55b"
+[Fri May 29 01:02:41 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:02:41 2015] [debug] Rendering template "post/view.html.ep"
+[Fri May 29 01:02:41 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:02:41 2015] [debug] 200 OK (0.017963s, 55.670/s)
+[Fri May 29 01:02:41 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:02:41 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:02:41 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:02:41 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:02:41 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:02:41 2015] [debug] 404 Not Found (0.022918s, 43.634/s)
+[Fri May 29 01:03:09 2015] [debug] GET "/index"
+[Fri May 29 01:03:09 2015] [debug] Rendering template "index.html.ep"
+[Fri May 29 01:03:09 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:03:09 2015] [debug] 200 OK (0.008369s, 119.489/s)
+[Fri May 29 01:03:47 2015] [debug] POST "/p/create"
+[Fri May 29 01:03:47 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Fri May 29 01:03:47 2015] [debug] 200 OK (0.012509s, 79.942/s)
+[Fri May 29 01:03:55 2015] [debug] GET "/p/list"
+[Fri May 29 01:03:55 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Fri May 29 01:03:55 2015] [debug] Rendering cached template "post/list.html.ep"
+[Fri May 29 01:03:55 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 29 01:03:55 2015] [debug] 200 OK (0.002889s, 346.141/s)
+[Fri May 29 01:04:27 2015] [debug] GET "/p/view/41b6db97-7c60-4a4f-afb0-18627591dbd6"
+[Fri May 29 01:04:27 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:04:27 2015] [debug] Rendering cached template "post/view.html.ep"
+[Fri May 29 01:04:27 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 29 01:04:27 2015] [debug] 200 OK (0.004948s, 202.102/s)
+[Fri May 29 01:04:27 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:04:27 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:04:27 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:04:27 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:04:27 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:04:27 2015] [debug] 404 Not Found (0.006370s, 156.986/s)
+[Fri May 29 01:04:46 2015] [debug] GET "/p/view/41b6db97-7c60-4a4f-afb0-18627591dbd6"
+[Fri May 29 01:04:46 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:04:46 2015] [debug] Rendering cached template "post/view.html.ep"
+[Fri May 29 01:04:46 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 29 01:04:46 2015] [debug] 200 OK (0.004439s, 225.276/s)
+[Fri May 29 01:04:46 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:04:46 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:04:46 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:04:46 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:04:46 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:04:46 2015] [debug] 404 Not Found (0.006342s, 157.679/s)
+[Fri May 29 01:07:24 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 01:07:24 2015] [debug] GET "/p/view/41b6db97-7c60-4a4f-afb0-18627591dbd6"
+[Fri May 29 01:07:24 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:07:24 2015] [debug] Rendering template "post/view.html.ep"
+[Fri May 29 01:07:24 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:07:24 2015] [debug] 200 OK (0.039179s, 25.524/s)
+[Fri May 29 01:07:24 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:07:24 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:07:24 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:07:24 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:07:24 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:07:24 2015] [debug] 404 Not Found (0.023027s, 43.427/s)
+[Fri May 29 01:07:42 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 01:07:42 2015] [debug] GET "/p/view/41b6db97-7c60-4a4f-afb0-18627591dbd6"
+[Fri May 29 01:07:42 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:07:42 2015] [debug] Rendering template "post/view.html.ep"
+[Fri May 29 01:07:42 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:07:42 2015] [debug] 200 OK (0.037569s, 26.618/s)
+[Fri May 29 01:07:42 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:07:42 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:07:42 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:07:42 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:07:42 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:07:42 2015] [debug] 404 Not Found (0.022938s, 43.596/s)
+[Fri May 29 01:07:54 2015] [debug] GET "/logout"
+[Fri May 29 01:07:54 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "logout"
+[Fri May 29 01:07:54 2015] [debug] 302 Found (0.001787s, 559.597/s)
+[Fri May 29 01:07:54 2015] [debug] GET "/index"
+[Fri May 29 01:07:54 2015] [debug] Rendering template "index.html.ep"
+[Fri May 29 01:07:54 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:07:54 2015] [debug] 200 OK (0.007894s, 126.678/s)
+[Fri May 29 01:08:23 2015] [debug] POST "/p/create"
+[Fri May 29 01:08:23 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Fri May 29 01:08:23 2015] [debug] 200 OK (0.011259s, 88.818/s)
+[Fri May 29 01:08:29 2015] [debug] GET "/p/list"
+[Fri May 29 01:08:29 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Fri May 29 01:08:29 2015] [debug] Rendering template "post/list.html.ep"
+[Fri May 29 01:08:29 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:08:29 2015] [debug] 200 OK (0.009517s, 105.075/s)
+[Fri May 29 01:08:33 2015] [debug] GET "/p/view/3099909b-4b3b-4983-a8a8-a62814cee8c3"
+[Fri May 29 01:08:33 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:08:33 2015] [debug] Rendering cached template "post/view.html.ep"
+[Fri May 29 01:08:33 2015] [error] 
+<!-- Alternative Services Section -->
+<section class="page-section smallest-section" id="start">
+<div class="container relative">
+  <!-- Row -->
+  <div class="row">
+
+      <!-- Col -->
+
+      <div class="col-sm-12 mb-40">
+
+	  <!-- Paragraph -->
+	  <div class="text">
+
+              <div class="section-title font-alt">
+                Ravin&#39; About Rant
+              </div>
+              <div class="section-subtitle font-alt mb-70 mb-sm-40">
+                By 
+                  Anonymouse
+
+[Fri May 29 01:08:33 2015] [debug] Template "exception.development.html.ep" not found
+[Fri May 29 01:08:33 2015] [debug] Template "exception.html.ep" not found
+[Fri May 29 01:08:33 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:08:33 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:08:33 2015] [debug] 500 Internal Server Error (0.024128s, 41.446/s)
+[Fri May 29 01:09:31 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 01:09:31 2015] [debug] GET "/p/list"
+[Fri May 29 01:09:31 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Fri May 29 01:09:31 2015] [debug] Rendering template "post/list.html.ep"
+[Fri May 29 01:09:31 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:09:31 2015] [debug] 200 OK (0.032014s, 31.236/s)
+[Fri May 29 01:09:33 2015] [debug] GET "/p/view/6f407700-5306-4023-b5f3-6cc723bfb55b"
+[Fri May 29 01:09:33 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:09:33 2015] [debug] Rendering template "post/view.html.ep"
+[Fri May 29 01:09:33 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:09:33 2015] [debug] 200 OK (0.015682s, 63.767/s)
+[Fri May 29 01:09:33 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:09:33 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:09:33 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:09:33 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:09:33 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:09:33 2015] [debug] 404 Not Found (0.022534s, 44.377/s)
+[Fri May 29 01:09:39 2015] [debug] GET "/p/view/41b6db97-7c60-4a4f-afb0-18627591dbd6"
+[Fri May 29 01:09:39 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:09:39 2015] [debug] Rendering cached template "post/view.html.ep"
+[Fri May 29 01:09:39 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 29 01:09:39 2015] [debug] 200 OK (0.004659s, 214.638/s)
+[Fri May 29 01:09:39 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:09:39 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:09:39 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:09:39 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:09:39 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:09:39 2015] [debug] 404 Not Found (0.006058s, 165.071/s)
+[Fri May 29 01:09:43 2015] [debug] GET "/p/view/3099909b-4b3b-4983-a8a8-a62814cee8c3"
+[Fri May 29 01:09:43 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:09:43 2015] [debug] Rendering cached template "post/view.html.ep"
+[Fri May 29 01:09:43 2015] [error] 
+<!-- Alternative Services Section -->
+<section class="page-section smallest-section" id="start">
+<div class="container relative">
+  <!-- Row -->
+  <div class="row">
+
+      <!-- Col -->
+
+      <div class="col-sm-12 mb-40">
+
+	  <!-- Paragraph -->
+	  <div class="text">
+
+              <div class="section-title font-alt">
+                Ravin&#39; About Rant
+              </div>
+              <div class="section-subtitle font-alt mb-70 mb-sm-40">
+                By 
+                  Anonymouse
+
+[Fri May 29 01:09:43 2015] [debug] Template "exception.development.html.ep" not found
+[Fri May 29 01:09:43 2015] [debug] Template "exception.html.ep" not found
+[Fri May 29 01:09:43 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:09:43 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:09:43 2015] [debug] 500 Internal Server Error (0.023544s, 42.474/s)
+[Fri May 29 01:10:17 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 01:10:17 2015] [debug] GET "/p/list"
+[Fri May 29 01:10:17 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Fri May 29 01:10:17 2015] [debug] Rendering template "post/list.html.ep"
+[Fri May 29 01:10:17 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:10:17 2015] [debug] 200 OK (0.031909s, 31.339/s)
+[Fri May 29 01:10:20 2015] [debug] GET "/p/view/3099909b-4b3b-4983-a8a8-a62814cee8c3"
+[Fri May 29 01:10:20 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:10:20 2015] [debug] Rendering template "post/view.html.ep"
+[Fri May 29 01:10:20 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:10:20 2015] [debug] 200 OK (0.014263s, 70.111/s)
+[Fri May 29 01:10:20 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:10:20 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:10:20 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:10:20 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:10:20 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:10:20 2015] [debug] 404 Not Found (0.022432s, 44.579/s)
+[Fri May 29 01:10:58 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 01:10:58 2015] [debug] GET "/index"
+[Fri May 29 01:10:58 2015] [debug] Rendering template "index.html.ep"
+[Fri May 29 01:10:58 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:10:58 2015] [debug] 200 OK (0.010817s, 92.447/s)
+[Fri May 29 01:11:49 2015] [debug] GET "/index"
+[Fri May 29 01:11:49 2015] [debug] Rendering cached template "index.html.ep"
+[Fri May 29 01:11:49 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 29 01:11:49 2015] [debug] 200 OK (0.001480s, 675.676/s)
+[Fri May 29 01:12:04 2015] [debug] POST "/p/create"
+[Fri May 29 01:12:04 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Fri May 29 01:12:04 2015] [debug] 200 OK (0.033846s, 29.546/s)
+[Fri May 29 01:12:09 2015] [debug] GET "/p/list"
+[Fri May 29 01:12:09 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Fri May 29 01:12:09 2015] [debug] Rendering template "post/list.html.ep"
+[Fri May 29 01:12:09 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:12:09 2015] [debug] 200 OK (0.009499s, 105.274/s)
+[Fri May 29 01:12:14 2015] [debug] GET "/p/view/196008a7-42d4-4fb3-a4f7-256f9bfce186"
+[Fri May 29 01:12:14 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:12:14 2015] [debug] Rendering template "post/view.html.ep"
+[Fri May 29 01:12:14 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:12:14 2015] [debug] 200 OK (0.014090s, 70.972/s)
+[Fri May 29 01:12:14 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:12:14 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:12:14 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:12:14 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:12:14 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:12:14 2015] [debug] 404 Not Found (0.024718s, 40.456/s)
+[Fri May 29 01:13:04 2015] [debug] POST "/p/create"
+[Fri May 29 01:13:04 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Fri May 29 01:13:04 2015] [debug] 200 OK (0.018518s, 54.002/s)
+[Fri May 29 01:13:06 2015] [debug] GET "/p/list"
+[Fri May 29 01:13:06 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Fri May 29 01:13:06 2015] [debug] Rendering cached template "post/list.html.ep"
+[Fri May 29 01:13:06 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 29 01:13:06 2015] [debug] 200 OK (0.002703s, 369.959/s)
+[Fri May 29 01:13:08 2015] [debug] GET "/p/view/dd7d6957-9141-4ee6-a310-806bf8ce44da"
+[Fri May 29 01:13:08 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:13:08 2015] [debug] Rendering cached template "post/view.html.ep"
+[Fri May 29 01:13:08 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 29 01:13:08 2015] [debug] 200 OK (0.004753s, 210.393/s)
+[Fri May 29 01:13:08 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:13:08 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:13:08 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:13:08 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:13:08 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:13:08 2015] [debug] 404 Not Found (0.006085s, 164.339/s)
+[Fri May 29 01:18:56 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 01:18:56 2015] [debug] GET "/p/view/6f407700-5306-4023-b5f3-6cc723bfb55b"
+[Fri May 29 01:18:56 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:18:56 2015] [debug] Rendering template "post/view.html.ep"
+[Fri May 29 01:18:56 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:18:56 2015] [debug] 200 OK (0.039088s, 25.583/s)
+[Fri May 29 01:18:57 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:18:57 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:18:57 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:18:57 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:18:57 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:18:57 2015] [debug] 404 Not Found (0.022905s, 43.659/s)
+[Fri May 29 01:19:00 2015] [debug] GET "/p/view/register.html"
+[Fri May 29 01:19:00 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:19:00 2015] [error] DBD::Pg::st execute failed: ERROR:  invalid input syntax for uuid: "register" at /opt/justwrite/perl5/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.2/Mojo/Pg/Database.pm line 82.
+
+[Fri May 29 01:19:00 2015] [debug] Template "exception.development.html.ep" not found
+[Fri May 29 01:19:00 2015] [debug] Template "exception.html.ep" not found
+[Fri May 29 01:19:00 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:19:00 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:19:00 2015] [debug] 500 Internal Server Error (0.024302s, 41.149/s)
+[Fri May 29 01:19:16 2015] [debug] GET "/register"
+[Fri May 29 01:19:16 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "register"
+[Fri May 29 01:19:16 2015] [debug] Rendering template "user/register.html.ep"
+[Fri May 29 01:19:16 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:19:16 2015] [debug] 200 OK (0.012303s, 81.281/s)
+[Fri May 29 01:19:18 2015] [debug] POST "/login"
+[Fri May 29 01:19:18 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "login"
+[Fri May 29 01:19:18 2015] [debug] Rendering template "user/register.html.ep"
+[Fri May 29 01:19:18 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:19:18 2015] [debug] 200 OK (0.017765s, 56.290/s)
+[Fri May 29 01:19:23 2015] [debug] POST "/login"
+[Fri May 29 01:19:23 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "login"
+[Fri May 29 01:19:23 2015] [debug] 302 Found (0.007829s, 127.730/s)
+[Fri May 29 01:19:23 2015] [debug] GET "/index"
+[Fri May 29 01:19:23 2015] [debug] Rendering template "index.html.ep"
+[Fri May 29 01:19:23 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:19:23 2015] [debug] 200 OK (0.008075s, 123.839/s)
+[Fri May 29 01:19:32 2015] [debug] GET "/p/list"
+[Fri May 29 01:19:32 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Fri May 29 01:19:32 2015] [debug] Rendering template "post/list.html.ep"
+[Fri May 29 01:19:32 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:19:32 2015] [debug] 200 OK (0.009309s, 107.423/s)
+[Fri May 29 01:19:33 2015] [debug] GET "/p/view/6f407700-5306-4023-b5f3-6cc723bfb55b"
+[Fri May 29 01:19:33 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:19:33 2015] [debug] Rendering cached template "post/view.html.ep"
+[Fri May 29 01:19:33 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 29 01:19:33 2015] [debug] 200 OK (0.004586s, 218.055/s)
+[Fri May 29 01:19:34 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:19:34 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:19:34 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:19:34 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:19:34 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:19:34 2015] [debug] 404 Not Found (0.006163s, 162.259/s)
+[Fri May 29 01:20:18 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 01:20:18 2015] [debug] GET "/p/view/6f407700-5306-4023-b5f3-6cc723bfb55b"
+[Fri May 29 01:20:18 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:20:18 2015] [debug] Rendering template "post/view.html.ep"
+[Fri May 29 01:20:18 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:20:18 2015] [debug] 200 OK (0.038987s, 25.650/s)
+[Fri May 29 01:20:19 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:20:19 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:20:19 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:20:19 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:20:19 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:20:19 2015] [debug] 404 Not Found (0.022702s, 44.049/s)
+[Fri May 29 01:20:37 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 01:20:37 2015] [debug] GET "/p/view/6f407700-5306-4023-b5f3-6cc723bfb55b"
+[Fri May 29 01:20:37 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:20:37 2015] [debug] Rendering template "post/view.html.ep"
+[Fri May 29 01:20:37 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:20:37 2015] [debug] 200 OK (0.039345s, 25.416/s)
+[Fri May 29 01:20:37 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:20:37 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:20:37 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:20:37 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:20:37 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:20:37 2015] [debug] 404 Not Found (0.022560s, 44.326/s)
+[Fri May 29 01:21:02 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 01:21:02 2015] [debug] GET "/p/view/6f407700-5306-4023-b5f3-6cc723bfb55b"
+[Fri May 29 01:21:02 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:21:02 2015] [debug] Rendering template "post/view.html.ep"
+[Fri May 29 01:21:02 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:21:02 2015] [debug] 200 OK (0.038547s, 25.942/s)
+[Fri May 29 01:21:03 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:21:03 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:21:03 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:21:03 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:21:03 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:21:03 2015] [debug] 404 Not Found (0.023009s, 43.461/s)
+[Fri May 29 01:21:37 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 01:21:37 2015] [debug] GET "/p/view/6f407700-5306-4023-b5f3-6cc723bfb55b"
+[Fri May 29 01:21:37 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:21:37 2015] [debug] Rendering template "post/view.html.ep"
+[Fri May 29 01:21:37 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:21:37 2015] [debug] 200 OK (0.038358s, 26.070/s)
+[Fri May 29 01:21:37 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:21:37 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:21:37 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:21:37 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:21:37 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:21:38 2015] [debug] 404 Not Found (0.022646s, 44.158/s)
+[Fri May 29 01:23:11 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 01:23:11 2015] [debug] GET "/p/view/6f407700-5306-4023-b5f3-6cc723bfb55b"
+[Fri May 29 01:23:11 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:23:11 2015] [debug] Rendering template "post/view.html.ep"
+[Fri May 29 01:23:11 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:23:11 2015] [debug] 200 OK (0.039308s, 25.440/s)
+[Fri May 29 01:23:12 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:23:12 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:23:12 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:23:12 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:23:12 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:23:12 2015] [debug] 404 Not Found (0.022852s, 43.760/s)
+[Fri May 29 01:25:40 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 01:25:40 2015] [debug] GET "/p/view/6f407700-5306-4023-b5f3-6cc723bfb55b"
+[Fri May 29 01:25:40 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:25:40 2015] [debug] Rendering template "post/view.html.ep"
+[Fri May 29 01:25:40 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:25:40 2015] [debug] 200 OK (0.039655s, 25.218/s)
+[Fri May 29 01:25:41 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:25:41 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:25:41 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:25:41 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:25:41 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:25:41 2015] [debug] 404 Not Found (0.022927s, 43.617/s)
+[Fri May 29 01:26:14 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 01:26:14 2015] [debug] GET "/p/view/6f407700-5306-4023-b5f3-6cc723bfb55b"
+[Fri May 29 01:26:14 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:26:14 2015] [debug] Rendering template "post/view.html.ep"
+[Fri May 29 01:26:14 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:26:14 2015] [debug] 200 OK (0.039357s, 25.408/s)
+[Fri May 29 01:26:14 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:26:14 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:26:14 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:26:14 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:26:14 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:26:14 2015] [debug] 404 Not Found (0.022863s, 43.739/s)
+[Fri May 29 01:32:32 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 01:32:32 2015] [debug] GET "/p/view/6f407700-5306-4023-b5f3-6cc723bfb55b"
+[Fri May 29 01:32:32 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:32:32 2015] [debug] Rendering template "post/view.html.ep"
+[Fri May 29 01:32:32 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:32:32 2015] [debug] 200 OK (0.040613s, 24.623/s)
+[Fri May 29 01:32:33 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:32:33 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:32:33 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:32:33 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:32:33 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:32:33 2015] [debug] 404 Not Found (0.023131s, 43.232/s)
+[Fri May 29 01:32:47 2015] [debug] GET "/p/view/6f407700-5306-4023-b5f3-6cc723bfb55b"
+[Fri May 29 01:32:47 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:32:47 2015] [debug] Rendering cached template "post/view.html.ep"
+[Fri May 29 01:32:47 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 29 01:32:47 2015] [debug] 200 OK (0.005058s, 197.707/s)
+[Fri May 29 01:32:47 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:32:47 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:32:47 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:32:47 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:32:47 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:32:47 2015] [debug] 404 Not Found (0.006099s, 163.961/s)
+[Fri May 29 01:33:50 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 01:33:50 2015] [debug] GET "/p/view/6f407700-5306-4023-b5f3-6cc723bfb55b"
+[Fri May 29 01:33:50 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:33:50 2015] [debug] Rendering template "post/view.html.ep"
+[Fri May 29 01:33:50 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:33:50 2015] [debug] 200 OK (0.040823s, 24.496/s)
+[Fri May 29 01:33:51 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:33:51 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:33:51 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:33:51 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:33:51 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:33:51 2015] [debug] 404 Not Found (0.023101s, 43.288/s)
+[Fri May 29 01:36:57 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 01:36:57 2015] [debug] GET "/p/view/6f407700-5306-4023-b5f3-6cc723bfb55b"
+[Fri May 29 01:36:57 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:36:57 2015] [debug] Rendering template "post/view.html.ep"
+[Fri May 29 01:36:57 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:36:57 2015] [debug] 200 OK (0.040900s, 24.450/s)
+[Fri May 29 01:36:58 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:36:58 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:36:58 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:36:58 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:36:58 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:36:58 2015] [debug] 404 Not Found (0.024239s, 41.256/s)
+[Fri May 29 01:37:41 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 01:37:41 2015] [debug] GET "/p/view/6f407700-5306-4023-b5f3-6cc723bfb55b"
+[Fri May 29 01:37:41 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:37:41 2015] [debug] Rendering template "post/view.html.ep"
+[Fri May 29 01:37:41 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:37:41 2015] [debug] 200 OK (0.040233s, 24.855/s)
+[Fri May 29 01:37:41 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:37:41 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:37:41 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:37:41 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:37:41 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:37:41 2015] [debug] 404 Not Found (0.023071s, 43.344/s)
+[Fri May 29 01:40:21 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 01:40:21 2015] [debug] GET "/p/view/6f407700-5306-4023-b5f3-6cc723bfb55b"
+[Fri May 29 01:40:21 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:40:21 2015] [debug] Rendering template "post/view.html.ep"
+[Fri May 29 01:40:21 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:40:21 2015] [debug] 200 OK (0.041306s, 24.210/s)
+[Fri May 29 01:40:21 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:40:21 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:40:21 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:40:21 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:40:21 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:40:21 2015] [debug] 404 Not Found (0.023041s, 43.401/s)
+[Fri May 29 01:40:31 2015] [debug] GET "/p/view/6f407700-5306-4023-b5f3-6cc723bfb55b"
+[Fri May 29 01:40:31 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:40:31 2015] [debug] Rendering cached template "post/view.html.ep"
+[Fri May 29 01:40:31 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 29 01:40:31 2015] [debug] 200 OK (0.005253s, 190.367/s)
+[Fri May 29 01:40:32 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:40:32 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:40:32 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:40:32 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:40:32 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:40:32 2015] [debug] 404 Not Found (0.006121s, 163.372/s)
+[Fri May 29 01:41:46 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 01:41:46 2015] [debug] GET "/p/view/6f407700-5306-4023-b5f3-6cc723bfb55b"
+[Fri May 29 01:41:46 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:41:46 2015] [debug] Rendering template "post/view.html.ep"
+[Fri May 29 01:41:47 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:41:47 2015] [debug] 200 OK (0.040828s, 24.493/s)
+[Fri May 29 01:41:47 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:41:47 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:41:47 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:41:47 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:41:47 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:41:47 2015] [debug] 404 Not Found (0.023069s, 43.348/s)
+[Fri May 29 01:42:54 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 01:42:54 2015] [debug] GET "/p/view/6f407700-5306-4023-b5f3-6cc723bfb55b"
+[Fri May 29 01:42:54 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:42:54 2015] [debug] Rendering template "post/view.html.ep"
+[Fri May 29 01:42:54 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:42:54 2015] [debug] 200 OK (0.040950s, 24.420/s)
+[Fri May 29 01:42:54 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:42:54 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:42:54 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:42:54 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:42:54 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:42:54 2015] [debug] 404 Not Found (0.023025s, 43.431/s)
+[Fri May 29 01:44:01 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 01:44:01 2015] [debug] GET "/p/view/6f407700-5306-4023-b5f3-6cc723bfb55b"
+[Fri May 29 01:44:01 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:44:01 2015] [debug] Rendering template "post/view.html.ep"
+[Fri May 29 01:44:01 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:44:01 2015] [debug] 200 OK (0.040541s, 24.666/s)
+[Fri May 29 01:44:02 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:44:02 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:44:02 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:44:02 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:44:02 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:44:02 2015] [debug] 404 Not Found (0.023220s, 43.066/s)
+[Fri May 29 01:44:12 2015] [debug] GET "/p/view/6f407700-5306-4023-b5f3-6cc723bfb55b"
+[Fri May 29 01:44:12 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:44:12 2015] [debug] Rendering cached template "post/view.html.ep"
+[Fri May 29 01:44:12 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 29 01:44:12 2015] [debug] 200 OK (0.004560s, 219.298/s)
+[Fri May 29 01:44:13 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:44:13 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:44:13 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:44:13 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:44:13 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:44:13 2015] [debug] 404 Not Found (0.006263s, 159.668/s)
+[Fri May 29 01:44:15 2015] [debug] GET "/p/view/6f407700-5306-4023-b5f3-6cc723bfb55b"
+[Fri May 29 01:44:15 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:44:15 2015] [debug] Rendering cached template "post/view.html.ep"
+[Fri May 29 01:44:15 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 29 01:44:15 2015] [debug] 200 OK (0.004844s, 206.441/s)
+[Fri May 29 01:44:16 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:44:16 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:44:16 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:44:16 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:44:16 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:44:16 2015] [debug] 404 Not Found (0.006186s, 161.655/s)
+[Fri May 29 01:47:29 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 01:47:29 2015] [debug] GET "/p/view/6f407700-5306-4023-b5f3-6cc723bfb55b"
+[Fri May 29 01:47:29 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:47:29 2015] [debug] Rendering template "post/view.html.ep"
+[Fri May 29 01:47:29 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:47:29 2015] [debug] 200 OK (0.039863s, 25.086/s)
+[Fri May 29 01:47:29 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:47:29 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:47:29 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:47:29 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:47:29 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:47:29 2015] [debug] 404 Not Found (0.023306s, 42.907/s)
+[Fri May 29 01:48:04 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 01:48:04 2015] [debug] GET "/p/view/6f407700-5306-4023-b5f3-6cc723bfb55b"
+[Fri May 29 01:48:04 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:48:04 2015] [debug] Rendering template "post/view.html.ep"
+[Fri May 29 01:48:04 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:48:04 2015] [debug] 200 OK (0.039685s, 25.198/s)
+[Fri May 29 01:48:04 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:48:04 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:48:04 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:48:04 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:48:04 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:48:04 2015] [debug] 404 Not Found (0.023058s, 43.369/s)
+[Fri May 29 01:49:07 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 01:49:07 2015] [debug] GET "/p/view/6f407700-5306-4023-b5f3-6cc723bfb55b"
+[Fri May 29 01:49:07 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:49:07 2015] [debug] Rendering template "post/view.html.ep"
+[Fri May 29 01:49:07 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:49:07 2015] [debug] 200 OK (0.039918s, 25.051/s)
+[Fri May 29 01:49:08 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:49:08 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:49:08 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:49:08 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:49:08 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:49:08 2015] [debug] 404 Not Found (0.025061s, 39.903/s)
+[Fri May 29 01:49:14 2015] [debug] GET "/p/view/6f407700-5306-4023-b5f3-6cc723bfb55b"
+[Fri May 29 01:49:14 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:49:14 2015] [debug] Rendering cached template "post/view.html.ep"
+[Fri May 29 01:49:14 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 29 01:49:14 2015] [debug] 200 OK (0.005128s, 195.008/s)
+[Fri May 29 01:49:14 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:49:14 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:49:14 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:49:14 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:49:14 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:49:14 2015] [debug] 404 Not Found (0.006210s, 161.031/s)
+[Fri May 29 01:55:36 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 01:55:36 2015] [debug] GET "/p/view/6f407700-5306-4023-b5f3-6cc723bfb55b"
+[Fri May 29 01:55:36 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:55:36 2015] [debug] Rendering template "post/view.html.ep"
+[Fri May 29 01:55:36 2015] [error] Can't use bareword ("post") as an ARRAY ref while "strict refs" in use at template post/view.html.ep line 32.
+
+[Fri May 29 01:55:36 2015] [debug] Template "exception.development.html.ep" not found
+[Fri May 29 01:55:36 2015] [debug] Template "exception.html.ep" not found
+[Fri May 29 01:55:36 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:55:36 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:55:36 2015] [debug] 500 Internal Server Error (0.059438s, 16.824/s)
+[Fri May 29 01:55:55 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 01:55:55 2015] [debug] GET "/p/view/6f407700-5306-4023-b5f3-6cc723bfb55b"
+[Fri May 29 01:55:55 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:55:55 2015] [debug] Rendering template "post/view.html.ep"
+[Fri May 29 01:55:55 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:55:55 2015] [debug] 200 OK (0.042487s, 23.537/s)
+[Fri May 29 01:55:55 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:55:55 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:55:55 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:55:55 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:55:55 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:55:55 2015] [debug] 404 Not Found (0.023358s, 42.812/s)
+[Fri May 29 01:56:10 2015] [debug] GET "/p/view/6f407700-5306-4023-b5f3-6cc723bfb55b"
+[Fri May 29 01:56:10 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:56:10 2015] [debug] Rendering cached template "post/view.html.ep"
+[Fri May 29 01:56:10 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 29 01:56:10 2015] [debug] 200 OK (0.005116s, 195.465/s)
+[Fri May 29 01:56:11 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:56:11 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:56:11 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:56:11 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:56:11 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:56:11 2015] [debug] 404 Not Found (0.006273s, 159.413/s)
+[Fri May 29 01:56:20 2015] [debug] GET "/p/view/6f407700-5306-4023-b5f3-6cc723bfb55b"
+[Fri May 29 01:56:20 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:56:20 2015] [debug] Rendering cached template "post/view.html.ep"
+[Fri May 29 01:56:20 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 29 01:56:20 2015] [debug] 200 OK (0.005027s, 198.926/s)
+[Fri May 29 01:56:21 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:56:21 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:56:21 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:56:21 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:56:21 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:56:21 2015] [debug] 404 Not Found (0.006281s, 159.210/s)
+[Fri May 29 01:56:44 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 01:56:44 2015] [debug] GET "/p/view/6f407700-5306-4023-b5f3-6cc723bfb55b"
+[Fri May 29 01:56:44 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:56:44 2015] [debug] Rendering template "post/view.html.ep"
+[Fri May 29 01:56:44 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:56:44 2015] [debug] 200 OK (0.041969s, 23.827/s)
+[Fri May 29 01:56:44 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:56:44 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:56:44 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:56:44 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:56:44 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:56:44 2015] [debug] 404 Not Found (0.023301s, 42.917/s)
+[Fri May 29 01:56:52 2015] [debug] POST "/p/edit"
+[Fri May 29 01:56:52 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "edit"
+[Fri May 29 01:56:52 2015] [error] DBD::Pg::st execute failed: called with 2 bind variables when 0 are needed at /opt/justwrite/perl5/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.2/Mojo/Pg/Database.pm line 82.
+
+[Fri May 29 01:56:52 2015] [debug] Template "exception.development.html.ep" not found
+[Fri May 29 01:56:52 2015] [debug] Template "exception.html.ep" not found
+[Fri May 29 01:56:52 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:56:52 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:56:52 2015] [debug] 500 Internal Server Error (0.024349s, 41.069/s)
+[Fri May 29 01:56:57 2015] [debug] GET "/p/view/6f407700-5306-4023-b5f3-6cc723bfb55b"
+[Fri May 29 01:56:57 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:56:57 2015] [debug] Rendering cached template "post/view.html.ep"
+[Fri May 29 01:56:57 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 29 01:56:57 2015] [debug] 200 OK (0.005029s, 198.847/s)
+[Fri May 29 01:56:57 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:56:57 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:56:57 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:56:57 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:56:57 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:56:57 2015] [debug] 404 Not Found (0.006309s, 158.504/s)
+[Fri May 29 01:57:49 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 01:57:49 2015] [debug] GET "/p/view/6f407700-5306-4023-b5f3-6cc723bfb55b"
+[Fri May 29 01:57:49 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:57:49 2015] [debug] Rendering template "post/view.html.ep"
+[Fri May 29 01:57:49 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:57:49 2015] [debug] 200 OK (0.040609s, 24.625/s)
+[Fri May 29 01:57:49 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:57:49 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:57:49 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:57:49 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:57:49 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:57:49 2015] [debug] 404 Not Found (0.023449s, 42.646/s)
+[Fri May 29 01:58:10 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 01:58:10 2015] [debug] GET "/p/view/6f407700-5306-4023-b5f3-6cc723bfb55b"
+[Fri May 29 01:58:10 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 01:58:10 2015] [debug] Rendering template "post/view.html.ep"
+[Fri May 29 01:58:10 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 01:58:10 2015] [debug] 200 OK (0.039216s, 25.500/s)
+[Fri May 29 01:58:10 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 01:58:10 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 01:58:10 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 01:58:10 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:58:10 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:58:10 2015] [debug] 404 Not Found (0.022778s, 43.902/s)
+[Fri May 29 01:58:20 2015] [debug] POST "/p/edit"
+[Fri May 29 01:58:20 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "edit"
+[Fri May 29 01:58:20 2015] [error] DBD::Pg::st execute failed: called with 2 bind variables when 0 are needed at /opt/justwrite/perl5/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.2/Mojo/Pg/Database.pm line 82.
+
+[Fri May 29 01:58:20 2015] [debug] Template "exception.development.html.ep" not found
+[Fri May 29 01:58:20 2015] [debug] Template "exception.html.ep" not found
+[Fri May 29 01:58:20 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 01:58:20 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 01:58:20 2015] [debug] 500 Internal Server Error (0.023842s, 41.943/s)
+[Fri May 29 02:00:27 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 02:00:27 2015] [debug] GET "/p/view/6f407700-5306-4023-b5f3-6cc723bfb55b"
+[Fri May 29 02:00:27 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 02:00:27 2015] [debug] Rendering template "post/view.html.ep"
+[Fri May 29 02:00:27 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 02:00:27 2015] [debug] 200 OK (0.039204s, 25.508/s)
+[Fri May 29 02:00:28 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 02:00:28 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 02:00:28 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 02:00:28 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 02:00:28 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 02:00:28 2015] [debug] 404 Not Found (0.022839s, 43.785/s)
+[Fri May 29 02:00:41 2015] [debug] POST "/p/edit"
+[Fri May 29 02:00:41 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "edit"
+[Fri May 29 02:00:41 2015] [debug] 200 OK (0.006565s, 152.323/s)
+[Fri May 29 02:00:54 2015] [debug] GET "/p/view/6f407700-5306-4023-b5f3-6cc723bfb55b"
+[Fri May 29 02:00:54 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 02:00:54 2015] [debug] Rendering cached template "post/view.html.ep"
+[Fri May 29 02:00:54 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 29 02:00:54 2015] [debug] 200 OK (0.004856s, 205.931/s)
+[Fri May 29 02:00:54 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 02:00:54 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 02:00:54 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 02:00:54 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 02:00:54 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 02:00:54 2015] [debug] 404 Not Found (0.006238s, 160.308/s)
+[Fri May 29 02:01:29 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 02:01:29 2015] [debug] GET "/p/view/6f407700-5306-4023-b5f3-6cc723bfb55b"
+[Fri May 29 02:01:29 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 02:01:29 2015] [debug] Rendering template "post/view.html.ep"
+[Fri May 29 02:01:29 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 02:01:29 2015] [debug] 200 OK (0.039275s, 25.461/s)
+[Fri May 29 02:01:30 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 02:01:30 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 02:01:30 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 02:01:30 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 02:01:30 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 02:01:30 2015] [debug] 404 Not Found (0.022962s, 43.550/s)
+[Fri May 29 02:01:39 2015] [debug] POST "/p/edit"
+[Fri May 29 02:01:39 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "edit"
+[Fri May 29 02:01:39 2015] [debug] 200 OK (0.004857s, 205.888/s)
+[Fri May 29 02:02:32 2015] [debug] GET "/logout"
+[Fri May 29 02:02:32 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "logout"
+[Fri May 29 02:02:32 2015] [debug] 302 Found (0.001744s, 573.394/s)
+[Fri May 29 02:02:32 2015] [debug] GET "/index"
+[Fri May 29 02:02:32 2015] [debug] Rendering template "index.html.ep"
+[Fri May 29 02:02:32 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 02:02:32 2015] [debug] 200 OK (0.007969s, 125.486/s)
+[Fri May 29 02:02:40 2015] [debug] GET "/p/view/6f407700-5306-4023-b5f3-6cc723bfb55b"
+[Fri May 29 02:02:40 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 02:02:40 2015] [debug] Rendering cached template "post/view.html.ep"
+[Fri May 29 02:02:40 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 29 02:02:40 2015] [debug] 200 OK (0.004976s, 200.965/s)
+[Fri May 29 02:02:41 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 02:02:41 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 02:02:41 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 02:02:41 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 02:02:41 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 02:02:41 2015] [debug] 404 Not Found (0.006243s, 160.179/s)
+[Fri May 29 02:03:20 2015] [debug] GET "/p/edit/6f407700-5306-4023-b5f3-6cc723bfb55b"
+[Fri May 29 02:03:20 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 02:03:20 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 02:03:20 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 02:03:20 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 02:03:20 2015] [debug] 404 Not Found (0.006383s, 156.666/s)
+[Fri May 29 02:04:41 2015] [debug] POST "/p/edit"
+[Fri May 29 02:04:41 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "edit"
+[Fri May 29 02:04:41 2015] [debug] Template "post/edit.html.ep" not found
+[Fri May 29 02:04:41 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 02:04:41 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 02:04:41 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 02:04:41 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 02:04:41 2015] [debug] 404 Not Found (0.022920s, 43.630/s)
+[Fri May 29 02:05:26 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 29 02:05:26 2015] [debug] POST "/p/edit"
+[Fri May 29 02:05:26 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "edit"
+[Fri May 29 02:05:26 2015] [debug] 200 OK (0.024849s, 40.243/s)
+[Fri May 29 02:05:34 2015] [debug] GET "/p/view/6f407700-5306-4023-b5f3-6cc723bfb55b"
+[Fri May 29 02:05:34 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 02:05:34 2015] [debug] Rendering template "post/view.html.ep"
+[Fri May 29 02:05:34 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 02:05:34 2015] [debug] 200 OK (0.016444s, 60.812/s)
+[Fri May 29 02:05:34 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Fri May 29 02:05:34 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 02:05:34 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 02:05:34 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 02:05:34 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 02:05:34 2015] [debug] 404 Not Found (0.023365s, 42.799/s)
+[Fri May 29 02:12:18 2015] [debug] GET "/p/create"
+[Fri May 29 02:12:18 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 29 02:12:18 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 29 02:12:18 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 02:12:18 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 02:12:19 2015] [debug] 404 Not Found (0.006584s, 151.883/s)
+[Fri May 29 02:14:21 2015] [debug] GET "/p/view/register.html"
+[Fri May 29 02:14:21 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Fri May 29 02:14:21 2015] [error] DBD::Pg::st execute failed: ERROR:  invalid input syntax for uuid: "register" at /opt/justwrite/perl5/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.2/Mojo/Pg/Database.pm line 82.
+
+[Fri May 29 02:14:21 2015] [debug] Template "exception.development.html.ep" not found
+[Fri May 29 02:14:21 2015] [debug] Template "exception.html.ep" not found
+[Fri May 29 02:14:21 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 29 02:14:21 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 29 02:14:21 2015] [debug] 500 Internal Server Error (0.024201s, 41.321/s)
+[Fri May 29 02:14:25 2015] [debug] GET "/register"
+[Fri May 29 02:14:25 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "register"
+[Fri May 29 02:14:25 2015] [debug] Rendering template "user/register.html.ep"
+[Fri May 29 02:14:25 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 02:14:25 2015] [debug] 200 OK (0.013903s, 71.927/s)
+[Fri May 29 02:14:31 2015] [debug] POST "/login"
+[Fri May 29 02:14:31 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "login"
+[Fri May 29 02:14:31 2015] [debug] 302 Found (0.008654s, 115.554/s)
+[Fri May 29 02:14:31 2015] [debug] GET "/index"
+[Fri May 29 02:14:31 2015] [debug] Rendering template "index.html.ep"
+[Fri May 29 02:14:31 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 02:14:31 2015] [debug] 200 OK (0.008227s, 121.551/s)
+[Fri May 29 02:16:21 2015] [debug] GET "/p/list"
+[Fri May 29 02:16:21 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Fri May 29 02:16:21 2015] [debug] Rendering template "post/list.html.ep"
+[Fri May 29 02:16:21 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 29 02:16:21 2015] [debug] 200 OK (0.009416s, 106.202/s)
