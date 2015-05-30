@@ -156,6 +156,8 @@
     <script type="text/javascript" src="/js/zen-form.js"></script>
     <script type="text/javascript" src="/js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script type="text/javascript" src="/js/jquery.jeditable.mini.js"></script>
+    <script type="text/javascript" src="/js/to-markdown.js"></script>
+    <script type="text/javascript" src="/js/markdown.js"></script>
     <script type="text/javascript" src="/js/bootstrap-markdown.js"></script>
     <!--[if lt IE 10]><script type="text/javascript" src="js/placeholder.js"></script><![endif]-->
     <script type="text/javascript">
