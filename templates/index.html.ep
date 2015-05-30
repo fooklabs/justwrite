@@ -27,7 +27,7 @@
                  <div class="col-sm-12">
                   <div class="mb-20 mb-md-10">
                     <a href="#" class="go-zen--textarea"><i class="s s--zen">Edit in Zen Mode</i></a>
-                    <textarea name="body" class="fuck input-md form-control graybg zen-mode--textarea" rows="20" placeholder="Text" maxlength="40000000"></textarea>
+                    <textarea name="body" class="fuck input-md form-control graybg zen-mode--textarea" rows="20" placeholder="Text" maxlength="40000000" data-provide="markdown"></textarea>
                   </div>
                  </div>
 

@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="/css/zen-form.css">
     <link rel="stylesheet" href="/css/tag.css">
     <link rel="stylesheet" href="/css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="/css/bootstrap-markdown.min.css">
 
 
   </head>
@@ -155,20 +156,21 @@
     <script type="text/javascript" src="/js/zen-form.js"></script>
     <script type="text/javascript" src="/js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script type="text/javascript" src="/js/jquery.jeditable.mini.js"></script>
+    <script type="text/javascript" src="/js/bootstrap-markdown.js"></script>
     <!--[if lt IE 10]><script type="text/javascript" src="js/placeholder.js"></script><![endif]-->
     <script type="text/javascript">
       $(document).ready(function() {
          /* Bind Jeditable instances to "edit" event. */
-$(".edit_area").editable("http://198.23.74.165:3000/p/edit", {
-    type      : 'textarea',
-         cancel    : 'Cancel',
-         submit    : 'OK',
-    event     : "edit_area"
-});
-/* Find and trigger "edit" event on correct Jeditable instance. */
-$(".edit_trigger").bind("click", function() {
-    $('.edit_area').trigger("edit_area");
-});
+        $(".edit_area").editable("http://198.23.74.165:3000/p/edit", {
+          type      : 'textarea',
+          cancel    : 'Cancel',
+          submit    : 'OK',
+          event     : "edit_area"
+        });
+        /* Find and trigger "edit" event on correct Jeditable instance. */
+        $(".edit_trigger").bind("click", function() {
+          $('.edit_area').trigger("edit_area");
+        });
       });
       $( "#tagBox" ).tagging();
       $('.zen-mode--textarea').zenForm({ trigger: '.go-zen--textarea' });
