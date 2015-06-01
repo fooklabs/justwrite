@@ -18,13 +18,13 @@
 
       <div class="col-sm-12">
         <div class="mb-20 mb-md-10">
-          <textarea name="body" rows="15" class="input-md form-control greybg" placeholder="Text" data-provide="markdown" data-iconlibrary="fa" data-hidden-buttons="cmdImage,cmdUrl"></textarea>
+          <textarea id="body" name="body" rows="15" class="input-md form-control greybg" placeholder="Text" data-provide="markdown" data-iconlibrary="fa" data-hidden-buttons="cmdImage,cmdUrl"></textarea>
         </div>
       </div>
 
       <div class="col-sm-8 col-sm-offset-2">
         <div class="mb-20 mb-md-10">
-          <input type="text" id="tags" class="input-md form-control" placeholder="Enter up to 5 tags..." />
+          <input type="text" id="topics" name="topics" class="input-md form-control" placeholder="Enter up to 5 topics..." />
         </div>
       </div>
 
@@ -52,12 +52,48 @@
   <script src="js/textext.plugin.ajax.js" type="text/javascript" charset="utf-8"></script>
 
   <script type="text/javascript">
-    $('#tags').textext({
+    $("#body").markdown({
+      additionalButtons: [
+        [{
+          name: "groupCustom",
+          data: [{
+            name: "cmdTheme",
+            toggle: true, // this param only take effect if you load bootstrap.js
+            title: 'Theme',
+            btnText: 'Theme',
+            btnClass: 'btn btn-mod btn-gray btn-round',
+            callback: function(e){
+              // Replace selection with some drinks
+              var chunk, cursor,
+                  selected = e.getSelection(), content = e.getContent(),
+                  drinks = ["Heinekken", "Budweiser",
+                            "Iron City", "Amstel Light",
+                            "Red Stripe", "Smithwicks",
+                            "Westvleteren", "Sierra Nevada",
+                            "Guinness", "Corona", "Calsberg"],
+                  index = Math.floor((Math.random()*10)+1)
+
+
+              // Give random drink
+              chunk = drinks[index]
+
+              // transform selection and set the cursor into chunked text
+              e.replaceSelection(chunk)
+              cursor = selected.start
+
+              // Set the cursor
+              e.setSelection(cursor,cursor+chunk.length)
+            }
+          }]
+    }]
+  ]
+})
+    $('#topics').textext({
       plugins : 'autocomplete tags prompt clear',
     }).bind('isTagAllowed', function(e, data){
       var formData = $(e.target).textext()[0].tags()._formData,
       list = eval(formData);
-      
+
       data.tag = data.tag.toLowerCase();
       if (!data.tag.match(/^[a-z][a-z\-]+[a-z]$/)) {
         data.result = false;
@@ -67,7 +103,6 @@
       }
       if (formData.length >= 5) {
         data.result = false;
-        //$('#tags').prop("disabled", true);
       }
       if (formData.length && list.indexOf(data.tag) >= 0) {
         data.result = false;

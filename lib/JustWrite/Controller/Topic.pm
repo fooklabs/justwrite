@@ -6,15 +6,14 @@ sub view {
   my $c = shift;
   my $db = $c->pg->db;
 
-  $c->session(login => $login);
-  $c->redirect_to('index');
+  $c->render('topic/view');
 }
 
 sub list {
   my $c = shift;
   my $db = $c->pg->db;
 
-  
+
 }
 
 sub edit {

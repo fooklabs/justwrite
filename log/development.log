@@ -35143,3 +35143,1786 @@ LINE 1: insert into subject (name) values ($1) returning subject_id
 [Sun May 31 18:45:26 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
 [Sun May 31 18:45:26 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
 [Sun May 31 18:45:26 2015] [debug] 500 Internal Server Error (0.030312s, 32.990/s)
+[Sun May 31 23:27:17 2015] [debug] Your secret passphrase needs to be changed
+[Sun May 31 23:27:17 2015] [debug] GET "/register"
+[Sun May 31 23:27:17 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "register"
+[Sun May 31 23:27:17 2015] [error] DBI connect('','',...) failed: FATAL:  role "damaya" does not exist at /home/damaya/perl5/perlbrew/perls/perl-5.20.1/lib/site_perl/5.20.1/Mojo/Pg.pm line 83.
+
+[Sun May 31 23:27:17 2015] [debug] Template "exception.development.html.ep" not found
+[Sun May 31 23:27:17 2015] [debug] Template "exception.html.ep" not found
+[Sun May 31 23:27:17 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun May 31 23:27:17 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun May 31 23:27:17 2015] [debug] 500 Internal Server Error (0.042109s, 23.748/s)
+[Sun May 31 23:28:53 2015] [debug] Your secret passphrase needs to be changed
+[Sun May 31 23:28:53 2015] [debug] GET "/register"
+[Sun May 31 23:28:53 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "register"
+[Sun May 31 23:28:53 2015] [error] DBI connect('','',...) failed: FATAL:  role "damaya" does not exist at /home/damaya/perl5/perlbrew/perls/perl-5.20.1/lib/site_perl/5.20.1/Mojo/Pg.pm line 83.
+
+[Sun May 31 23:28:53 2015] [debug] Template "exception.development.html.ep" not found
+[Sun May 31 23:28:53 2015] [debug] Template "exception.html.ep" not found
+[Sun May 31 23:28:53 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun May 31 23:28:53 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun May 31 23:28:53 2015] [debug] 500 Internal Server Error (0.038761s, 25.799/s)
+[Sun May 31 23:30:45 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Sun May 31 23:30:46 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Sun May 31 23:31:09 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Sun May 31 23:31:12 2015] [debug] GET "/register"
+[Sun May 31 23:31:12 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "register"
+[Sun May 31 23:31:12 2015] [debug] Rendering template "user/register.html.ep"
+[Sun May 31 23:31:12 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun May 31 23:31:12 2015] [debug] 200 OK (0.153923s, 6.497/s)
+[Sun May 31 23:31:40 2015] [debug] POST "/register"
+[Sun May 31 23:31:40 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "register"
+[Sun May 31 23:31:40 2015] [error] DBD::Pg::st execute failed: ERROR:  permission denied for relation user at /home/damaya/perl5/perlbrew/perls/perl-5.20.1/lib/site_perl/5.20.1/Mojo/Pg/Database.pm line 82.
+
+[Sun May 31 23:31:40 2015] [debug] Template "exception.development.html.ep" not found
+[Sun May 31 23:31:40 2015] [debug] Template "exception.html.ep" not found
+[Sun May 31 23:31:40 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun May 31 23:31:40 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun May 31 23:31:40 2015] [debug] 500 Internal Server Error (0.136979s, 7.300/s)
+[Sun May 31 23:32:31 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Sun May 31 23:32:33 2015] [debug] POST "/register"
+[Sun May 31 23:32:33 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "register"
+[Sun May 31 23:32:33 2015] [debug] 302 Found (0.057906s, 17.269/s)
+[Sun May 31 23:32:34 2015] [debug] GET "/index"
+[Sun May 31 23:32:34 2015] [debug] Rendering template "index.html.ep"
+[Sun May 31 23:32:34 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun May 31 23:32:34 2015] [debug] 200 OK (0.014313s, 69.867/s)
+[Sun May 31 23:33:22 2015] [debug] POST "/p/create"
+[Sun May 31 23:33:22 2015] [error] Global symbol "$topics" requires explicit package name at lib/JustWrite/Controller/Post.pm line 25.
+Global symbol "$topics" requires explicit package name at lib/JustWrite/Controller/Post.pm line 25.
+Global symbol "$db" requires explicit package name at lib/JustWrite/Controller/Post.pm line 27.
+Global symbol "$db" requires explicit package name at lib/JustWrite/Controller/Post.pm line 28.
+Global symbol "$pid" requires explicit package name at lib/JustWrite/Controller/Post.pm line 28.
+Global symbol "$topics" requires explicit package name at lib/JustWrite/Controller/Post.pm line 29.
+Global symbol "$c" requires explicit package name at lib/JustWrite/Controller/Post.pm line 31.
+Unmatched right curly bracket at lib/JustWrite/Controller/Post.pm line 32, at end of line
+syntax error at lib/JustWrite/Controller/Post.pm line 32, near "}"
+Global symbol "$c" requires explicit package name at lib/JustWrite/Controller/Post.pm line 36.
+syntax error at lib/JustWrite/Controller/Post.pm line 48, near "}"
+lib/JustWrite/Controller/Post.pm has too many errors.
+Compilation failed in require at (eval 294) line 1.
+
+[Sun May 31 23:33:22 2015] [debug] Template "exception.development.html.ep" not found
+[Sun May 31 23:33:22 2015] [debug] Template "exception.html.ep" not found
+[Sun May 31 23:33:22 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun May 31 23:33:22 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun May 31 23:33:22 2015] [debug] 500 Internal Server Error (0.071452s, 13.995/s)
+[Sun May 31 23:34:25 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Sun May 31 23:34:30 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Sun May 31 23:34:31 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Sun May 31 23:34:42 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Sun May 31 23:34:48 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Sun May 31 23:34:51 2015] [debug] POST "/p/create"
+[Sun May 31 23:34:51 2015] [error] Global symbol "$topics" requires explicit package name at lib/JustWrite/Controller/Post.pm line 25.
+Global symbol "$topics" requires explicit package name at lib/JustWrite/Controller/Post.pm line 25.
+Global symbol "$db" requires explicit package name at lib/JustWrite/Controller/Post.pm line 27.
+Global symbol "$db" requires explicit package name at lib/JustWrite/Controller/Post.pm line 28.
+Global symbol "$pid" requires explicit package name at lib/JustWrite/Controller/Post.pm line 28.
+Global symbol "$topics" requires explicit package name at lib/JustWrite/Controller/Post.pm line 29.
+Global symbol "$c" requires explicit package name at lib/JustWrite/Controller/Post.pm line 31.
+Unmatched right curly bracket at lib/JustWrite/Controller/Post.pm line 32, at end of line
+syntax error at lib/JustWrite/Controller/Post.pm line 32, near "}"
+Global symbol "$c" requires explicit package name at lib/JustWrite/Controller/Post.pm line 36.
+syntax error at lib/JustWrite/Controller/Post.pm line 48, near "}"
+lib/JustWrite/Controller/Post.pm has too many errors.
+Compilation failed in require at (eval 290) line 1.
+
+[Sun May 31 23:34:51 2015] [debug] Template "exception.development.html.ep" not found
+[Sun May 31 23:34:51 2015] [debug] Template "exception.html.ep" not found
+[Sun May 31 23:34:51 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun May 31 23:34:51 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun May 31 23:34:51 2015] [debug] Cookie "mojolicious" has a bad signature
+[Sun May 31 23:34:51 2015] [debug] Cookie "mojolicious" has a bad signature
+[Sun May 31 23:34:51 2015] [debug] 500 Internal Server Error (0.030844s, 32.421/s)
+[Sun May 31 23:35:01 2015] [debug] GET "/index"
+[Sun May 31 23:35:01 2015] [debug] Rendering template "index.html.ep"
+[Sun May 31 23:35:01 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun May 31 23:35:01 2015] [debug] Cookie "mojolicious" has a bad signature
+[Sun May 31 23:35:01 2015] [debug] 200 OK (0.009580s, 104.384/s)
+[Sun May 31 23:35:38 2015] [debug] POST "/p/create"
+[Sun May 31 23:35:38 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Sun May 31 23:35:38 2015] [debug] Cookie "mojolicious" has a bad signature
+[Sun May 31 23:35:38 2015] [debug] Template "post/create.html.ep" not found
+[Sun May 31 23:35:38 2015] [debug] Nothing has been rendered, expecting delayed response
+[Sun May 31 23:35:53 2015] [debug] Inactivity timeout
+[Sun May 31 23:35:53 2015] [debug] POST "/p/create"
+[Sun May 31 23:35:53 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Sun May 31 23:35:53 2015] [debug] Cookie "mojolicious" has a bad signature
+[Sun May 31 23:35:53 2015] [debug] Template "post/create.html.ep" not found
+[Sun May 31 23:35:53 2015] [debug] Nothing has been rendered, expecting delayed response
+[Sun May 31 23:36:08 2015] [debug] Inactivity timeout
+[Sun May 31 23:36:16 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Sun May 31 23:36:22 2015] [debug] GET "/index"
+[Sun May 31 23:36:22 2015] [debug] Rendering template "index.html.ep"
+[Sun May 31 23:36:22 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun May 31 23:36:22 2015] [debug] Cookie "mojolicious" has a bad signature
+[Sun May 31 23:36:22 2015] [debug] 200 OK (0.015216s, 65.720/s)
+[Sun May 31 23:36:36 2015] [debug] POST "/p/create"
+[Sun May 31 23:36:36 2015] [error] Global symbol "$topics" requires explicit package name at lib/JustWrite/Controller/Post.pm line 25.
+Global symbol "$topics" requires explicit package name at lib/JustWrite/Controller/Post.pm line 25.
+Global symbol "$db" requires explicit package name at lib/JustWrite/Controller/Post.pm line 27.
+Global symbol "$db" requires explicit package name at lib/JustWrite/Controller/Post.pm line 28.
+Global symbol "$pid" requires explicit package name at lib/JustWrite/Controller/Post.pm line 28.
+Global symbol "$topics" requires explicit package name at lib/JustWrite/Controller/Post.pm line 29.
+Global symbol "$c" requires explicit package name at lib/JustWrite/Controller/Post.pm line 31.
+Unmatched right curly bracket at lib/JustWrite/Controller/Post.pm line 32, at end of line
+syntax error at lib/JustWrite/Controller/Post.pm line 32, near "}"
+Global symbol "$c" requires explicit package name at lib/JustWrite/Controller/Post.pm line 36.
+syntax error at lib/JustWrite/Controller/Post.pm line 48, near "}"
+lib/JustWrite/Controller/Post.pm has too many errors.
+Compilation failed in require at (eval 292) line 1.
+
+[Sun May 31 23:36:36 2015] [debug] Template "exception.development.html.ep" not found
+[Sun May 31 23:36:36 2015] [debug] Template "exception.html.ep" not found
+[Sun May 31 23:36:36 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun May 31 23:36:36 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun May 31 23:36:36 2015] [debug] Cookie "mojolicious" has a bad signature
+[Sun May 31 23:36:36 2015] [debug] Cookie "mojolicious" has a bad signature
+[Sun May 31 23:36:36 2015] [debug] 500 Internal Server Error (0.036204s, 27.621/s)
+[Sun May 31 23:37:04 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Sun May 31 23:37:06 2015] [debug] GET "/index"
+[Sun May 31 23:37:06 2015] [debug] Rendering template "index.html.ep"
+[Sun May 31 23:37:06 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun May 31 23:37:06 2015] [debug] Cookie "mojolicious" has a bad signature
+[Sun May 31 23:37:06 2015] [debug] 200 OK (0.011523s, 86.783/s)
+[Sun May 31 23:37:31 2015] [debug] POST "/p/create"
+[Sun May 31 23:37:31 2015] [error] Global symbol "$topics" requires explicit package name at lib/JustWrite/Controller/Post.pm line 25.
+Global symbol "$topics" requires explicit package name at lib/JustWrite/Controller/Post.pm line 25.
+Global symbol "$db" requires explicit package name at lib/JustWrite/Controller/Post.pm line 27.
+Global symbol "$db" requires explicit package name at lib/JustWrite/Controller/Post.pm line 28.
+Global symbol "$pid" requires explicit package name at lib/JustWrite/Controller/Post.pm line 28.
+Global symbol "$topics" requires explicit package name at lib/JustWrite/Controller/Post.pm line 29.
+Global symbol "$c" requires explicit package name at lib/JustWrite/Controller/Post.pm line 31.
+Unmatched right curly bracket at lib/JustWrite/Controller/Post.pm line 32, at end of line
+syntax error at lib/JustWrite/Controller/Post.pm line 32, near "}"
+Global symbol "$c" requires explicit package name at lib/JustWrite/Controller/Post.pm line 36.
+syntax error at lib/JustWrite/Controller/Post.pm line 48, near "}"
+lib/JustWrite/Controller/Post.pm has too many errors.
+Compilation failed in require at (eval 292) line 1.
+
+[Sun May 31 23:37:31 2015] [debug] Template "exception.development.html.ep" not found
+[Sun May 31 23:37:31 2015] [debug] Template "exception.html.ep" not found
+[Sun May 31 23:37:31 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun May 31 23:37:31 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun May 31 23:37:31 2015] [debug] Cookie "mojolicious" has a bad signature
+[Sun May 31 23:37:31 2015] [debug] Cookie "mojolicious" has a bad signature
+[Sun May 31 23:37:31 2015] [debug] 500 Internal Server Error (0.030562s, 32.720/s)
+[Sun May 31 23:39:03 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Sun May 31 23:39:10 2015] [debug] GET "/index"
+[Sun May 31 23:39:10 2015] [debug] Rendering template "index.html.ep"
+[Sun May 31 23:39:10 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun May 31 23:39:10 2015] [debug] Cookie "mojolicious" has a bad signature
+[Sun May 31 23:39:10 2015] [debug] 200 OK (0.018572s, 53.844/s)
+[Sun May 31 23:39:22 2015] [debug] POST "/p/create"
+[Sun May 31 23:39:22 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Sun May 31 23:39:22 2015] [debug] Cookie "mojolicious" has a bad signature
+[Sun May 31 23:39:22 2015] [error] Undefined subroutine &JustWrite::Controller::Post::from_json called at /home/damaya/perl5/perlbrew/perls/perl-5.20.1/lib/site_perl/5.20.1/Mojolicious.pm line 120.
+
+[Sun May 31 23:39:22 2015] [debug] Template "exception.development.html.ep" not found
+[Sun May 31 23:39:22 2015] [debug] Template "exception.html.ep" not found
+[Sun May 31 23:39:22 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun May 31 23:39:22 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun May 31 23:39:22 2015] [debug] Cookie "mojolicious" has a bad signature
+[Sun May 31 23:39:22 2015] [debug] Cookie "mojolicious" has a bad signature
+[Sun May 31 23:39:22 2015] [debug] 500 Internal Server Error (0.078370s, 12.760/s)
+[Sun May 31 23:39:41 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Sun May 31 23:39:42 2015] [debug] POST "/p/create"
+[Sun May 31 23:39:42 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Sun May 31 23:39:42 2015] [debug] Cookie "mojolicious" has a bad signature
+[Sun May 31 23:39:42 2015] [error] Missing or empty input at lib/JustWrite/Controller/Post.pm line 24.
+
+[Sun May 31 23:39:42 2015] [debug] Template "exception.development.html.ep" not found
+[Sun May 31 23:39:42 2015] [debug] Template "exception.html.ep" not found
+[Sun May 31 23:39:42 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun May 31 23:39:42 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun May 31 23:39:42 2015] [debug] Cookie "mojolicious" has a bad signature
+[Sun May 31 23:39:42 2015] [debug] Cookie "mojolicious" has a bad signature
+[Sun May 31 23:39:42 2015] [debug] 500 Internal Server Error (0.074837s, 13.362/s)
+[Sun May 31 23:40:59 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Sun May 31 23:41:30 2015] [debug] GET "/index"
+[Sun May 31 23:41:30 2015] [debug] Rendering template "index.html.ep"
+[Sun May 31 23:41:30 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun May 31 23:41:30 2015] [debug] Cookie "mojolicious" has a bad signature
+[Sun May 31 23:41:30 2015] [debug] 200 OK (0.020945s, 47.744/s)
+[Sun May 31 23:41:51 2015] [debug] POST "/p/create"
+[Sun May 31 23:41:51 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Sun May 31 23:41:51 2015] [debug] Cookie "mojolicious" has a bad signature
+[Sun May 31 23:41:51 2015] [error] Missing or empty input at lib/JustWrite/Controller/Post.pm line 24.
+
+[Sun May 31 23:41:51 2015] [debug] Template "exception.development.html.ep" not found
+[Sun May 31 23:41:51 2015] [debug] Template "exception.html.ep" not found
+[Sun May 31 23:41:51 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun May 31 23:41:51 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun May 31 23:41:51 2015] [debug] Cookie "mojolicious" has a bad signature
+[Sun May 31 23:41:51 2015] [debug] Cookie "mojolicious" has a bad signature
+[Sun May 31 23:41:51 2015] [debug] 500 Internal Server Error (0.070669s, 14.150/s)
+[Sun May 31 23:43:42 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Sun May 31 23:43:47 2015] [debug] GET "/index"
+[Sun May 31 23:43:47 2015] [debug] Rendering template "index.html.ep"
+[Sun May 31 23:43:47 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun May 31 23:43:47 2015] [debug] Cookie "mojolicious" has a bad signature
+[Sun May 31 23:43:47 2015] [debug] 200 OK (0.016541s, 60.456/s)
+[Sun May 31 23:44:06 2015] [debug] POST "/p/create"
+[Sun May 31 23:44:06 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Sun May 31 23:44:06 2015] [debug] Cookie "mojolicious" has a bad signature
+[Sun May 31 23:44:06 2015] [error] Missing or empty input at lib/JustWrite/Controller/Post.pm line 24.
+
+[Sun May 31 23:44:06 2015] [debug] Template "exception.development.html.ep" not found
+[Sun May 31 23:44:06 2015] [debug] Template "exception.html.ep" not found
+[Sun May 31 23:44:06 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun May 31 23:44:06 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun May 31 23:44:06 2015] [debug] Cookie "mojolicious" has a bad signature
+[Sun May 31 23:44:06 2015] [debug] Cookie "mojolicious" has a bad signature
+[Sun May 31 23:44:06 2015] [debug] 500 Internal Server Error (0.073304s, 13.642/s)
+[Sun May 31 23:44:43 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Sun May 31 23:44:47 2015] [debug] GET "/index"
+[Sun May 31 23:44:47 2015] [debug] Rendering template "index.html.ep"
+[Sun May 31 23:44:47 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun May 31 23:44:47 2015] [debug] Cookie "mojolicious" has a bad signature
+[Sun May 31 23:44:47 2015] [debug] 200 OK (0.016311s, 61.308/s)
+[Sun May 31 23:45:27 2015] [debug] POST "/p/create"
+[Sun May 31 23:45:27 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Sun May 31 23:45:27 2015] [debug] Cookie "mojolicious" has a bad signature
+[Sun May 31 23:45:27 2015] [debug] 200 OK (0.075917s, 13.172/s)
+[Mon Jun  1 00:08:56 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:09:07 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:09:27 2015] [debug] GET "/p/list"
+[Mon Jun  1 00:09:27 2015] [error] Global symbol "$validation" requires explicit package name at lib/JustWrite/Controller/Post.pm line 17.
+Global symbol "$validation" requires explicit package name at lib/JustWrite/Controller/Post.pm line 18.
+Global symbol "$validation" requires explicit package name at lib/JustWrite/Controller/Post.pm line 19.
+Global symbol "$validation" requires explicit package name at lib/JustWrite/Controller/Post.pm line 20.
+Compilation failed in require at (eval 290) line 1.
+
+[Mon Jun  1 00:09:27 2015] [debug] Template "exception.development.html.ep" not found
+[Mon Jun  1 00:09:27 2015] [debug] Template "exception.html.ep" not found
+[Mon Jun  1 00:09:27 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 00:09:27 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 00:09:27 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:09:27 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:09:27 2015] [debug] 500 Internal Server Error (0.032946s, 30.353/s)
+[Mon Jun  1 00:09:36 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:09:38 2015] [debug] GET "/p/list"
+[Mon Jun  1 00:09:38 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Mon Jun  1 00:09:38 2015] [debug] Rendering template "post/list.html.ep"
+[Mon Jun  1 00:09:38 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 00:09:38 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:09:38 2015] [debug] 200 OK (0.027164s, 36.813/s)
+[Mon Jun  1 00:09:44 2015] [debug] GET "/p/view/7"
+[Mon Jun  1 00:09:44 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 00:09:44 2015] [error] DBD::Pg::st execute failed: ERROR:  relation "post_tag" does not exist
+LINE 1: select * from post a join post_tag b on a.post_id=b.post_id ...
+                                  ^ at /home/damaya/perl5/perlbrew/perls/perl-5.20.1/lib/site_perl/5.20.1/Mojo/Pg/Database.pm line 82.
+
+[Mon Jun  1 00:09:44 2015] [debug] Template "exception.development.html.ep" not found
+[Mon Jun  1 00:09:44 2015] [debug] Template "exception.html.ep" not found
+[Mon Jun  1 00:09:44 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 00:09:44 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 00:09:44 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:09:44 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:09:44 2015] [debug] 500 Internal Server Error (0.041007s, 24.386/s)
+[Mon Jun  1 00:11:53 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:12:05 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:12:15 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:12:17 2015] [debug] GET "/p/view/7"
+[Mon Jun  1 00:12:17 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 00:12:17 2015] [error] DBD::Pg::st execute failed: ERROR:  relation "post_topic" does not exist
+LINE 1: select * from post a join post_topic b on a.post_id=b.post_i...
+                                  ^ at /home/damaya/perl5/perlbrew/perls/perl-5.20.1/lib/site_perl/5.20.1/Mojo/Pg/Database.pm line 82.
+
+[Mon Jun  1 00:12:17 2015] [debug] Template "exception.development.html.ep" not found
+[Mon Jun  1 00:12:17 2015] [debug] Template "exception.html.ep" not found
+[Mon Jun  1 00:12:17 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 00:12:17 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 00:12:17 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:12:17 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:12:17 2015] [debug] 500 Internal Server Error (0.051064s, 19.583/s)
+[Mon Jun  1 00:12:31 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:12:34 2015] [debug] GET "/p/view/7"
+[Mon Jun  1 00:12:34 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 00:12:34 2015] [error] DBD::Pg::st execute failed: ERROR:  column b.post_id does not exist
+LINE 1: ...t * from post a join post_to_topic b on a.post_id=b.post_id ...
+                                                             ^ at /home/damaya/perl5/perlbrew/perls/perl-5.20.1/lib/site_perl/5.20.1/Mojo/Pg/Database.pm line 82.
+
+[Mon Jun  1 00:12:34 2015] [debug] Template "exception.development.html.ep" not found
+[Mon Jun  1 00:12:34 2015] [debug] Template "exception.html.ep" not found
+[Mon Jun  1 00:12:34 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 00:12:34 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 00:12:34 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:12:34 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:12:34 2015] [debug] 500 Internal Server Error (0.054830s, 18.238/s)
+[Mon Jun  1 00:13:18 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:13:19 2015] [debug] GET "/p/view/7"
+[Mon Jun  1 00:13:19 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 00:13:19 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 00:13:19 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:13:19 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 00:13:19 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:13:19 2015] [debug] 200 OK (0.036967s, 27.051/s)
+[Mon Jun  1 00:13:20 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 00:13:20 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 00:13:20 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 00:13:20 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 00:13:20 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 00:13:20 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:13:20 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:13:20 2015] [debug] 404 Not Found (0.040148s, 24.908/s)
+[Mon Jun  1 00:13:54 2015] [debug] GET "/p/view/7"
+[Mon Jun  1 00:13:54 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 00:13:54 2015] [debug] Rendering cached template "post/view.html.ep"
+[Mon Jun  1 00:13:54 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:13:54 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun  1 00:13:54 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:13:54 2015] [debug] 200 OK (0.003883s, 257.533/s)
+[Mon Jun  1 00:13:54 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 00:13:54 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 00:13:54 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 00:13:54 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 00:13:54 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 00:13:54 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:13:54 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:13:54 2015] [debug] 404 Not Found (0.012509s, 79.942/s)
+[Mon Jun  1 00:13:58 2015] [debug] GET "/p/view/6"
+[Mon Jun  1 00:13:58 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 00:13:58 2015] [debug] Rendering cached template "post/view.html.ep"
+[Mon Jun  1 00:13:58 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:13:58 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun  1 00:13:58 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:13:58 2015] [debug] 200 OK (0.003333s, 300.030/s)
+[Mon Jun  1 00:13:58 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 00:13:58 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 00:13:58 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 00:13:58 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 00:13:58 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 00:13:58 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:13:58 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:13:58 2015] [debug] 404 Not Found (0.008787s, 113.804/s)
+[Mon Jun  1 00:14:03 2015] [debug] GET "/p/view/4"
+[Mon Jun  1 00:14:03 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 00:14:03 2015] [debug] Rendering cached template "post/view.html.ep"
+[Mon Jun  1 00:14:03 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:14:03 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun  1 00:14:03 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:14:03 2015] [debug] 200 OK (0.002979s, 335.683/s)
+[Mon Jun  1 00:14:03 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 00:14:03 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 00:14:03 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 00:14:03 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 00:14:03 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 00:14:03 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:14:03 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:14:03 2015] [debug] 404 Not Found (0.009254s, 108.061/s)
+[Mon Jun  1 00:16:10 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:16:44 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:16:50 2015] [debug] GET "/p/list"
+[Mon Jun  1 00:16:50 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Mon Jun  1 00:16:50 2015] [debug] Rendering template "post/list.html.ep"
+[Mon Jun  1 00:16:50 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 00:16:50 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:16:50 2015] [debug] 200 OK (0.029450s, 33.956/s)
+[Mon Jun  1 00:16:52 2015] [debug] GET "/p/view/1a57ee00-83ef-4f67-8300-0820ef573a82"
+[Mon Jun  1 00:16:52 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 00:16:52 2015] [error] DBD::Pg::st execute failed: ERROR:  invalid input syntax for integer: "1a57ee00-83ef-4f67-8300-0820ef573a82" at /home/damaya/perl5/perlbrew/perls/perl-5.20.1/lib/site_perl/5.20.1/Mojo/Pg/Database.pm line 82.
+
+[Mon Jun  1 00:16:52 2015] [debug] Template "exception.development.html.ep" not found
+[Mon Jun  1 00:16:52 2015] [debug] Template "exception.html.ep" not found
+[Mon Jun  1 00:16:52 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 00:16:52 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 00:16:52 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:16:52 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:16:52 2015] [debug] 500 Internal Server Error (0.032931s, 30.367/s)
+[Mon Jun  1 00:17:08 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:17:09 2015] [debug] GET "/p/view/1a57ee00-83ef-4f67-8300-0820ef573a82"
+[Mon Jun  1 00:17:09 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 00:17:09 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 00:17:09 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:17:09 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 00:17:09 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:17:09 2015] [debug] 200 OK (0.045920s, 21.777/s)
+[Mon Jun  1 00:17:09 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 00:17:09 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 00:17:09 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 00:17:09 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 00:17:09 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 00:17:09 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:17:09 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:17:09 2015] [debug] 404 Not Found (0.027812s, 35.956/s)
+[Mon Jun  1 00:17:31 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:17:34 2015] [debug] GET "/p/view/1a57ee00-83ef-4f67-8300-0820ef573a82"
+[Mon Jun  1 00:17:34 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 00:17:34 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 00:17:34 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:17:34 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 00:17:34 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:17:34 2015] [debug] 200 OK (0.032680s, 30.600/s)
+[Mon Jun  1 00:17:34 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 00:17:34 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 00:17:34 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 00:17:34 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 00:17:34 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 00:17:34 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:17:34 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:17:34 2015] [debug] 404 Not Found (0.027241s, 36.709/s)
+[Mon Jun  1 00:18:34 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:18:35 2015] [debug] GET "/p/view/1a57ee00-83ef-4f67-8300-0820ef573a82"
+[Mon Jun  1 00:18:35 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 00:18:35 2015] [error] DBD::Pg::st execute failed: called with 1 bind variables when 0 are needed at /home/damaya/perl5/perlbrew/perls/perl-5.20.1/lib/site_perl/5.20.1/Mojo/Pg/Database.pm line 82.
+
+[Mon Jun  1 00:18:35 2015] [debug] Template "exception.development.html.ep" not found
+[Mon Jun  1 00:18:35 2015] [debug] Template "exception.html.ep" not found
+[Mon Jun  1 00:18:35 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 00:18:35 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 00:18:35 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:18:35 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:18:35 2015] [debug] 500 Internal Server Error (0.048762s, 20.508/s)
+[Mon Jun  1 00:18:46 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:18:56 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:19:06 2015] [debug] GET "/p/view/1a57ee00-83ef-4f67-8300-0820ef573a82"
+[Mon Jun  1 00:19:06 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 00:19:06 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 00:19:06 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:19:06 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 00:19:06 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:19:06 2015] [debug] 200 OK (0.039867s, 25.083/s)
+[Mon Jun  1 00:19:06 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 00:19:06 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 00:19:06 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 00:19:06 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 00:19:06 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 00:19:06 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:19:06 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:19:06 2015] [debug] 404 Not Found (0.032022s, 31.229/s)
+[Mon Jun  1 00:19:19 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:19:21 2015] [debug] GET "/p/view/1a57ee00-83ef-4f67-8300-0820ef573a82"
+[Mon Jun  1 00:19:21 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 00:19:21 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 00:19:21 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:19:21 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 00:19:21 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:19:21 2015] [debug] 200 OK (0.032601s, 30.674/s)
+[Mon Jun  1 00:19:21 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 00:19:21 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 00:19:21 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 00:19:21 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 00:19:21 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 00:19:21 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:19:21 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:19:21 2015] [debug] 404 Not Found (0.027981s, 35.739/s)
+[Mon Jun  1 00:19:51 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:19:51 2015] [debug] GET "/p/view/1a57ee00-83ef-4f67-8300-0820ef573a82"
+[Mon Jun  1 00:19:51 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 00:19:51 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 00:19:51 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:19:51 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 00:19:51 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:19:51 2015] [debug] 200 OK (0.045294s, 22.078/s)
+[Mon Jun  1 00:19:51 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 00:19:51 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 00:19:51 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 00:19:51 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 00:19:51 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 00:19:51 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:19:51 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:19:51 2015] [debug] 404 Not Found (0.037789s, 26.463/s)
+[Mon Jun  1 00:20:33 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:20:34 2015] [debug] GET "/p/view/1a57ee00-83ef-4f67-8300-0820ef573a82"
+[Mon Jun  1 00:20:34 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 00:20:34 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 00:20:34 2015] [error] Not an ARRAY reference at template post/view.html.ep line 16.
+11: 
+12:       <div class="col-sm-12 mb-40">
+13: 
+14: 	  <!-- Paragraph -->
+15: 	  <div class="text">
+16:               % if ( $post->[0]->{login} eq session('login') ) {
+17:                 <a href="#" class="edit_trigger">edit</a>
+18:               % }
+19:               <div class="section-title font-alt">
+20:                 <%= $post->[0]->{title} %>
+21:               </div>
+
+[Mon Jun  1 00:20:34 2015] [debug] Template "exception.development.html.ep" not found
+[Mon Jun  1 00:20:34 2015] [debug] Template "exception.html.ep" not found
+[Mon Jun  1 00:20:34 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 00:20:35 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 00:20:35 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:20:35 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:20:35 2015] [debug] 500 Internal Server Error (0.065368s, 15.298/s)
+[Mon Jun  1 00:21:22 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:21:28 2015] [debug] GET "/p/view/1a57ee00-83ef-4f67-8300-0820ef573a82"
+[Mon Jun  1 00:21:28 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 00:21:28 2015] [error] DBD::Pg::st execute failed: ERROR:  syntax error at or near "a"
+LINE 2:      join post_topic b using a.post_id=b.post
+                                     ^ at /home/damaya/perl5/perlbrew/perls/perl-5.20.1/lib/site_perl/5.20.1/Mojo/Pg/Database.pm line 82.
+
+[Mon Jun  1 00:21:28 2015] [debug] Template "exception.development.html.ep" not found
+[Mon Jun  1 00:21:28 2015] [debug] Template "exception.html.ep" not found
+[Mon Jun  1 00:21:28 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 00:21:28 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 00:21:28 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:21:28 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:21:28 2015] [debug] 500 Internal Server Error (0.054773s, 18.257/s)
+[Mon Jun  1 00:21:47 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:21:48 2015] [debug] GET "/p/view/1a57ee00-83ef-4f67-8300-0820ef573a82"
+[Mon Jun  1 00:21:48 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 00:21:48 2015] [error] DBD::Pg::st execute failed: ERROR:  syntax error at or near "a"
+LINE 1: select * from post a join post_topic b using a.post_id=b.pos...
+                                                     ^ at /home/damaya/perl5/perlbrew/perls/perl-5.20.1/lib/site_perl/5.20.1/Mojo/Pg/Database.pm line 82.
+
+[Mon Jun  1 00:21:48 2015] [debug] Template "exception.development.html.ep" not found
+[Mon Jun  1 00:21:48 2015] [debug] Template "exception.html.ep" not found
+[Mon Jun  1 00:21:48 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 00:21:48 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 00:21:48 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:21:48 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:21:48 2015] [debug] 500 Internal Server Error (0.061778s, 16.187/s)
+[Mon Jun  1 00:21:56 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:21:57 2015] [debug] GET "/p/view/1a57ee00-83ef-4f67-8300-0820ef573a82"
+[Mon Jun  1 00:21:57 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 00:21:57 2015] [error] DBD::Pg::st execute failed: ERROR:  relation "post_topic" does not exist
+LINE 1: select * from post a join post_topic b on a.post_id=b.post
+                                  ^ at /home/damaya/perl5/perlbrew/perls/perl-5.20.1/lib/site_perl/5.20.1/Mojo/Pg/Database.pm line 82.
+
+[Mon Jun  1 00:21:57 2015] [debug] Template "exception.development.html.ep" not found
+[Mon Jun  1 00:21:57 2015] [debug] Template "exception.html.ep" not found
+[Mon Jun  1 00:21:57 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 00:21:57 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 00:21:57 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:21:57 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:21:57 2015] [debug] 500 Internal Server Error (0.063605s, 15.722/s)
+[Mon Jun  1 00:22:05 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:22:06 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:22:10 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:22:13 2015] [debug] GET "/p/view/1a57ee00-83ef-4f67-8300-0820ef573a82"
+[Mon Jun  1 00:22:13 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 00:22:13 2015] [error] DBD::Pg::st execute failed: ERROR:  syntax error at or near "a"
+LINE 1: select * from post a join post_topic b using a.post_id=b.pos...
+                                                     ^ at /home/damaya/perl5/perlbrew/perls/perl-5.20.1/lib/site_perl/5.20.1/Mojo/Pg/Database.pm line 82.
+
+[Mon Jun  1 00:22:13 2015] [debug] Template "exception.development.html.ep" not found
+[Mon Jun  1 00:22:13 2015] [debug] Template "exception.html.ep" not found
+[Mon Jun  1 00:22:13 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 00:22:13 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 00:22:13 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:22:13 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:22:13 2015] [debug] 500 Internal Server Error (0.057963s, 17.252/s)
+[Mon Jun  1 00:25:49 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:28:07 2015] [debug] GET "/p/register"
+[Mon Jun  1 00:28:07 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 00:28:07 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 00:28:07 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 00:28:07 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 00:28:07 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:28:07 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:28:07 2015] [debug] 404 Not Found (0.028287s, 35.352/s)
+[Mon Jun  1 00:28:11 2015] [debug] GET "/register"
+[Mon Jun  1 00:28:11 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "register"
+[Mon Jun  1 00:28:11 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:28:11 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:28:11 2015] [debug] Rendering template "user/register.html.ep"
+[Mon Jun  1 00:28:11 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 00:28:11 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:28:11 2015] [debug] 200 OK (0.029971s, 33.366/s)
+[Mon Jun  1 00:28:21 2015] [debug] POST "/register"
+[Mon Jun  1 00:28:21 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "register"
+[Mon Jun  1 00:28:21 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:28:21 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:28:21 2015] [debug] Rendering template "user/register.html.ep"
+[Mon Jun  1 00:28:21 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 00:28:21 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:28:21 2015] [debug] 400 Bad Request (0.015968s, 62.625/s)
+[Mon Jun  1 00:28:31 2015] [debug] POST "/login"
+[Mon Jun  1 00:28:31 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "login"
+[Mon Jun  1 00:28:31 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:28:31 2015] [debug] Rendering template "user/register.html.ep"
+[Mon Jun  1 00:28:31 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 00:28:31 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:28:31 2015] [debug] 200 OK (0.015688s, 63.743/s)
+[Mon Jun  1 00:28:43 2015] [debug] POST "/register"
+[Mon Jun  1 00:28:43 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "register"
+[Mon Jun  1 00:28:43 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:28:43 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:28:43 2015] [error] input must contain only octets at /home/damaya/perl5/perlbrew/perls/perl-5.20.1/lib/site_perl/5.20.1/x86_64-linux/Crypt/Eksblowfish/Bcrypt.pm line 84.
+
+[Mon Jun  1 00:28:43 2015] [debug] Template "exception.development.html.ep" not found
+[Mon Jun  1 00:28:43 2015] [debug] Template "exception.html.ep" not found
+[Mon Jun  1 00:28:43 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 00:28:43 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 00:28:43 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:28:43 2015] [debug] 500 Internal Server Error (0.032572s, 30.701/s)
+[Mon Jun  1 00:29:06 2015] [debug] POST "/register"
+[Mon Jun  1 00:29:06 2015] [debug] Routing to controller "JustWrite::Controller::User" and action "register"
+[Mon Jun  1 00:29:06 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:29:06 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:29:06 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:29:06 2015] [debug] 302 Found (0.032789s, 30.498/s)
+[Mon Jun  1 00:29:06 2015] [debug] GET "/index"
+[Mon Jun  1 00:29:06 2015] [debug] Rendering template "index.html.ep"
+[Mon Jun  1 00:29:06 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 00:29:06 2015] [debug] 200 OK (0.010569s, 94.616/s)
+[Mon Jun  1 00:29:46 2015] [debug] POST "/p/create"
+[Mon Jun  1 00:29:46 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Mon Jun  1 00:29:46 2015] [debug] 200 OK (0.122998s, 8.130/s)
+[Mon Jun  1 00:29:50 2015] [debug] GET "/p/list"
+[Mon Jun  1 00:29:50 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Mon Jun  1 00:29:50 2015] [debug] Rendering template "post/list.html.ep"
+[Mon Jun  1 00:29:50 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 00:29:50 2015] [debug] 200 OK (0.009060s, 110.375/s)
+[Mon Jun  1 00:29:52 2015] [debug] GET "/p/view/46e41bb1-61dc-4cea-94fd-6d8019494735"
+[Mon Jun  1 00:29:52 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 00:29:52 2015] [error] DBD::Pg::st execute failed: ERROR:  syntax error at or near "a"
+LINE 1: select * from post a join post_topic b using a.post_id=b.pos...
+                                                     ^ at /home/damaya/perl5/perlbrew/perls/perl-5.20.1/lib/site_perl/5.20.1/Mojo/Pg/Database.pm line 82.
+
+[Mon Jun  1 00:29:52 2015] [debug] Template "exception.development.html.ep" not found
+[Mon Jun  1 00:29:52 2015] [debug] Template "exception.html.ep" not found
+[Mon Jun  1 00:29:52 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 00:29:52 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 00:29:52 2015] [debug] 500 Internal Server Error (0.026531s, 37.692/s)
+[Mon Jun  1 00:30:09 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:30:10 2015] [debug] GET "/p/view/46e41bb1-61dc-4cea-94fd-6d8019494735"
+[Mon Jun  1 00:30:10 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 00:30:10 2015] [error] DBD::Pg::st execute failed: ERROR:  syntax error at or near "a"
+LINE 1: select * from post a join post_to_topic b using a.post_id=b....
+                                                        ^ at /home/damaya/perl5/perlbrew/perls/perl-5.20.1/lib/site_perl/5.20.1/Mojo/Pg/Database.pm line 82.
+
+[Mon Jun  1 00:30:10 2015] [debug] Template "exception.development.html.ep" not found
+[Mon Jun  1 00:30:10 2015] [debug] Template "exception.html.ep" not found
+[Mon Jun  1 00:30:10 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 00:30:10 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 00:30:10 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:30:10 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:30:10 2015] [debug] 500 Internal Server Error (0.053688s, 18.626/s)
+[Mon Jun  1 00:30:57 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:30:58 2015] [debug] GET "/p/view/46e41bb1-61dc-4cea-94fd-6d8019494735"
+[Mon Jun  1 00:30:58 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 00:30:58 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 00:30:58 2015] [error] Can't use string ("1") as a HASH ref while "strict refs" in use at template post/view.html.ep line 16.
+11: 
+12:       <div class="col-sm-12 mb-40">
+13: 
+14: 	  <!-- Paragraph -->
+15: 	  <div class="text">
+16:               % if ( $post->[0]->{login} eq session('login') ) {
+17:                 <a href="#" class="edit_trigger">edit</a>
+18:               % }
+19:               <div class="section-title font-alt">
+20:                 <%= $post->[0]->{title} %>
+21:               </div>
+
+[Mon Jun  1 00:30:58 2015] [debug] Template "exception.development.html.ep" not found
+[Mon Jun  1 00:30:58 2015] [debug] Template "exception.html.ep" not found
+[Mon Jun  1 00:30:58 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 00:30:58 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 00:30:58 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:30:58 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:30:58 2015] [debug] 500 Internal Server Error (0.059487s, 16.810/s)
+[Mon Jun  1 00:31:21 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:31:23 2015] [debug] GET "/p/view/46e41bb1-61dc-4cea-94fd-6d8019494735"
+[Mon Jun  1 00:31:23 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 00:31:23 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 00:31:23 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:31:23 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 00:31:23 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:31:23 2015] [debug] 200 OK (0.032472s, 30.796/s)
+[Mon Jun  1 00:31:23 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 00:31:23 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 00:31:23 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 00:31:23 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 00:31:23 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 00:31:23 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:31:23 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:31:23 2015] [debug] 404 Not Found (0.027220s, 36.738/s)
+[Mon Jun  1 00:31:41 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:31:55 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:32:32 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:32:38 2015] [debug] GET "/p/view/46e41bb1-61dc-4cea-94fd-6d8019494735"
+[Mon Jun  1 00:32:38 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 00:32:38 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 00:32:38 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:32:38 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 00:32:38 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:32:38 2015] [debug] 200 OK (0.034973s, 28.593/s)
+[Mon Jun  1 00:32:38 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 00:32:38 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 00:32:38 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 00:32:38 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 00:32:38 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 00:32:38 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:32:38 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:32:38 2015] [debug] 404 Not Found (0.030977s, 32.282/s)
+[Mon Jun  1 00:32:40 2015] [debug] GET "/p/view/46e41bb1-61dc-4cea-94fd-6d8019494735"
+[Mon Jun  1 00:32:40 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 00:32:40 2015] [debug] Rendering cached template "post/view.html.ep"
+[Mon Jun  1 00:32:40 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:32:40 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun  1 00:32:40 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:32:40 2015] [debug] 200 OK (0.004037s, 247.709/s)
+[Mon Jun  1 00:32:40 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 00:32:40 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 00:32:40 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 00:32:40 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 00:32:40 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 00:32:40 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:32:40 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:32:40 2015] [debug] 404 Not Found (0.012884s, 77.616/s)
+[Mon Jun  1 00:33:18 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:33:20 2015] [debug] GET "/p/view/46e41bb1-61dc-4cea-94fd-6d8019494735"
+[Mon Jun  1 00:33:20 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 00:33:20 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 00:33:20 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:33:20 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 00:33:20 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:33:20 2015] [debug] 200 OK (0.046629s, 21.446/s)
+[Mon Jun  1 00:33:20 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 00:33:20 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 00:33:20 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 00:33:20 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 00:33:20 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 00:33:20 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:33:20 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:33:20 2015] [debug] 404 Not Found (0.031223s, 32.028/s)
+[Mon Jun  1 00:33:34 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:33:37 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:33:38 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:33:39 2015] [debug] GET "/p/view/46e41bb1-61dc-4cea-94fd-6d8019494735"
+[Mon Jun  1 00:33:39 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 00:33:39 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 00:33:39 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:33:39 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 00:33:39 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:33:39 2015] [debug] 200 OK (0.041219s, 24.261/s)
+[Mon Jun  1 00:33:40 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 00:33:40 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 00:33:40 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 00:33:40 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 00:33:40 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 00:33:40 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:33:40 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:33:40 2015] [debug] 404 Not Found (0.026977s, 37.069/s)
+[Mon Jun  1 00:33:57 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:33:59 2015] [debug] GET "/p/view/46e41bb1-61dc-4cea-94fd-6d8019494735"
+[Mon Jun  1 00:33:59 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 00:33:59 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 00:33:59 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:33:59 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 00:33:59 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:33:59 2015] [debug] 200 OK (0.041932s, 23.848/s)
+[Mon Jun  1 00:33:59 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 00:33:59 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 00:33:59 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 00:33:59 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 00:33:59 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 00:33:59 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:33:59 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:33:59 2015] [debug] 404 Not Found (0.026997s, 37.041/s)
+[Mon Jun  1 00:34:40 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:34:41 2015] [debug] GET "/p/view/46e41bb1-61dc-4cea-94fd-6d8019494735"
+[Mon Jun  1 00:34:41 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 00:34:41 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 00:34:41 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:34:41 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 00:34:41 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:34:41 2015] [debug] 200 OK (0.045118s, 22.164/s)
+[Mon Jun  1 00:34:41 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 00:34:41 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 00:34:41 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 00:34:41 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 00:34:41 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 00:34:41 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:34:41 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:34:41 2015] [debug] 404 Not Found (0.032488s, 30.781/s)
+[Mon Jun  1 00:34:47 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:34:48 2015] [debug] GET "/p/view/46e41bb1-61dc-4cea-94fd-6d8019494735"
+[Mon Jun  1 00:34:48 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 00:34:48 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 00:34:48 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:34:48 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 00:34:48 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:34:48 2015] [debug] 200 OK (0.038691s, 25.846/s)
+[Mon Jun  1 00:34:48 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 00:34:48 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 00:34:48 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 00:34:48 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 00:34:49 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 00:34:49 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:34:49 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:34:49 2015] [debug] 404 Not Found (0.026139s, 38.257/s)
+[Mon Jun  1 00:39:57 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:45:03 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:45:05 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:45:21 2015] [debug] GET "/index"
+[Mon Jun  1 00:45:21 2015] [debug] Rendering template "index.html.ep"
+[Mon Jun  1 00:45:21 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 00:45:21 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:45:21 2015] [debug] 200 OK (0.017781s, 56.240/s)
+[Mon Jun  1 00:46:26 2015] [debug] POST "/p/create"
+[Mon Jun  1 00:46:26 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Mon Jun  1 00:46:26 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:46:26 2015] [debug] 200 OK (0.167318s, 5.977/s)
+[Mon Jun  1 00:46:30 2015] [debug] GET "/p/list"
+[Mon Jun  1 00:46:30 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Mon Jun  1 00:46:30 2015] [debug] Rendering template "post/list.html.ep"
+[Mon Jun  1 00:46:30 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 00:46:30 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:46:30 2015] [debug] 200 OK (0.009402s, 106.360/s)
+[Mon Jun  1 00:46:32 2015] [debug] GET "/p/view/86402374-0332-44de-b08e-988b6fd7c6fd"
+[Mon Jun  1 00:46:32 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 00:46:32 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 00:46:32 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:46:32 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 00:46:32 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:46:32 2015] [debug] 200 OK (0.017938s, 55.748/s)
+[Mon Jun  1 00:46:32 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 00:46:32 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 00:46:32 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 00:46:32 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 00:46:32 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 00:46:32 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:46:32 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:46:32 2015] [debug] 404 Not Found (0.045450s, 22.002/s)
+[Mon Jun  1 00:48:51 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:48:57 2015] [debug] GET "/p/view/86402374-0332-44de-b08e-988b6fd7c6fd"
+[Mon Jun  1 00:48:57 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 00:48:57 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 00:48:57 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:48:57 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 00:48:57 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:48:57 2015] [debug] 200 OK (0.046405s, 21.549/s)
+[Mon Jun  1 00:48:57 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 00:48:57 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 00:48:57 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 00:48:57 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 00:48:57 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 00:48:57 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:48:57 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:48:57 2015] [debug] 404 Not Found (0.028945s, 34.548/s)
+[Mon Jun  1 00:49:50 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:49:54 2015] [debug] GET "/p/view/86402374-0332-44de-b08e-988b6fd7c6fd"
+[Mon Jun  1 00:49:54 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 00:49:54 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 00:49:54 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:49:54 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 00:49:54 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:49:54 2015] [debug] 200 OK (0.052728s, 18.965/s)
+[Mon Jun  1 00:49:55 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 00:49:55 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 00:49:55 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 00:49:55 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 00:49:55 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 00:49:55 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:49:55 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:49:55 2015] [debug] 404 Not Found (0.030135s, 33.184/s)
+[Mon Jun  1 00:53:14 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:53:16 2015] [debug] GET "/p/view/86402374-0332-44de-b08e-988b6fd7c6fd"
+[Mon Jun  1 00:53:16 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 00:53:16 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 00:53:16 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:53:16 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 00:53:16 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:53:16 2015] [debug] 200 OK (0.065293s, 15.316/s)
+[Mon Jun  1 00:53:17 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 00:53:17 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 00:53:17 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 00:53:17 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 00:53:17 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 00:53:17 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:53:17 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:53:17 2015] [debug] 404 Not Found (0.031328s, 31.920/s)
+[Mon Jun  1 00:53:39 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:53:40 2015] [debug] GET "/p/view/86402374-0332-44de-b08e-988b6fd7c6fd"
+[Mon Jun  1 00:53:40 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 00:53:40 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 00:53:40 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:53:40 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 00:53:40 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:53:40 2015] [debug] 200 OK (0.053101s, 18.832/s)
+[Mon Jun  1 00:53:40 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 00:53:40 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 00:53:40 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 00:53:40 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 00:53:40 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 00:53:40 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:53:40 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:53:40 2015] [debug] 404 Not Found (0.029726s, 33.641/s)
+[Mon Jun  1 00:53:45 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 00:53:50 2015] [debug] GET "/p/view/86402374-0332-44de-b08e-988b6fd7c6fd"
+[Mon Jun  1 00:53:50 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 00:53:50 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 00:53:50 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:53:50 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 00:53:50 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:53:50 2015] [debug] 200 OK (0.051334s, 19.480/s)
+[Mon Jun  1 00:53:50 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 00:53:50 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 00:53:50 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 00:53:50 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 00:53:50 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 00:53:50 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:53:50 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 00:53:50 2015] [debug] 404 Not Found (0.033196s, 30.124/s)
+[Mon Jun  1 00:54:03 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:00:04 2015] [debug] GET "/index"
+[Mon Jun  1 01:00:04 2015] [debug] Rendering template "index.html.ep"
+[Mon Jun  1 01:00:04 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 01:00:04 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:00:04 2015] [debug] 200 OK (0.015870s, 63.012/s)
+[Mon Jun  1 01:03:51 2015] [debug] POST "/p/create"
+[Mon Jun  1 01:03:51 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Mon Jun  1 01:03:51 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:03:52 2015] [debug] 200 OK (0.177528s, 5.633/s)
+[Mon Jun  1 01:03:56 2015] [debug] GET "/p/list"
+[Mon Jun  1 01:03:56 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Mon Jun  1 01:03:56 2015] [debug] Rendering template "post/list.html.ep"
+[Mon Jun  1 01:03:56 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 01:03:56 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:03:56 2015] [debug] 200 OK (0.014079s, 71.028/s)
+[Mon Jun  1 01:03:57 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 01:03:57 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 01:03:57 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 01:03:57 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:03:57 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 01:03:57 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:03:57 2015] [debug] 200 OK (0.018818s, 53.141/s)
+[Mon Jun  1 01:03:57 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 01:03:57 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 01:03:57 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 01:03:57 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 01:03:58 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 01:03:58 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:03:58 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:03:58 2015] [debug] 404 Not Found (0.033211s, 30.111/s)
+[Mon Jun  1 01:10:17 2015] [debug] GET "/index"
+[Mon Jun  1 01:10:17 2015] [debug] Rendering cached template "index.html.ep"
+[Mon Jun  1 01:10:17 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun  1 01:10:17 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:10:17 2015] [debug] 200 OK (0.001762s, 567.537/s)
+[Mon Jun  1 01:10:18 2015] [debug] GET "/p/view/86402374-0332-44de-b08e-988b6fd7c6fd"
+[Mon Jun  1 01:10:18 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 01:10:18 2015] [debug] Rendering cached template "post/view.html.ep"
+[Mon Jun  1 01:10:18 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:10:18 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun  1 01:10:18 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:10:18 2015] [debug] 200 OK (0.004433s, 225.581/s)
+[Mon Jun  1 01:10:18 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 01:10:18 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 01:10:18 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 01:10:18 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 01:10:18 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 01:10:18 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:10:18 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:10:18 2015] [debug] 404 Not Found (0.013326s, 75.041/s)
+[Mon Jun  1 01:10:20 2015] [debug] GET "/index"
+[Mon Jun  1 01:10:20 2015] [debug] Rendering cached template "index.html.ep"
+[Mon Jun  1 01:10:20 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun  1 01:10:20 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:10:20 2015] [debug] 200 OK (0.002961s, 337.724/s)
+[Mon Jun  1 01:10:29 2015] [debug] GET "/p/list"
+[Mon Jun  1 01:10:29 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Mon Jun  1 01:10:29 2015] [debug] Rendering cached template "post/list.html.ep"
+[Mon Jun  1 01:10:29 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun  1 01:10:29 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:10:29 2015] [debug] 200 OK (0.002792s, 358.166/s)
+[Mon Jun  1 01:10:30 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 01:10:30 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 01:10:30 2015] [debug] Rendering cached template "post/view.html.ep"
+[Mon Jun  1 01:10:30 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:10:30 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun  1 01:10:30 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:10:30 2015] [debug] 200 OK (0.003384s, 295.508/s)
+[Mon Jun  1 01:10:30 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 01:10:30 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 01:10:30 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 01:10:30 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 01:10:30 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 01:10:30 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:10:30 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:10:30 2015] [debug] 404 Not Found (0.008685s, 115.141/s)
+[Mon Jun  1 01:12:49 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:12:51 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 01:12:51 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 01:12:51 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 01:12:51 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:12:51 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 01:12:51 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:12:51 2015] [debug] 200 OK (0.059916s, 16.690/s)
+[Mon Jun  1 01:12:51 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 01:12:51 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 01:12:51 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 01:12:51 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 01:12:51 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 01:12:51 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:12:51 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:12:51 2015] [debug] 404 Not Found (0.030562s, 32.720/s)
+[Mon Jun  1 01:13:25 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:13:26 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 01:13:26 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 01:13:26 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 01:13:26 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:13:26 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 01:13:26 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:13:26 2015] [debug] 200 OK (0.054391s, 18.385/s)
+[Mon Jun  1 01:13:26 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 01:13:26 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 01:13:26 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 01:13:26 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 01:13:26 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 01:13:26 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:13:26 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:13:26 2015] [debug] 404 Not Found (0.027494s, 36.372/s)
+[Mon Jun  1 01:13:30 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:13:31 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 01:13:31 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 01:13:31 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 01:13:31 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:13:31 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 01:13:31 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:13:31 2015] [debug] 200 OK (0.052350s, 19.102/s)
+[Mon Jun  1 01:13:31 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 01:13:31 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 01:13:31 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 01:13:31 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 01:13:31 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 01:13:31 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:13:31 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:13:31 2015] [debug] 404 Not Found (0.034665s, 28.848/s)
+[Mon Jun  1 01:14:06 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:14:08 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:14:09 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 01:14:09 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 01:14:09 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 01:14:09 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:14:09 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 01:14:09 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:14:09 2015] [debug] 200 OK (0.069220s, 14.447/s)
+[Mon Jun  1 01:14:09 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 01:14:09 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 01:14:09 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 01:14:09 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 01:14:09 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 01:14:09 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:14:09 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:14:09 2015] [debug] 404 Not Found (0.027855s, 35.900/s)
+[Mon Jun  1 01:14:38 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:14:38 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 01:14:38 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 01:14:38 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 01:14:38 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:14:38 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 01:14:38 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:14:38 2015] [debug] 200 OK (0.050973s, 19.618/s)
+[Mon Jun  1 01:14:38 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 01:14:38 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 01:14:38 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 01:14:38 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 01:14:38 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 01:14:38 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:14:38 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:14:38 2015] [debug] 404 Not Found (0.039202s, 25.509/s)
+[Mon Jun  1 01:15:13 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:15:13 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 01:15:14 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 01:15:14 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 01:15:14 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:15:14 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 01:15:14 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:15:14 2015] [debug] 200 OK (0.052492s, 19.051/s)
+[Mon Jun  1 01:15:14 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 01:15:14 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 01:15:14 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 01:15:14 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 01:15:14 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 01:15:14 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:15:14 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:15:14 2015] [debug] 404 Not Found (0.031777s, 31.469/s)
+[Mon Jun  1 01:15:50 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:15:51 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:15:52 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 01:15:52 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 01:15:52 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 01:15:52 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:15:52 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 01:15:52 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:15:52 2015] [debug] 200 OK (0.061317s, 16.309/s)
+[Mon Jun  1 01:15:52 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 01:15:52 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 01:15:52 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 01:15:52 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 01:15:52 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 01:15:52 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:15:52 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:15:52 2015] [debug] 404 Not Found (0.028469s, 35.126/s)
+[Mon Jun  1 01:15:57 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:16:03 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:16:04 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 01:16:04 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 01:16:04 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 01:16:04 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:16:04 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 01:16:04 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:16:04 2015] [debug] 200 OK (0.055901s, 17.889/s)
+[Mon Jun  1 01:16:04 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 01:16:04 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 01:16:04 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 01:16:04 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 01:16:04 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 01:16:04 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:16:04 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:16:04 2015] [debug] 404 Not Found (0.027237s, 36.715/s)
+[Mon Jun  1 01:16:31 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:17:05 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:17:34 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 01:17:34 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 01:17:34 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 01:17:34 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:17:34 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 01:17:34 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:17:34 2015] [debug] 200 OK (0.059158s, 16.904/s)
+[Mon Jun  1 01:17:34 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 01:17:34 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 01:17:34 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 01:17:34 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 01:17:34 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 01:17:34 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:17:34 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:17:34 2015] [debug] 404 Not Found (0.042910s, 23.305/s)
+[Mon Jun  1 01:17:55 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:17:56 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 01:17:56 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 01:17:56 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 01:17:56 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:17:56 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 01:17:56 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:17:56 2015] [debug] 200 OK (0.053162s, 18.810/s)
+[Mon Jun  1 01:17:56 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 01:17:56 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 01:17:56 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 01:17:56 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 01:17:56 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 01:17:56 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:17:56 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:17:56 2015] [debug] 404 Not Found (0.032164s, 31.091/s)
+[Mon Jun  1 01:18:12 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 01:18:12 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 01:18:12 2015] [debug] Rendering cached template "post/view.html.ep"
+[Mon Jun  1 01:18:12 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:18:12 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun  1 01:18:12 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:18:12 2015] [debug] 200 OK (0.004706s, 212.495/s)
+[Mon Jun  1 01:18:12 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 01:18:12 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 01:18:12 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 01:18:12 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 01:18:12 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 01:18:12 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:18:12 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:18:12 2015] [debug] 404 Not Found (0.012526s, 79.834/s)
+[Mon Jun  1 01:18:21 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 01:18:21 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 01:18:21 2015] [debug] Rendering cached template "post/view.html.ep"
+[Mon Jun  1 01:18:21 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:18:21 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun  1 01:18:21 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:18:21 2015] [debug] 200 OK (0.004106s, 243.546/s)
+[Mon Jun  1 01:18:21 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 01:18:21 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 01:18:21 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 01:18:21 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 01:18:21 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 01:18:21 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:18:21 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:18:21 2015] [debug] 404 Not Found (0.012333s, 81.083/s)
+[Mon Jun  1 01:18:37 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 01:18:37 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 01:18:37 2015] [debug] Rendering cached template "post/view.html.ep"
+[Mon Jun  1 01:18:37 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:18:37 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun  1 01:18:37 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:18:37 2015] [debug] 200 OK (0.002850s, 350.877/s)
+[Mon Jun  1 01:18:37 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 01:18:37 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 01:18:37 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 01:18:37 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 01:18:37 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 01:18:37 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:18:37 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:18:37 2015] [debug] 404 Not Found (0.009453s, 105.787/s)
+[Mon Jun  1 01:18:51 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 01:18:51 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 01:18:51 2015] [debug] Rendering cached template "post/view.html.ep"
+[Mon Jun  1 01:18:51 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:18:51 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun  1 01:18:51 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:18:51 2015] [debug] 200 OK (0.004519s, 221.288/s)
+[Mon Jun  1 01:18:51 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 01:18:51 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 01:18:51 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 01:18:51 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 01:18:51 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 01:18:51 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:18:51 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:18:51 2015] [debug] 404 Not Found (0.009507s, 105.186/s)
+[Mon Jun  1 01:19:38 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:19:38 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 01:19:38 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 01:19:38 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 01:19:38 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:19:38 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 01:19:38 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:19:38 2015] [debug] 200 OK (0.068387s, 14.623/s)
+[Mon Jun  1 01:19:38 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 01:19:38 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 01:19:38 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 01:19:38 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 01:19:38 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 01:19:38 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:19:38 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:19:38 2015] [debug] 404 Not Found (0.029969s, 33.368/s)
+[Mon Jun  1 01:21:30 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:21:30 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 01:21:30 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 01:21:30 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 01:21:30 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:21:30 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 01:21:30 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:21:30 2015] [debug] 200 OK (0.060118s, 16.634/s)
+[Mon Jun  1 01:21:31 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 01:21:31 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 01:21:31 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 01:21:31 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 01:21:31 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 01:21:31 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:21:31 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:21:31 2015] [debug] 404 Not Found (0.028974s, 34.514/s)
+[Mon Jun  1 01:21:45 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:22:10 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:22:11 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 01:22:11 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 01:22:11 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 01:22:11 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:22:11 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 01:22:11 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:22:11 2015] [debug] 200 OK (0.060502s, 16.528/s)
+[Mon Jun  1 01:22:11 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 01:22:11 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 01:22:11 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 01:22:11 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 01:22:11 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 01:22:11 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:22:11 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:22:11 2015] [debug] 404 Not Found (0.031275s, 31.974/s)
+[Mon Jun  1 01:22:29 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:22:34 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:22:36 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 01:22:36 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 01:22:36 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 01:22:36 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:22:36 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 01:22:36 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:22:36 2015] [debug] 200 OK (0.055772s, 17.930/s)
+[Mon Jun  1 01:22:36 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 01:22:36 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 01:22:36 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 01:22:36 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 01:22:36 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 01:22:36 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:22:36 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:22:36 2015] [debug] 404 Not Found (0.032001s, 31.249/s)
+[Mon Jun  1 01:22:58 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:22:58 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 01:22:59 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 01:22:59 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 01:22:59 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:22:59 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 01:22:59 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:22:59 2015] [debug] 200 OK (0.058195s, 17.184/s)
+[Mon Jun  1 01:22:59 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 01:22:59 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 01:22:59 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 01:22:59 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 01:22:59 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 01:22:59 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:22:59 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:22:59 2015] [debug] 404 Not Found (0.040393s, 24.757/s)
+[Mon Jun  1 01:24:09 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:24:11 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 01:24:11 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 01:24:11 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 01:24:11 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:24:11 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 01:24:11 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:24:11 2015] [debug] 200 OK (0.057581s, 17.367/s)
+[Mon Jun  1 01:24:11 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 01:24:11 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 01:24:11 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 01:24:11 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 01:24:11 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 01:24:11 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:24:11 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:24:11 2015] [debug] 404 Not Found (0.026216s, 38.145/s)
+[Mon Jun  1 01:24:27 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:24:28 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 01:24:28 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 01:24:28 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 01:24:28 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:24:28 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 01:24:28 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:24:28 2015] [debug] 200 OK (0.048049s, 20.812/s)
+[Mon Jun  1 01:24:28 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 01:24:28 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 01:24:28 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 01:24:28 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 01:24:28 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 01:24:28 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:24:28 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:24:28 2015] [debug] 404 Not Found (0.029981s, 33.354/s)
+[Mon Jun  1 01:25:17 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:25:22 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:25:28 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:25:31 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 01:25:31 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 01:25:31 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 01:25:31 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:25:31 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 01:25:31 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:25:31 2015] [debug] 200 OK (0.055494s, 18.020/s)
+[Mon Jun  1 01:25:31 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 01:25:31 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 01:25:31 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 01:25:31 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 01:25:31 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 01:25:31 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:25:31 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:25:31 2015] [debug] 404 Not Found (0.030128s, 33.192/s)
+[Mon Jun  1 01:25:45 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 01:25:45 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 01:25:45 2015] [debug] Rendering cached template "post/view.html.ep"
+[Mon Jun  1 01:25:45 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:25:45 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun  1 01:25:45 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:25:45 2015] [debug] 200 OK (0.004143s, 241.371/s)
+[Mon Jun  1 01:25:45 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 01:25:45 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 01:25:45 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 01:25:45 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 01:25:45 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 01:25:45 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:25:45 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:25:45 2015] [debug] 404 Not Found (0.007893s, 126.695/s)
+[Mon Jun  1 01:26:10 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:26:10 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 01:26:10 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 01:26:10 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 01:26:10 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:26:10 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 01:26:10 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:26:10 2015] [debug] 200 OK (0.049884s, 20.047/s)
+[Mon Jun  1 01:26:11 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 01:26:11 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 01:26:11 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 01:26:11 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 01:26:11 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 01:26:11 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:26:11 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:26:11 2015] [debug] 404 Not Found (0.026697s, 37.457/s)
+[Mon Jun  1 01:26:20 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:26:24 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:26:26 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 01:26:26 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 01:26:26 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 01:26:26 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:26:26 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 01:26:26 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:26:26 2015] [debug] 200 OK (0.055512s, 18.014/s)
+[Mon Jun  1 01:26:26 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 01:26:26 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 01:26:26 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 01:26:26 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 01:26:26 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 01:26:26 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:26:26 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:26:26 2015] [debug] 404 Not Found (0.030175s, 33.140/s)
+[Mon Jun  1 01:26:33 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:26:35 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:26:37 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 01:26:37 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 01:26:37 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 01:26:37 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:26:37 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 01:26:37 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:26:37 2015] [debug] 200 OK (0.062458s, 16.011/s)
+[Mon Jun  1 01:26:37 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 01:26:37 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 01:26:37 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 01:26:37 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 01:26:37 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 01:26:37 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:26:37 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:26:37 2015] [debug] 404 Not Found (0.038485s, 25.984/s)
+[Mon Jun  1 01:27:09 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:27:10 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 01:27:10 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 01:27:10 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 01:27:10 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:27:10 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 01:27:10 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:27:10 2015] [debug] 200 OK (0.057885s, 17.276/s)
+[Mon Jun  1 01:27:10 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 01:27:10 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 01:27:10 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 01:27:10 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 01:27:10 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 01:27:10 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:27:10 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:27:10 2015] [debug] 404 Not Found (0.026680s, 37.481/s)
+[Mon Jun  1 01:27:23 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 01:27:23 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 01:27:23 2015] [debug] Rendering cached template "post/view.html.ep"
+[Mon Jun  1 01:27:23 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:27:23 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun  1 01:27:23 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:27:23 2015] [debug] 200 OK (0.004650s, 215.054/s)
+[Mon Jun  1 01:27:24 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 01:27:24 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 01:27:24 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 01:27:24 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 01:27:24 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 01:27:24 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:27:24 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:27:24 2015] [debug] 404 Not Found (0.013957s, 71.649/s)
+[Mon Jun  1 01:27:29 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 01:27:29 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 01:27:29 2015] [debug] Rendering cached template "post/view.html.ep"
+[Mon Jun  1 01:27:29 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:27:29 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun  1 01:27:29 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:27:29 2015] [debug] 200 OK (0.003459s, 289.101/s)
+[Mon Jun  1 01:27:29 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 01:27:29 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 01:27:29 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 01:27:29 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 01:27:29 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 01:27:29 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:27:29 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:27:29 2015] [debug] 404 Not Found (0.011175s, 89.485/s)
+[Mon Jun  1 01:28:22 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:28:23 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 01:28:24 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 01:28:24 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 01:28:24 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:28:24 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 01:28:24 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:28:24 2015] [debug] 200 OK (0.056201s, 17.793/s)
+[Mon Jun  1 01:28:24 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 01:28:24 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 01:28:24 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 01:28:24 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 01:28:24 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 01:28:24 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:28:24 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:28:24 2015] [debug] 404 Not Found (0.032235s, 31.022/s)
+[Mon Jun  1 01:28:44 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:28:45 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:28:46 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 01:28:46 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 01:28:46 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 01:28:46 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:28:46 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 01:28:46 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:28:46 2015] [debug] 200 OK (0.049912s, 20.035/s)
+[Mon Jun  1 01:28:46 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 01:28:46 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 01:28:46 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 01:28:46 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 01:28:46 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 01:28:46 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:28:46 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:28:46 2015] [debug] 404 Not Found (0.028988s, 34.497/s)
+[Mon Jun  1 01:29:20 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:29:20 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 01:29:20 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 01:29:20 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 01:29:20 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:29:20 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 01:29:21 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:29:21 2015] [debug] 200 OK (0.057255s, 17.466/s)
+[Mon Jun  1 01:29:21 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 01:29:21 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 01:29:21 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 01:29:21 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 01:29:21 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 01:29:21 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:29:21 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:29:21 2015] [debug] 404 Not Found (0.031529s, 31.717/s)
+[Mon Jun  1 01:29:24 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:29:25 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 01:29:25 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 01:29:25 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 01:29:25 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:29:25 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 01:29:25 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:29:25 2015] [debug] 200 OK (0.055968s, 17.867/s)
+[Mon Jun  1 01:29:25 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 01:29:25 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 01:29:25 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 01:29:25 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 01:29:25 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 01:29:25 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:29:25 2015] [debug] Cookie "mojolicious" has a bad signature
+[Mon Jun  1 01:29:25 2015] [debug] 404 Not Found (0.025793s, 38.770/s)
+[Mon Jun  1 01:30:58 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:30:58 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 01:30:58 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 01:30:58 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 01:30:58 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 01:30:58 2015] [debug] 200 OK (0.054482s, 18.355/s)
+[Mon Jun  1 01:30:58 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 01:30:58 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 01:30:58 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 01:30:58 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 01:30:58 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 01:30:58 2015] [debug] 404 Not Found (0.040038s, 24.976/s)
+[Mon Jun  1 01:56:02 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:56:19 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 01:56:19 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 01:56:19 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 01:56:19 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 01:56:19 2015] [debug] 200 OK (0.052240s, 19.142/s)
+[Mon Jun  1 01:56:19 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 01:56:19 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 01:56:19 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 01:56:19 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 01:56:19 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 01:56:19 2015] [debug] 404 Not Found (0.025638s, 39.005/s)
+[Mon Jun  1 01:57:42 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:59:38 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 01:59:41 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 01:59:41 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 01:59:41 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 01:59:41 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 01:59:41 2015] [debug] 200 OK (0.055027s, 18.173/s)
+[Mon Jun  1 01:59:41 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 01:59:41 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 01:59:41 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 01:59:41 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 01:59:41 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 01:59:41 2015] [debug] 404 Not Found (0.027663s, 36.149/s)
+[Mon Jun  1 02:00:26 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 02:00:49 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 02:00:51 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 02:00:51 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 02:00:51 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 02:00:51 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 02:00:51 2015] [debug] 200 OK (0.056252s, 17.777/s)
+[Mon Jun  1 02:00:52 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 02:00:52 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 02:00:52 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 02:00:52 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 02:00:52 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 02:00:52 2015] [debug] 404 Not Found (0.029942s, 33.398/s)
+[Mon Jun  1 02:04:38 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 02:04:38 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 02:04:38 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 02:04:38 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 02:04:38 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 02:04:38 2015] [debug] 200 OK (0.056259s, 17.775/s)
+[Mon Jun  1 02:04:38 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 02:04:38 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 02:04:38 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 02:04:38 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 02:04:38 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 02:04:38 2015] [debug] 404 Not Found (0.025387s, 39.390/s)
+[Mon Jun  1 02:05:25 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 02:05:25 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 02:05:25 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 02:05:25 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 02:05:25 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 02:05:25 2015] [debug] 200 OK (0.052119s, 19.187/s)
+[Mon Jun  1 02:05:25 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 02:05:25 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 02:05:25 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 02:05:25 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 02:05:25 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 02:05:25 2015] [debug] 404 Not Found (0.025878s, 38.643/s)
+[Mon Jun  1 02:06:08 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 02:06:09 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 02:06:09 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 02:06:09 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 02:06:09 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 02:06:09 2015] [debug] 200 OK (0.051563s, 19.394/s)
+[Mon Jun  1 02:06:09 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 02:06:09 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 02:06:09 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 02:06:09 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 02:06:09 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 02:06:09 2015] [debug] 404 Not Found (0.037901s, 26.385/s)
+[Mon Jun  1 02:31:43 2015] [debug] GET "/p/create"
+[Mon Jun  1 02:31:43 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 02:31:43 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 02:31:43 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 02:31:43 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 02:31:43 2015] [debug] 404 Not Found (0.012741s, 78.487/s)
+[Mon Jun  1 02:31:54 2015] [debug] GET "/index"
+[Mon Jun  1 02:31:54 2015] [debug] Rendering template "index.html.ep"
+[Mon Jun  1 02:31:54 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 02:31:54 2015] [debug] 200 OK (0.012126s, 82.467/s)
+[Mon Jun  1 02:33:39 2015] [debug] POST "/p/create"
+[Mon Jun  1 02:33:39 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Mon Jun  1 02:33:39 2015] [debug] 200 OK (0.058544s, 17.081/s)
+[Mon Jun  1 02:33:42 2015] [debug] GET "/p/list"
+[Mon Jun  1 02:33:42 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Mon Jun  1 02:33:42 2015] [debug] Rendering template "post/list.html.ep"
+[Mon Jun  1 02:33:42 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 02:33:42 2015] [debug] 200 OK (0.009272s, 107.852/s)
+[Mon Jun  1 02:33:45 2015] [debug] GET "/p/view/2cecfd2d-9174-4786-977f-7a607a5b8b8d"
+[Mon Jun  1 02:33:45 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 02:33:45 2015] [debug] Rendering cached template "post/view.html.ep"
+[Mon Jun  1 02:33:45 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun  1 02:33:45 2015] [debug] 200 OK (0.002972s, 336.474/s)
+[Mon Jun  1 02:33:45 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 02:33:45 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 02:33:45 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 02:33:45 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 02:33:45 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 02:33:45 2015] [debug] 404 Not Found (0.010649s, 93.906/s)
+[Mon Jun  1 02:34:35 2015] [debug] POST "/p/create"
+[Mon Jun  1 02:34:35 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Mon Jun  1 02:34:35 2015] [debug] 200 OK (0.024949s, 40.082/s)
+[Mon Jun  1 02:34:38 2015] [debug] GET "/p/list"
+[Mon Jun  1 02:34:38 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Mon Jun  1 02:34:38 2015] [debug] Rendering cached template "post/list.html.ep"
+[Mon Jun  1 02:34:38 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun  1 02:34:38 2015] [debug] 200 OK (0.002243s, 445.831/s)
+[Mon Jun  1 02:34:40 2015] [debug] GET "/p/view/8c101915-9f6a-491f-9b67-ab5dbdc27849"
+[Mon Jun  1 02:34:40 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 02:34:40 2015] [debug] Rendering cached template "post/view.html.ep"
+[Mon Jun  1 02:34:40 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun  1 02:34:40 2015] [debug] 200 OK (0.002784s, 359.195/s)
+[Mon Jun  1 02:34:40 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 02:34:40 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 02:34:40 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 02:34:40 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 02:34:40 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 02:34:40 2015] [debug] 404 Not Found (0.012128s, 82.454/s)
+[Mon Jun  1 02:35:10 2015] [debug] GET "/index"
+[Mon Jun  1 02:35:10 2015] [debug] Rendering cached template "index.html.ep"
+[Mon Jun  1 02:35:10 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun  1 02:35:10 2015] [debug] 200 OK (0.002172s, 460.405/s)
+[Mon Jun  1 02:36:38 2015] [debug] POST "/p/create"
+[Mon Jun  1 02:36:38 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Mon Jun  1 02:36:38 2015] [debug] 200 OK (0.069705s, 14.346/s)
+[Mon Jun  1 02:36:42 2015] [debug] GET "/p/list"
+[Mon Jun  1 02:36:42 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Mon Jun  1 02:36:42 2015] [debug] Rendering cached template "post/list.html.ep"
+[Mon Jun  1 02:36:42 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun  1 02:36:42 2015] [debug] 200 OK (0.002975s, 336.134/s)
+[Mon Jun  1 02:36:46 2015] [debug] GET "/p/view/d90703a9-a4d5-4967-8d8c-43344d9a069c"
+[Mon Jun  1 02:36:46 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 02:36:46 2015] [debug] Rendering cached template "post/view.html.ep"
+[Mon Jun  1 02:36:46 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun  1 02:36:46 2015] [debug] 200 OK (0.003904s, 256.148/s)
+[Mon Jun  1 02:36:46 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 02:36:46 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 02:36:46 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 02:36:46 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 02:36:46 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 02:36:46 2015] [debug] 404 Not Found (0.012742s, 78.481/s)
+[Mon Jun  1 02:41:04 2015] [debug] GET "/p/create"
+[Mon Jun  1 02:41:04 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 02:41:04 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 02:41:04 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 02:41:04 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 02:41:04 2015] [debug] 404 Not Found (0.009377s, 106.644/s)
+[Mon Jun  1 02:41:32 2015] [debug] POST "/p/create"
+[Mon Jun  1 02:41:32 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Mon Jun  1 02:41:32 2015] [debug] 200 OK (0.067919s, 14.723/s)
+[Mon Jun  1 02:41:35 2015] [debug] GET "/p/list"
+[Mon Jun  1 02:41:35 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Mon Jun  1 02:41:35 2015] [debug] Rendering cached template "post/list.html.ep"
+[Mon Jun  1 02:41:35 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun  1 02:41:35 2015] [debug] 200 OK (0.002150s, 465.116/s)
+[Mon Jun  1 02:41:39 2015] [debug] GET "/p/view/e1bc261e-7854-4768-b30a-250364b27989"
+[Mon Jun  1 02:41:39 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 02:41:39 2015] [debug] Rendering cached template "post/view.html.ep"
+[Mon Jun  1 02:41:39 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun  1 02:41:39 2015] [debug] 200 OK (0.004916s, 203.417/s)
+[Mon Jun  1 02:41:39 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 02:41:39 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 02:41:39 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 02:41:39 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 02:41:39 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 02:41:39 2015] [debug] 404 Not Found (0.011503s, 86.934/s)
+[Mon Jun  1 02:47:52 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 02:47:58 2015] [debug] GET "/index"
+[Mon Jun  1 02:47:58 2015] [debug] Rendering template "index.html.ep"
+[Mon Jun  1 02:47:58 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 02:47:58 2015] [debug] 200 OK (0.016378s, 61.058/s)
+[Mon Jun  1 02:48:26 2015] [debug] POST "/p/create"
+[Mon Jun  1 02:48:26 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Mon Jun  1 02:48:26 2015] [error] Can't locate object method "pluck" via package "Mojo::Collection" at lib/JustWrite/Controller/Post.pm line 34.
+
+[Mon Jun  1 02:48:26 2015] [debug] Template "exception.development.html.ep" not found
+[Mon Jun  1 02:48:26 2015] [debug] Template "exception.html.ep" not found
+[Mon Jun  1 02:48:26 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 02:48:26 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 02:48:26 2015] [debug] 500 Internal Server Error (0.092034s, 10.866/s)
+[Mon Jun  1 02:50:07 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 02:50:13 2015] [debug] POST "/p/create"
+[Mon Jun  1 02:50:13 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Mon Jun  1 02:50:13 2015] [error] Can't locate object method "remove" via package "Mojo::Collection" at lib/JustWrite/Controller/Post.pm line 34.
+
+[Mon Jun  1 02:50:13 2015] [debug] Template "exception.development.html.ep" not found
+[Mon Jun  1 02:50:13 2015] [debug] Template "exception.html.ep" not found
+[Mon Jun  1 02:50:13 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 02:50:13 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 02:50:13 2015] [debug] 500 Internal Server Error (0.088776s, 11.264/s)
+[Mon Jun  1 02:54:11 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 02:54:13 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 02:54:21 2015] [debug] GET "/index"
+[Mon Jun  1 02:54:21 2015] [debug] Rendering template "index.html.ep"
+[Mon Jun  1 02:54:21 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 02:54:21 2015] [debug] 200 OK (0.018770s, 53.277/s)
+[Mon Jun  1 02:56:05 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 02:56:06 2015] [debug] GET "/index"
+[Mon Jun  1 02:56:06 2015] [debug] Rendering template "index.html.ep"
+[Mon Jun  1 02:56:06 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 02:56:06 2015] [debug] 200 OK (0.014482s, 69.051/s)
+[Mon Jun  1 03:00:36 2015] [debug] POST "/p/create"
+[Mon Jun  1 03:00:36 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Mon Jun  1 03:00:36 2015] [error] Can't locate object method "remove" via package "Mojo::Collection" at lib/JustWrite/Controller/Post.pm line 34.
+
+[Mon Jun  1 03:00:36 2015] [debug] Template "exception.development.html.ep" not found
+[Mon Jun  1 03:00:36 2015] [debug] Template "exception.html.ep" not found
+[Mon Jun  1 03:00:36 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 03:00:36 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 03:00:36 2015] [debug] 500 Internal Server Error (0.103099s, 9.699/s)
+[Mon Jun  1 03:06:36 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 03:06:44 2015] [debug] GET "/index"
+[Mon Jun  1 03:06:44 2015] [debug] Rendering template "index.html.ep"
+[Mon Jun  1 03:06:44 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 03:06:44 2015] [debug] 200 OK (0.014057s, 71.139/s)
+[Mon Jun  1 03:07:55 2015] [debug] POST "/p/create"
+[Mon Jun  1 03:07:55 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "create"
+[Mon Jun  1 03:07:55 2015] [debug] 200 OK (0.128009s, 7.812/s)
+[Mon Jun  1 03:07:58 2015] [debug] GET "/p/list"
+[Mon Jun  1 03:07:58 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Mon Jun  1 03:07:58 2015] [debug] Rendering template "post/list.html.ep"
+[Mon Jun  1 03:07:58 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 03:07:58 2015] [debug] 200 OK (0.009377s, 106.644/s)
+[Mon Jun  1 03:08:01 2015] [debug] GET "/p/view/6b868246-1553-4fd7-8bf2-6e04d34e1872"
+[Mon Jun  1 03:08:01 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 03:08:01 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 03:08:01 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 03:08:01 2015] [debug] 200 OK (0.021594s, 46.309/s)
+[Mon Jun  1 03:08:02 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 03:08:02 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 03:08:02 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 03:08:02 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 03:08:02 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 03:08:02 2015] [debug] 404 Not Found (0.037945s, 26.354/s)
+[Mon Jun  1 03:15:39 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 11:37:09 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 11:37:36 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 11:37:56 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 11:38:18 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 11:43:31 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"

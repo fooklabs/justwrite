@@ -86,7 +86,7 @@
 		 * @date 2011/08/18
 		 * @id TextExtPrompt.events.blur
 		 */
-	
+
 		DEFAULT_OPTS = {
 			prompt : 'Awaiting input...',
 
@@ -116,13 +116,13 @@
 			;
 
 		self.baseInit(core, DEFAULT_OPTS);
-		
+
 		container = $(self.opts(OPT_HTML_PROMPT));
 		$(self).data('container', container);
 
 		self.core().wrapElement().append(container);
 		self.setPrompt(self.opts(OPT_PROMPT));
-		
+
 		prompt = core.input().attr(placeholderKey);
 
 		if(!prompt)
@@ -130,7 +130,7 @@
 
 		// clear placeholder attribute if set
 		core.input().attr(placeholderKey, '');
-		core.input().attr(placeholderKey, 'Enter up to 5 tags');
+		core.input().attr(placeholderKey, 'Enter up to 5 topics');
 
 		if(prompt)
 			self.setPrompt(prompt);
@@ -148,7 +148,7 @@
 
 	//--------------------------------------------------------------------------------
 	// Event handlers
-	
+
 	/**
 	 * Reacts to the `postInit` and configures the plugin for initial display.
 	 *
@@ -203,7 +203,7 @@
 	};
 
 	/**
-	 * Reacts to the `blur` event and shows the prompt effect with a slight delay which 
+	 * Reacts to the `blur` event and shows the prompt effect with a slight delay which
 	 * allows quick refocusing without effect blinking in and out.
 	 *
 	 * The prompt is restored if the text box has no value.
@@ -240,7 +240,7 @@
 		var self     = this,
 			input    = self.input()
 			;
-		
+
 		if($.trim(self.val()).length === 0 && !input.is(':focus'))
 			self.containerElement().removeClass(CSS_HIDE_PROMPT);
 	};
@@ -257,7 +257,7 @@
 	p.hidePrompt = function()
 	{
 		this.stopTimer('prompt');
-                $('#tags').removeAttr('placeholder');
+                $('#topics').removeAttr('placeholder');
                 //this.input().attr(placeholderKey, '');
 		//this.containerElement().addClass(CSS_HIDE_PROMPT);
 	};
@@ -276,7 +276,7 @@
 	{
 		this.hidePrompt();
 	};
-	
+
 	//--------------------------------------------------------------------------------
 	// Core functionality
 

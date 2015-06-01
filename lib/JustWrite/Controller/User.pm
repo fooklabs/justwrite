@@ -67,15 +67,4 @@ sub logout {
   $c->redirect_to('index');
 }
 
-sub subscribe {
-  my $c = shift;
-
-  if ($c->req->method ne 'POST') {
-    return $c->render(template => 'user/subscribe');
-  }
-
-  $c->session(login => undef);
-  $c->redirect_to('index');
-}
-
 1;

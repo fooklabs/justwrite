@@ -1,5 +1,9 @@
 package JustWrite::Controller::Post;
 use Mojo::Base 'Mojolicious::Controller';
+use Mojo::JSON qw/from_json/;
+use HTML::Strip;
+
+use Text::Markdown 'markdown';
 
 use Try::Tiny;
 use Data::Dumper;
@@ -7,36 +11,33 @@ use Data::Dumper;
 sub create {
   my $c = shift;
   my $db = $c->pg->db;
+
   my $title    = $c->param('title');
   my $body     = $c->param('body');
-  my $tags     = $c->every_param('tag[]');
-  my $login    = $c->session('login');
+  my $topics   = $c->param('topics');
+  my $login    = $c->session('login') // 'anonymous';
 
-  my $pid;
-  if ( $login ) {
-    $pid = $db->query(
-      'insert into post (login,title,body,published) values(?, ?, ?, ?) returning post_id',
-      $login,
-      $title,
-      $body,
-      'true'
-    )->hash->{post_id};
-  }
-  else {
-    $pid = $db->query(
-      'insert into post (title,body,published) values(?, ?, ?) returning post_id',
-      $title,
-      $body,
-      'true'
-    )->hash->{post_id};
-  }
+  # title, body and topics are required
+  # $validation->required('title')->size(3, 300);
+  # $validation->required('body');
+  # $validation->required('topics');
+  # my $output = $validation->output;
+  my $hs = HTML::Strip->new();
 
-  for my $tag ( @{$tags} ) {
-    try {
-      $db->query('insert into tag (name) values (?)', $tag);
-    };
-    $db->query('insert into post_tag (post_id, tag_name) values (?, ?)', $pid, $tag);
-  }
+  $body = $hs->parse( $body );
+  $body = markdown($body);
+  my $pid = $db->query(
+    'insert into post (login,title,body,published) values(?, ?, ?, ?) returning post_id',
+    $login,
+    $title,
+    $body,
+    'true'
+  )->hash->{post_id};
+  $topics = from_json($topics);
+  try {
+    $db->query('insert into topic (name) values (?)', $_);
+    $db->query('insert into post_to_topic (post,topic) values (?,?)', $pid, $_);
+  } for @{$topics};
 
   $c->render(text => 'good');
 }
@@ -46,15 +47,13 @@ sub view {
   my $db = $c->pg->db;
   my $pid = $c->param('pid');
 
-  print "$pid\n";
-
-  if ( my $post = $db->query('select * from post a join post_tag b on a.post_id=b.post_id where a.post_id = ?', $pid)->hashes ) {
-    $post = $post->to_array;
-    print Dumper $post;
-    return $c->render(template => 'post/view', post => $post);
-  }
-
-  $c->render(text => 'good');
+  print $pid."\n";
+  my $post = $db->query(
+    'select * from post a join post_to_topic b on a.post_id=b.post where post_uuid = ?',
+    $pid
+  )->hashes;
+  #$post = $post->to_array;
+  return $c->render(template => 'post/view', post => $post);
 
 }
 
@@ -81,7 +80,7 @@ sub edit {
   if ( $c->session('login') ne $login ) {
     return $c->render(text => $body);
   }
-  
+
   $db->query('update post set body = ? where post_id = ?', $body, $pid);
   $c->render(text => $body);
 }

@@ -1413,7 +1413,7 @@ a.btn-mod:focus{
     vertical-align: middle;
     max-width: 118px;
     height: 75px;
-    font-family: 'Josefin Slab', serif; 
+    font-family: 'Josefin Slab', serif;
 }
 .nav-logo-wrap .logo img{
 	max-height: 90%;
@@ -5322,4 +5322,8 @@ section:hover .small-item-carousel .owl-next{
 }
 .graybg {
   background-color: #F4F3F1;
+}
+
+.topic {
+  padding-right:20px;
 }

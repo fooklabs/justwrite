@@ -29,11 +29,13 @@ sub load_config {
 
 # This method will run once at server start
 sub startup {
-  my $self = shift;
+  my $app = shift;
 
-  $self->helper(
+  $app->load_config;
+
+  $app->helper(
     bcrypt => sub {
-      my $app = shift;
+      my $self = shift;
       my ( $password, $settings ) = @_;
 
       unless ( defined $settings && $settings =~ /^\$2a\$/ ) {
@@ -45,21 +47,21 @@ sub startup {
     }
   );
 
-  $self->helper(
+  $app->helper(
     check_password => sub {
-      my $app = shift;
+      my $self = shift;
       my ( $pass1, $pass2) = @_;
 
       return 1 if $app->bcrypt($pass1, $pass2) eq $pass2;
     }
   );
 
-  $self->helper( pg => sub {
+  $app->helper( pg => sub {
     state $pg = Mojo::Pg->new(shift->config->{db_string})
   });
 
   # Router
-  my $r = $self->routes;
+  my $r = $app->routes;
 
   # Normal route to controller
   $r->get('/index');
@@ -72,6 +74,7 @@ sub startup {
   $r->get('/p/list/:tid', {tid => 'all'})->to('post#list');
   $r->post('/p/edit')->to('post#edit');
   $r->any('/s/create')->to('subject#create');
+  $r->any('/t/view')->to('topic#view');
 
 }
 
