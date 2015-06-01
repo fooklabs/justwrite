@@ -414,7 +414,7 @@
 
       if (options.autofocus) {
         this.$textarea.focus();
-        this.$editor.addClass('active');
+        //this.$editor.addClass('active');
       }
 
       if (options.fullscreen.enable && options.fullscreen !== false) {
@@ -814,7 +814,7 @@
           isHideable = options.hideable,
           editor = this.$editor;
 
-      editor.addClass('active');
+      //editor.addClass('active');
 
       // Blur other markdown(s)
       $(document).find('.md-editor').each(function(){
@@ -1257,8 +1257,8 @@
           hotkey: 'Ctrl+P',
           title: 'Preview',
           btnText: 'Preview',
-          btnClass: 'btn btn-primary btn-sm',
-          icon: { glyph: 'glyphicon glyphicon-search', fa: 'fa fa-search', 'fa-3': 'icon-search' },
+          btnClass: 'btn btn-mod btn-gray btn-round',
+          //icon: { glyph: 'glyphicon glyphicon-search', fa: 'fa fa-search', 'fa-3': 'icon-search' },
           callback: function(e){
             // Check the preview mode and toggle based on this flag
             var isPreview = e.$isPreview,content;

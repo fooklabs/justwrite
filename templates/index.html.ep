@@ -1,64 +1,90 @@
 % layout 'default';
-% title 'Play with your asshole';
-
 
 <!-- Alternative Services Section -->
 <section class="page-section smallest-section" id="start">
   <div class="container relative">
 
-      <!-- Row -->
-      <div class="row">
+    <!-- Row -->
+    <div class="row">
 
-          <!-- Col -->
+      <!-- Form -->
+      %= form_for '/p/create', class => 'form', autocomplete => 'off', => (method => 'post') => begin
 
-          <div class="col-sm-8 col-sm-offset-2">
-
-              <!-- Form -->
-              %= form_for '/p/create', class => 'form', autocomplete => 'off', => (method => 'post') => begin
-
-                 <div class="col-sm-8 col-sm-offset-4">
-                  <div class="mb-20 mb-md-10">
-                      <!-- Name -->
-                      <input type="text" name="title" id="title" class="input-md form-control" placeholder="Title" maxlength="100">
-                  </div>
-                 </div>
-
-
-                 <div class="col-sm-12">
-                  <div class="mb-20 mb-md-10">
-                    <textarea name="body" class="fuck input-md form-control graybg zen-mode--textarea" rows="20" placeholder="Text" maxlength="40000000" data-provide="markdown" data-iconlibrary="fa" data-hidden-buttons="cmdImage cmdLink"></textarea>
-                  </div>
-                 </div>
-
-                 <div class="col-sm-8 col-sm-offset-4">
-                  <div class="mb-20 mb-md-10">
-                    <div data-tags-input-name="tag" id="tagBox"></div>
-                  </div>
-                 </div>
-                  <div class="col-sm-8 col-sm-offset-2 align-center">
-                      <button type="submit" class="btn btn-mod btn-border btn-large btn-round">Publish</button>
-                  </div>
-              % end
+      <div class="col-sm-8 col-sm-offset-2">
+        <div class="mb-20 mb-md-10">
+          <input type="text" name="title" id="title" class="input-md form-control" placeholder="Title" maxlength="100">
         </div>
-        <!-- End Section Headings -->
+      </div>
 
+      <div class="col-sm-12">
+        <div class="mb-20 mb-md-10">
+          <textarea name="body" rows="15" class="input-md form-control greybg" placeholder="Text" data-provide="markdown" data-iconlibrary="fa" data-hidden-buttons="cmdImage,cmdUrl"></textarea>
+        </div>
+      </div>
+
+      <div class="col-sm-8 col-sm-offset-2">
+        <div class="mb-20 mb-md-10">
+          <input type="text" id="tags" class="input-md form-control" placeholder="Enter up to 5 tags..." />
+        </div>
+      </div>
+
+      <div class="col-sm-8 col-sm-offset-2 align-center">
+        <button type="submit" class="btn btn-mod btn-border btn-large btn-round">Publish</button>
+      </div>
+      % end
     </div>
+    <!-- End Row -->
+
+  </div>
 </section>
-<!-- End Alternative Services Section -->
 
 % content_for javascript => begin
-  <script type="text/javascript">
 
-    $(function() {
-      $(".edit_area").editable("http://198.23.74.165:3000/p/edit", {
-       type      : 'textarea',
-       cancel    : 'Cancel',
-       submit    : 'OK',
-       event     : "edit_area"
-     });
-     $(".edit_trigger").bind("click", function() {
-       $('.edit_area').trigger("edit_area");
-      });
+  <script src="//google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+  <script type="text/javascript" src="/js/markdown.js"></script>
+  <script type="text/javascript" src="/js/to-markdown.js"></script>
+  <script type="text/javascript" src="/js/bootstrap-markdown.js"></script>
+  <script src="//rawgit.com/jeresig/jquery.hotkeys/master/jquery.hotkeys.js"></script>
+  <script src="js/textext.core.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/textext.plugin.tags.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/textext.plugin.autocomplete.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/textext.plugin.prompt.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/textext.plugin.ajax.js" type="text/javascript" charset="utf-8"></script>
+
+  <script type="text/javascript">
+    $('#tags').textext({
+      plugins : 'autocomplete tags prompt clear',
+    }).bind('isTagAllowed', function(e, data){
+      var formData = $(e.target).textext()[0].tags()._formData,
+      list = eval(formData);
+      
+      data.tag = data.tag.toLowerCase();
+      if (!data.tag.match(/^[a-z][a-z\-]+[a-z]$/)) {
+        data.result = false;
+      }
+      if (data.tag.length > 25) {
+        data.result = false;
+      }
+      if (formData.length >= 5) {
+        data.result = false;
+        //$('#tags').prop("disabled", true);
+      }
+      if (formData.length && list.indexOf(data.tag) >= 0) {
+        data.result = false;
+      }
     });
+    //$(function() {
+    //  $(".edit_area").editable("http://198.23.74.165:3000/p/edit", {
+    //   type      : 'textarea',
+    //   cancel    : 'Cancel',
+    //   submit    : 'OK',
+    //   event     : "edit_area"
+    // });
+    // $(".edit_trigger").bind("click", function() {
+    //   $('.edit_area').trigger("edit_area");
+    //  });
+    //  $( "#tagBox" ).tagging();
+    //});
   </script>
+
 % end

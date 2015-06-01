@@ -79,7 +79,7 @@ sub edit {
   my $body =  $c->param('value');
 
   if ( $c->session('login') ne $login ) {
-    return $c->render(text => body);
+    return $c->render(text => $body);
   }
   
   $db->query('update post set body = ? where post_id = ?', $body, $pid);

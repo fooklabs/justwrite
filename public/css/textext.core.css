@@ -1,0 +1,16 @@
+.text-core {
+  position: relative;
+}
+.text-core .text-wrap {
+  background: #fff;
+  position: absolute;
+}
+.text-core .text-wrap textarea,
+.text-core .text-wrap input {
+  resize: none;
+  position: absolute;
+  z-index: 1;
+  background: none;
+  white-space: nowrap;
+  line-height: 13px;
+}
