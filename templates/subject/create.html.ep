@@ -1,0 +1,63 @@
+% layout 'default';
+
+<!-- Alternative Services Section -->
+<section class="page-section smallest-section" id="start">
+  <div class="container relative">
+
+    <!-- Row -->
+    <div class="row">
+
+      <!-- Form -->
+      %= form_for '/s/create', class => 'form', autocomplete => 'off', => (method => 'post') => begin
+
+      <div class="col-sm-8 col-sm-offset-2">
+        <div class="mb-20 mb-md-10">
+          <input type="text" name="title" id="title" class="input-md form-control" placeholder="Name" maxlength="100">
+        </div>
+      </div>
+
+      <div class="col-sm-12">
+        <div class="mb-20 mb-md-10">
+          <textarea id="tags" name="tags" rows="15" class="input-md form-control" placeholder="Enter subjects..."></textarea>
+        </div>
+      </div>
+
+      <div class="col-sm-8 col-sm-offset-2 align-center">
+        <button type="submit" class="btn btn-mod btn-border btn-large btn-round">Create</button>
+      </div>
+      % end
+    </div>
+    <!-- End Row -->
+
+  </div>
+</section>
+
+% content_for javascript => begin
+
+  <script src="/js/textext.core.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/js/textext.plugin.tags.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/js/textext.plugin.autocomplete.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/js/textext.plugin.prompt.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/js/textext.plugin.ajax.js" type="text/javascript" charset="utf-8"></script>
+
+  <script type="text/javascript">
+    $('#tags').textext({
+      plugins : 'autocomplete tags prompt clear',
+    }).bind('isTagAllowed', function(e, data){
+      var formData = $(e.target).textext()[0].tags()._formData,
+      list = eval(formData);
+      
+      data.tag = data.tag.toLowerCase();
+      if (!data.tag.match(/^[a-z][a-z\-]+[a-z]$/)) {
+        data.result = false;
+      }
+      if (data.tag.length > 25) {
+        data.result = false;
+      }
+      if (formData.length && list.indexOf(data.tag) >= 0) {
+        data.result = false;
+      }
+    });
+  </script>
+
+% end

@@ -1,41 +1,30 @@
-package JustWrite::Controller::User;
+package JustWrite::Controller::Topic;
 use Mojo::Base 'Mojolicious::Controller';
 use Data::Dumper;
 
-
-sub login {
+sub view {
   my $c = shift;
   my $db = $c->pg->db;
-  my $login    = $c->param('login');
-  my $password = $c->param('password');
-
-  if ($c->session('login')) {
-    return $c->redirect_to('index');
-  }
-  if ($c->req->method ne 'POST') {
-    return $c->render(template => 'user/register');
-  }
-
-  my $user = $db->query('select * from "user" where login = ?', $login)->hash;
-
-  return $c->render(template => 'user/register', error => 'invalid username')
-    unless defined $user->{login};
-
-  return $c->render(template => 'user/register', error => 'invalid password')
-    unless $c->check_password($password, $user->{password});
 
   $c->session(login => $login);
   $c->redirect_to('index');
 }
 
-sub register {
+sub list {
   my $c = shift;
-  my $validation = $c->validation;
+  my $db = $c->pg->db;
+
+  
+}
+
+sub edit {
+  my $c = shift;
   my $db = $c->pg->db;
 
   if ($c->session('login')) {
-    return $c->redirect_to('index');
+    return $c->redirect_to($from);
   }
+
   if ($c->req->method ne 'POST') {
     return $c->render(template => 'user/register');
   }
@@ -57,24 +46,6 @@ sub register {
   )->hash->{login};
 
   $c->session(login => $output->{login});
-  $c->redirect_to('index');
-}
-
-sub logout {
-  my $c = shift;
-
-  $c->session(login => undef);
-  $c->redirect_to('index');
-}
-
-sub subscribe {
-  my $c = shift;
-
-  if ($c->req->method ne 'POST') {
-    return $c->render(template => 'user/subscribe');
-  }
-
-  $c->session(login => undef);
   $c->redirect_to('index');
 }
 

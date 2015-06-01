@@ -12,8 +12,6 @@
         $(".page-loader div").delay(0).fadeOut();
         $(".page-loader").delay(200).fadeOut("slow");
 
-        init_scroll_navigate();
-
         $(window).trigger("scroll");
         $(window).trigger("resize");
 
@@ -32,16 +30,8 @@
         $(window).trigger("resize");
 
         init_classic_menu();
-        init_lightbox();
-        init_parallax();
         init_shortcodes();
         init_tooltips();
-        init_counters();
-        init_team();
-        initPageSliders();
-        initWorkFilter();
-        init_map();
-        init_wow();
         init_masonry();
     });
 
@@ -163,13 +153,6 @@
     function init_classic_menu(){
 
 
-        // Navbar sticky
-
-        $(".js-stick").sticky({
-            topSpacing: 0
-        });
-
-
         height_line($(".inner-nav > ul > li > a"), $(".main-nav"));
         height_line(mobile_nav, $(".main-nav"));
 
@@ -271,101 +254,6 @@
     }
 
 
-
-    /* ---------------------------------------------
-     Scroll navigation
-     --------------------------------------------- */
-
-    function init_scroll_navigate(){
-
-        $(".local-scroll").localScroll({
-            target: "body",
-            duration: 1500,
-            offset: 0,
-            easing: "easeInOutExpo"
-        });
-
-        var sections = $(".home-section, .split-section, .page-section");
-        var menu_links = $(".scroll-nav li a");
-
-        $(window).scroll(function(){
-
-            sections.filter(":in-viewport:first").each(function(){
-                var active_section = $(this);
-                var active_link = $('.scroll-nav li a[href="#' + active_section.attr("id") + '"]');
-                menu_links.removeClass("active");
-                active_link.addClass("active");
-            });
-
-        });
-
-    }
-
-
-
-    /* ---------------------------------------------
-     Lightboxes
-     --------------------------------------------- */
-
-    function init_lightbox(){
-
-        // Works Item Lightbox
-        $(".work-lightbox-link").magnificPopup({
-            gallery: {
-                enabled: true
-            },
-            mainClass: "mfp-fade"
-        });
-
-        // Works Item Lightbox
-        $(".lightbox-gallery-1").magnificPopup({
-            gallery: {
-                enabled: true
-            }
-        });
-
-        // Other Custom Lightbox
-        $(".lightbox-gallery-2").magnificPopup({
-            gallery: {
-                enabled: true
-            }
-        });
-        $(".lightbox-gallery-3").magnificPopup({
-            gallery: {
-                enabled: true
-            }
-        });
-        $(".lightbox").magnificPopup();
-
-    }
-
-
-
-    /* -------------------------------------------
-     Parallax
-     --------------------------------------------- */
-
-    function init_parallax(){
-
-        // Parallax
-        if (($(window).width() >= 1024) && (mobileTest == false)) {
-            $(".parallax-1").parallax("50%", 0.1);
-            $(".parallax-2").parallax("50%", 0.2);
-            $(".parallax-3").parallax("50%", 0.3);
-            $(".parallax-4").parallax("50%", 0.4);
-            $(".parallax-5").parallax("50%", 0.5);
-            $(".parallax-6").parallax("50%", 0.6);
-            $(".parallax-7").parallax("50%", 0.7);
-            $(".parallax-8").parallax("50%", 0.5);
-            $(".parallax-9").parallax("50%", 0.5);
-            $(".parallax-10").parallax("50%", 0.5);
-            $(".parallax-11").parallax("50%", 0.05);
-        }
-
-    }
-
-
-
     /* ---------------------------------------------
      Shortcodes
      --------------------------------------------- */
@@ -424,10 +312,6 @@
             return false;
         });
 
-        // Responsive video
-        $(".video, .resp-media, .blog-media").fitVids();
-        $(".work-full-media").fitVids();
-
     }
 
 
@@ -448,231 +332,7 @@
 
     }
 
-
-
-    /* ---------------------------------------------
-     Some facts section
-     --------------------------------------------- */
-
-     function init_counters(){
-        $(".count-number").appear(function(){
-            var count = $(this);
-            count.countTo({
-                from: 0,
-                to: count.html(),
-                speed: 1300,
-                refreshInterval: 60,
-            });
-
-        });
-    }
-
-
-
-
-    /* ---------------------------------------------
-     Team
-     --------------------------------------------- */
-
-    function init_team(){
-
-        // Hover
-        $(".team-item").click(function(){
-            if ($("html").hasClass("mobile")) {
-                $(this).toggleClass("js-active");
-            }
-        });
-
-    }
-
-
 })(jQuery); // End of use strict
-
-
-/* ---------------------------------------------
-     Sliders
-   --------------------------------------------- */
-function initPageSliders(){
-    (function($){
-        "use strict";
-
-        // Fullwidth slider
-        $(".fullwidth-slider").owlCarousel({
-            slideSpeed: 350,
-            singleItem: true,
-            autoHeight: true,
-            navigation: true,
-            navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
-        });
-
-        // Fullwidth slider
-        $(".fullwidth-slider-fade").owlCarousel({
-            transitionStyle: "fadeUp",
-            slideSpeed: 350,
-            singleItem: true,
-            autoHeight: true,
-            navigation: true,
-            navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
-        });
-
-        // Fullwidth gallery
-        $(".fullwidth-gallery").owlCarousel({
-            transitionStyle: "fade",
-            autoPlay: 5000,
-            slideSpeed: 700,
-            singleItem: true,
-            autoHeight: true,
-            navigation: false,
-            pagination: false
-        });
-
-        // Item carousel
-        $(".item-carousel").owlCarousel({
-            autoPlay: 2500,
-            //stopOnHover: true,
-            items: 3,
-            itemsDesktop: [1199, 3],
-            itemsTabletSmall: [768, 3],
-            itemsMobile: [480, 1],
-            navigation: false,
-            navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
-        });
-
-        // Item carousel
-        $(".small-item-carousel").owlCarousel({
-            autoPlay: 2500,
-            stopOnHover: true,
-            items: 6,
-            itemsDesktop: [1199, 4],
-            itemsTabletSmall: [768, 3],
-            itemsMobile: [480, 2],
-            pagination: false,
-            navigation: false,
-            navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
-        });
-
-        // Single carousel
-        $(".single-carousel").owlCarousel({
-            //transitionStyle: "backSlide",
-            singleItem: true,
-            autoHeight: true,
-            navigation: true,
-            navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
-        });
-
-        // Content Slider
-        $(".content-slider").owlCarousel({
-            slideSpeed: 350,
-            singleItem: true,
-            autoHeight: true,
-            navigation: true,
-            navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
-        });
-
-        // Photo slider
-        $(".photo-slider").owlCarousel({
-            //transitionStyle: "backSlide",
-            slideSpeed: 350,
-            items: 4,
-            itemsDesktop: [1199, 4],
-            itemsTabletSmall: [768, 2],
-            itemsMobile: [480, 1],
-            autoHeight: true,
-            navigation: true,
-            navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
-        });
-
-        // Work slider
-        $(".work-full-slider").owlCarousel({
-            slideSpeed : 350,
-            singleItem: true,
-            autoHeight: true,
-            navigation: true,
-            navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
-        });
-
-        // Blog posts carousel
-        $(".blog-posts-carousel").owlCarousel({
-            autoPlay: 5000,
-            stopOnHover: true,
-            items: 3,
-            itemsDesktop: [1199, 3],
-            itemsTabletSmall: [768, 2],
-            itemsMobile: [480, 1],
-            pagination: false,
-            navigation: true,
-            navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
-        });
-
-        // Blog posts carousel alt
-        $(".blog-posts-carousel-alt").owlCarousel({
-            autoPlay: 3500,
-            stopOnHover: true,
-            slideSpeed: 350,
-            singleItem: true,
-            autoHeight: true,
-            pagination: false,
-            navigation: true,
-            navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
-        });
-
-
-        if ($(".owl-carousel").lenth) {
-            var owl = $(".owl-carousel").data('owlCarousel');
-            owl.reinit();
-        }
-
-    })(jQuery);
-};
-
-
-
-
-
-/* ---------------------------------------------
- Portfolio section
- --------------------------------------------- */
-
-// Projects filtering
-var fselector = 0;
-var work_grid = $("#work-grid");
-
-function initWorkFilter(){
-    (function($){
-     "use strict";
-     var isotope_mode;
-     if (work_grid.hasClass("masonry")){
-         isotope_mode = "masonry";
-     } else{
-         isotope_mode = "fitRows"
-     }
-
-     work_grid.imagesLoaded(function(){
-            work_grid.isotope({
-                itemSelector: '.mix',
-                layoutMode: isotope_mode,
-                filter: fselector
-            });
-        });
-
-        $(".filter").click(function(){
-            $(".filter").removeClass("active");
-            $(this).addClass("active");
-            fselector = $(this).attr('data-filter');
-
-            work_grid.isotope({
-                itemSelector: '.mix',
-                layoutMode: isotope_mode,
-                filter: fselector
-            });
-            return false;
-        });
-
-    })(jQuery);
-}
-
-
-
 
 
 /* ---------------------------------------------
@@ -687,83 +347,6 @@ function js_height_init(){
     })(jQuery);
 }
 
-
-
-
-/* ---------------------------------------------
- Google map
- --------------------------------------------- */
-
-var gmMapDiv = $("#map-canvas");
-
-function init_map(){
-    (function($){
-
-        $(".map-section").click(function(){
-            $(this).toggleClass("js-active");
-            $(this).find(".mt-open").toggle();
-            $(this).find(".mt-close").toggle();
-        });
-
-
-        if (gmMapDiv.length) {
-
-            var gmCenterAddress = gmMapDiv.attr("data-address");
-            var gmMarkerAddress = gmMapDiv.attr("data-address");
-
-
-            gmMapDiv.gmap3({
-                action: "init",
-                marker: {
-                    address: gmMarkerAddress,
-                    options: {
-                        icon: "images/map-marker.png"
-                    }
-                },
-                map: {
-                    options: {
-                        zoom: 14,
-                        zoomControl: true,
-                        zoomControlOptions: {
-                            style: google.maps.ZoomControlStyle.SMALL
-                        },
-                        mapTypeControl: false,
-                        scaleControl: false,
-                        scrollwheel: false,
-                        streetViewControl: false,
-                        draggable: true,
-                        styles: [{"featureType":"water","elementType":"geometry.fill","stylers":[{"color":"#d3d3d3"}]},{"featureType":"transit","stylers":[{"color":"#808080"},{"visibility":"off"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"visibility":"on"},{"color":"#b3b3b3"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"road.local","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"weight":1.8}]},{"featureType":"road.local","elementType":"geometry.stroke","stylers":[{"color":"#d7d7d7"}]},{"featureType":"poi","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#ebebeb"}]},{"featureType":"administrative","elementType":"geometry","stylers":[{"color":"#a7a7a7"}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"landscape","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#efefef"}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"color":"#696969"}]},{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"visibility":"on"},{"color":"#737373"}]},{"featureType":"poi","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road.arterial","elementType":"geometry.stroke","stylers":[{"color":"#d6d6d6"}]},{"featureType":"road","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{},{"featureType":"poi","elementType":"geometry.fill","stylers":[{"color":"#dadada"}]}]
-                    }
-                }
-            });
-        }
-    })(jQuery);
-}
-
-
-/* ---------------------------------------------
- WOW animations
- --------------------------------------------- */
-
-function init_wow(){
-    (function($){
-
-        var wow = new WOW({
-            boxClass: 'wow',
-            animateClass: 'animated',
-            offset: 90,
-            mobile: false,
-            live: true
-        });
-
-        if ($("body").hasClass("appear-animate")){
-           wow.init();
-        }
-
-    })(jQuery);
-}
-
-
 /* ---------------------------------------------
  Masonry
  --------------------------------------------- */
@@ -771,9 +354,7 @@ function init_wow(){
 function init_masonry(){
     (function($){
 
-        $(".masonry").imagesLoaded(function(){
-            $(".masonry").masonry();
-        });
+      $(".masonry").masonry();
 
     })(jQuery);
 }
