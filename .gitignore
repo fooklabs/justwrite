@@ -1,2 +1,3 @@
 cert/www_justwrite_io.csr
 cert/www_justwrite_io.key
+justwrite.conf
