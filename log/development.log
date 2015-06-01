@@ -36927,3 +36927,4 @@ LINE 1: select * from post a join post_to_topic b using a.post_id=b....
 [Mon Jun  1 11:38:18 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
 [Mon Jun  1 11:43:31 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
 [Mon Jun  1 11:45:11 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 11:47:43 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
