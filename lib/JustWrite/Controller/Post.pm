@@ -17,17 +17,32 @@ sub create {
   my $topics   = $c->param('topics');
   my $login    = $c->session('login') // 'anonymous';
 
-  # title, body and topics are required
-  # $validation->required('title')->size(3, 300);
-  # $validation->required('body');
-  # $validation->required('topics');
-  # my $output = $validation->output;
+  # Build the stub
+  my $stub = $title =~ s/[^\w\s]//rg;
+  $stub =~ s/\h+/_/g;
+  return $c->redirect_to($from) if !$stub;
+
+    # Strip out any HTML the user may have added
   my $hs = HTML::Strip->new();
 
-  $body = $hs->parse( $body );
+  $body = $hs->parse($body);
   $body = markdown($body);
-  my $pid = $db->query(
-    'insert into post (login,title,body,published) values(?, ?, ?, ?) returning post_id',
+
+
+  # Generate a random 6 character string.
+  my $pid = $c->random;
+  while ( my $b = $db->query('
+    select title from post where id = ? and stub = ?', $pid, $stub)
+  ) {
+    $pid = $c->random;
+  }
+
+
+
+
+
+  $db->query(
+    'insert into post (login,title,body,published) values(?, ?, ?, ?)',
     $login,
     $title,
     $body,
@@ -39,7 +54,7 @@ sub create {
     $db->query('insert into post_to_topic (post,topic) values (?,?)', $pid, $_);
   } for @{$topics};
 
-  $c->render(text => 'good');
+  $c->redirect_to("/p/:$pid/:$stub");
 }
 
 sub view {
@@ -47,7 +62,6 @@ sub view {
   my $db = $c->pg->db;
   my $pid = $c->param('pid');
 
-  print $pid."\n";
   my $post = $db->query(
     'select * from post a join post_to_topic b on a.post_id=b.post where post_uuid = ?',
     $pid

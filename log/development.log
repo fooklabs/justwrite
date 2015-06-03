@@ -36930,3 +36930,112 @@ LINE 1: select * from post a join post_to_topic b using a.post_id=b....
 [Mon Jun  1 11:47:43 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
 [Mon Jun  1 11:49:55 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
 [Mon Jun  1 11:51:19 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 13:50:12 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 13:50:38 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 13:50:42 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 13:51:02 2015] [debug] GET "/p/list"
+[Mon Jun  1 13:51:02 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Mon Jun  1 13:51:02 2015] [debug] Rendering template "post/list.html.ep"
+[Mon Jun  1 13:51:02 2015] [error] Can't call method "b64_encode" on unblessed reference at template post/list.html.ep line 16.
+11:     <!-- Row -->
+12:     <div class="row">
+13:       % for (@{$post}) {
+14:       <div class="text">
+15:         <div class="col-sm-8">
+16: 	        <h5 class="uppercase mb-30"><i class="fa fa-pencil"></i> <a href="/p/view/<%= b64_encode $_->{post_uuid} %>"><%= $_->{title} %></a></h5>
+17:         </div>
+18:         <div class="col-sm-4"><h5 class="uppercase mb-30">asdf asdfasdf sadfasdf asdfasdf</h5></div>
+19:       </div>
+20:     </div>
+21:     % }
+
+[Mon Jun  1 13:51:02 2015] [debug] Template "exception.development.html.ep" not found
+[Mon Jun  1 13:51:02 2015] [debug] Template "exception.html.ep" not found
+[Mon Jun  1 13:51:02 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 13:51:02 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 13:51:02 2015] [debug] 500 Internal Server Error (0.070068s, 14.272/s)
+[Mon Jun  1 13:52:24 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 13:52:39 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 13:52:54 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 13:53:03 2015] [debug] GET "/p/list"
+[Mon Jun  1 13:53:03 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Mon Jun  1 13:53:03 2015] [debug] Rendering template "post/list.html.ep"
+[Mon Jun  1 13:53:03 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 13:53:03 2015] [debug] 200 OK (0.057545s, 17.378/s)
+[Mon Jun  1 13:53:09 2015] [debug] GET "/p/view/6b868246-1553-4fd7-8bf2-6e04d34e1872"
+[Mon Jun  1 13:53:09 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 13:53:09 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 13:53:09 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 13:53:09 2015] [debug] 200 OK (0.021112s, 47.366/s)
+[Mon Jun  1 13:53:09 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 13:53:09 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 13:53:09 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 13:53:09 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 13:53:10 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 13:53:10 2015] [debug] 404 Not Found (0.028330s, 35.298/s)
+[Mon Jun  1 13:53:32 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 13:53:33 2015] [debug] GET "/p/list"
+[Mon Jun  1 13:53:33 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Mon Jun  1 13:53:33 2015] [debug] Rendering template "post/list.html.ep"
+[Mon Jun  1 13:53:33 2015] [error] Undefined subroutine &Mojo::Template::Sandbox::aa7f49f9a8eba52b113eff46b5541203::b64_encode called at template post/list.html.ep line 16.
+11:     <!-- Row -->
+12:     <div class="row">
+13:       % for (@{$post}) {
+14:       <div class="text">
+15:         <div class="col-sm-8">
+16: 	        <h5 class="uppercase mb-30"><i class="fa fa-pencil"></i> <a href="/p/view/<%= b64_encode($_->{post_uuid}) %>"><%= $_->{title} %></a></h5>
+17:         </div>
+18:         <div class="col-sm-4"><h5 class="uppercase mb-30">asdf asdfasdf sadfasdf asdfasdf</h5></div>
+19:       </div>
+20:     </div>
+21:     % }
+
+[Mon Jun  1 13:53:33 2015] [debug] Template "exception.development.html.ep" not found
+[Mon Jun  1 13:53:33 2015] [debug] Template "exception.html.ep" not found
+[Mon Jun  1 13:53:33 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 13:53:33 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 13:53:33 2015] [debug] 500 Internal Server Error (0.078071s, 12.809/s)
+[Mon Jun  1 13:53:39 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 13:53:40 2015] [debug] GET "/p/list"
+[Mon Jun  1 13:53:40 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Mon Jun  1 13:53:40 2015] [debug] Rendering template "post/list.html.ep"
+[Mon Jun  1 13:53:40 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 13:53:40 2015] [debug] 200 OK (0.051595s, 19.382/s)
+[Mon Jun  1 13:53:48 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 13:53:49 2015] [debug] GET "/p/list"
+[Mon Jun  1 13:53:49 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Mon Jun  1 13:53:49 2015] [debug] Rendering template "post/list.html.ep"
+[Mon Jun  1 13:53:49 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 13:53:49 2015] [debug] 200 OK (0.058130s, 17.203/s)
+[Mon Jun  1 13:53:55 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 13:54:02 2015] [debug] GET "/p/list"
+[Mon Jun  1 13:54:02 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "list"
+[Mon Jun  1 13:54:02 2015] [debug] Rendering template "post/list.html.ep"
+[Mon Jun  1 13:54:02 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 13:54:02 2015] [debug] 200 OK (0.060503s, 16.528/s)
+[Mon Jun  1 13:54:19 2015] [debug] GET "/p/view/1a505324-b689-4854-b85b-34a07d68b709"
+[Mon Jun  1 13:54:19 2015] [debug] Routing to controller "JustWrite::Controller::Post" and action "view"
+[Mon Jun  1 13:54:19 2015] [debug] Rendering template "post/view.html.ep"
+[Mon Jun  1 13:54:19 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 13:54:19 2015] [debug] 200 OK (0.023939s, 41.773/s)
+[Mon Jun  1 13:54:19 2015] [debug] GET "/p/view/images/user-avatar.png"
+[Mon Jun  1 13:54:19 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun  1 13:54:19 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun  1 13:54:19 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Jun  1 13:54:19 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Jun  1 13:54:19 2015] [debug] 404 Not Found (0.034523s, 28.966/s)
+[Mon Jun  1 13:55:45 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 21:10:03 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 21:10:06 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 21:10:21 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 21:10:47 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 21:10:55 2015] [debug] GET "/"
+[Mon Jun  1 21:10:55 2015] [debug] Routing to a callback
+[Mon Jun  1 21:10:55 2015] [debug] Rendering template "index.html.ep"
+[Mon Jun  1 21:10:55 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun  1 21:10:55 2015] [debug] 200 OK (0.014532s, 68.814/s)
+[Mon Jun  1 23:55:52 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Mon Jun  1 23:56:02 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Tue Jun  2 18:26:43 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Tue Jun  2 19:12:53 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"
+[Tue Jun  2 19:15:46 2015] [debug] Reading configuration file "/home/damaya/Github/justwrite/justwrite.conf"

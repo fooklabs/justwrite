@@ -67,4 +67,13 @@ sub logout {
   $c->redirect_to('index');
 }
 
+sub view {
+  my $c = shift;
+  my $db = $c->pg->db;
+  my $id = $c->param('id');
+
+  # Get the user
+
+}
+
 1;

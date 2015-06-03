@@ -13,7 +13,7 @@
       % for (@{$post}) {
       <div class="text">
         <div class="col-sm-8">
-	        <h5 class="uppercase mb-30"><i class="fa fa-pencil"></i> <a href="/p/view/<%= $_->{post_uuid} %>"><%= $_->{title} %></a></h5>
+	        <h5 class="uppercase mb-30"><i class="fa fa-pencil"></i> <a href="/p/view/<%= encode($_->{post_uuid}) %>"><%= $_->{title} %></a></h5>
         </div>
         <div class="col-sm-4"><h5 class="uppercase mb-30">asdf asdfasdf sadfasdf asdfasdf</h5></div>
       </div>
