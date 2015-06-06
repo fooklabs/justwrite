@@ -70,10 +70,31 @@ sub logout {
 sub view {
   my $c = shift;
   my $db = $c->pg->db;
-  my $id = $c->param('id');
+  my $login = $c->param('login');
 
   # Get the user
-
+  try {
+    my $posts = $db->query(
+      'select a.post_uuid,a.title,a.created,b.topic from post a
+       join post_to_topic b on a.post_id=b.post_id
+       where login = ? and public and published order by created',
+      $login
+    )->hash;
+    my $links = $db->query(
+      'select a.link_uuid,a.title,a.url,a.created,b.topic from link a
+       join link_to_topic b on a.link_id=b.link_id
+       where login = ? order by created',
+      $login
+    )->hash;
+    my $books = $db->query(
+      'select book_uuid,name,created from book
+      where login = ? and public',
+      $login
+    );
+    $c->render(posts => $posts, links => $links, books => $books);
+  } catch {
+    #$c->render(error)
+  }
 }
 
 1;

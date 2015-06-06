@@ -1,4 +1,4 @@
-package JustWrite::Controller::Post;
+package JustWrite::Controller::Link;
 use Mojo::Base 'Mojolicious::Controller';
 use Mojo::JSON qw/from_json/;
 use HTML::Strip;
@@ -18,9 +18,8 @@ sub create {
   my $login    = $c->session('login') // 'anonymous';
 
   # Build the stub
-  my $slug = lc $title =~ s/[^\w\s]//rg;
-  $slug =~ s/\h+/_/g;
-  $slug = substr( $slug, 0, 50 );
+  my $stub = $title =~ s/[^\w\s]//rg;
+  $stub =~ s/\h+/_/g;
   # return $c->redirect_to($from) if !$stub;
 
     # Strip out any HTML the user may have added
@@ -35,39 +34,32 @@ sub create {
   my $count = $db->query('select count(post_uuid) from post where post_uuid = ?', $pid)->hash->{count};
   $pid .= $count + 1;
 
-  # try {
-    my $result = $db->query(
-      'insert into post (post_uuid,login,title,slug,body,published) values(?, ?, ?, ?, ?, ?) returning post_id',
+  try {
+    $db->query(
+      'insert into post (post_uuid,login,title,body,published) values(?, ?, ?, ?, ?)',
       $pid,
       $login,
       $title,
-      $slug,
       $body,
       'true'
-    )->hash;
+    )->hash->{post_id};
 
-    if ( my $post_id = $result->{post_id} ) {
-      $topics = from_json($topics);
-      for ( @{$topics} ) {
-        $db->query('insert into topic (name) values (?)', $_);
-        $db->query('insert into post_to_topic (post,topic) values (?,?)', $post_id, $_);
-      }
-      $c->redirect_to("/p/:$pid/:$slug");
+    $topics = from_json($topics);
+    for ( @{$topics} ) {
+      $db->query('insert into topic (name) values (?)', $_);
+      $db->query('insert into post_to_topic (post,topic) values (?,?)', $pid, $_);
     }
-  #   else {
-  #     # $c->render(eror)
-  #   }
-  # } catch {
-  #   # $c->render(error page);
-  # }
+    $c->redirect_to("/p/:$pid/:$stub");
+  } catch {
+    # $c->render(error page);
+  }
 
 }
 
 sub view {
   my $c = shift;
   my $db = $c->pg->db;
-  my $pid = $c->param('id');
-  my $slug = $c->param('slug');
+  my $pid = $c->param('pid');
 
   try {
     my $post = $db->query(
@@ -75,9 +67,8 @@ sub view {
       $pid
     )->hashes;
 
-    if ( $post->[0]->{login} ) {
-      $post = $post->to_array;
-      print Dumper $post;
+    if ( $post ) {
+      #$post = $post->to_array;
       return $c->render(template => 'post/view', post => $post);
     }
     else {
@@ -116,12 +107,4 @@ sub edit {
   $c->render(text => $body);
 }
 
-sub topic {
-  my $c = shift;
-  my $db = $c->pg->db;
-  my $id = $c->param('id');
-
-
-
-}
 1;

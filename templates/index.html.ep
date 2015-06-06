@@ -8,7 +8,7 @@
     <div class="row">
 
       <!-- Form -->
-      %= form_for '/p/create', class => 'form', autocomplete => 'off', => (method => 'post') => begin
+      %= form_for '/p/new', class => 'form', autocomplete => 'off', => (method => 'post') => begin
 
       <div class="col-sm-8 col-sm-offset-2">
         <div class="mb-20 mb-md-10">

@@ -6,7 +6,6 @@ use Mojo::Home;
 use Mojo::Util qw( md5_sum );
 use Crypt::Eksblowfish::Bcrypt qw/bcrypt en_base64/;
 use Math::Base36 ':all';
-use Crypt::PRNG qw/irand/;
 
 has config_file => sub {
   my $self = shift;
@@ -59,7 +58,7 @@ sub startup {
 
   $app->helper(
     random => sub {
-      return lc encode_base36(time.irand());
+      return lc encode_base36(time);
     }
   );
   $app->helper( pg => sub {
@@ -84,69 +83,69 @@ sub startup {
 
   # If not logged in posts can be created/viewed/listed
   $r->get('/p')->to('post#list');
-  $r->get('/p/:id/:slug')->to('post#view');
+  $r->get('/p/:id/:slug')->to('post#view', slug => '');
   $r->post('/p/new')->to('post#create');
 
 
   # Links can be created/viewed/listed
-  $r->get('/l')->to('link#list');
-  $r->get('/l/:id/:slug')->to('link#view');
-  $r->post('/l/new')->to('link#create');
+  # $r->get('/l')->to('link#list');
+  # $r->get('/l/:id/:slug')->to('link#view');
+  # $r->post('/l/new')->to('link#create');
 
   # Comments can be viewed/listed
-  $r->post('/c/view/:type')->to('comment#view');
-  $r->post('/c/list/:type')->to('comment#list');
+  # $r->post('/c/view/:type')->to('comment#view');
+  # $r->post('/c/list/:type')->to('comment#list');
 
   # Topics can be viewed/listed
-  $r->get('/t/:name')->to('topic#view');
-  $r->get('/t/:filter')->to('topic#list', filter => 'new');
+  # $r->get('/t/:name')->to('topic#view');
+  # $r->get('/t/:filter')->to('topic#list', filter => 'new');
 
   # Users can be viewed
-  $r->get('/u/:user')->to('user#view');
+  # $r->get('/u/:user')->to('user#view');
 
   # Books can be viewed/listed
-  $r->get('/b')->to('book#list');
-  $r->get('/b/:id/:slug')->to('book#view');
+  # $r->get('/b')->to('book#list');
+  # $r->get('/b/:id/:slug')->to('book#view');
 
-  my $auth = $r->under( sub {
-    my $self = shift;
-    return $self->is_auth || $self->auth_fail;
-  });
+  # my $auth = $r->under( sub {
+  #   my $self = shift;
+  #   return $self->is_auth || $self->auth_fail;
+  # });
 
   # Got to be logged in to log out :)
-  $auth->any('/logout')->to('user#logout')->name('logout');
+  # $auth->any('/logout')->to('user#logout')->name('logout');
   # And to delete your account
-  $auth->any('/delete')->to('user#delete');
+  # $auth->any('/delete')->to('user#delete');
 
   # People logged in can edit their own posts
-  $auth->get('/p/save')->to('post#update');
+  # $auth->get('/p/save')->to('post#update');
 
   # They can edit their own links
-  $auth->get('/l/save')->to('link#update');
+  # $auth->get('/l/save')->to('link#update');
 
   # They can create comments
   # They can update comments
-  $r->post('/c/new/:type')->to('comment#create');
-  $r->post('/c/save/:type')->to('comment#update');
+  # $r->post('/c/new/:type')->to('comment#create');
+  # $r->post('/c/save/:type')->to('comment#update');
 
   # They can create subjects
   # They can update subjects
   # They can view subjects
   # And delete them
-  $r->post('/s/new')->to('subject#create');
-  $r->get('/s/save')->to('subject#update');
+  # $r->post('/s/new')->to('subject#create');
+  # $r->get('/s/save')->to('subject#update');
 
   # They can create books
   # They can update books
-  $r->post('/b/new')->to('book#create');
-  $r->get('/b/save')->to('book#update');
+  # $r->post('/b/new')->to('book#create');
+  # $r->get('/b/save')->to('book#update');
 
 
   # If they have over a certain reputation in a topic they can
   # Add related topics
   # Add topics to posts in the topic and add the topic to posts in other topics
   # Same as above, but for links
-  $r->post('/t/save/:name')->to('topic#save');
+  # $r->post('/t/save/:name')->to('topic#save');
 }
 
 sub _salt {

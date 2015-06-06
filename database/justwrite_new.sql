@@ -17,10 +17,9 @@ CREATE ROLE justwrite_u WITH ;
 -- CREATE DATABASE new_database
 -- ;
 -- -- ddl-end --
--- 
+--
 
 CREATE EXTENSION ltree;
-CREATE EXTENSION "uuid-ossp";
 
 -- object: public.user | type: TABLE --
 -- DROP TABLE IF EXISTS public.user CASCADE;
@@ -57,8 +56,9 @@ ALTER TABLE public.topic OWNER TO justwrite_u;
 -- DROP TABLE IF EXISTS public.post CASCADE;
 CREATE TABLE public.post(
 	post_id bigserial NOT NULL,
-	post_uuid uuid default uuid_generate_v4() NOT NULL,
+	post_uuid text not null,
 	title text NOT NULL,
+	slug text not null,
 	body text NOT NULL,
 	public boolean NOT NULL DEFAULT FALSE,
 	published boolean NOT NULL DEFAULT FALSE,
@@ -75,14 +75,14 @@ ALTER TABLE public.post OWNER TO justwrite_u;
 -- object: public.comment | type: TABLE --
 -- DROP TABLE IF EXISTS public.comment CASCADE;
 CREATE TABLE public.post_comment(
-        post_comment_id bigserial NOT NULL,
-        post_comment_uuid uuid default uuid_generate_v4() NOT NULL,
-        post_id bigint not null,
-        login text NOT NULL,
-        body text NOT NULL,
-        path ltree NOT NULL,
-        created timestamp with time zone NOT NULL DEFAULT now(),
-        last_updated timestamp with time zone,
+  post_comment_id bigserial NOT NULL,
+  post_comment_uuid text NOT NULL,
+  post_id bigint not null,
+  login text NOT NULL,
+  body text NOT NULL,
+  path ltree NOT NULL,
+  created timestamp with time zone NOT NULL DEFAULT now(),
+  last_updated timestamp with time zone,
 	CONSTRAINT post_comment_id_pk PRIMARY KEY (post_comment_id),
 	CONSTRAINT post_comment_uuid_uq UNIQUE (post_comment_uuid)
 
@@ -95,10 +95,13 @@ ALTER TABLE public.post_comment OWNER TO justwrite_u;
 -- DROP TABLE IF EXISTS public.link CASCADE;
 CREATE TABLE public.link(
 	link_id bigserial NOT NULL,
-	link_uuid uuid default uuid_generate_v4() NOT NULL,
+	link_uuid text NOT NULL,
+	title text NOT NULL,
 	url text NOT NULL,
 	description text,
+	slug text not null,
 	created timestamp with time zone NOT NULL DEFAULT now(),
+	login text NOT NULL,
 	CONSTRAINT link_id_pk PRIMARY KEY (link_id),
 	CONSTRAINT link_uuid_uq UNIQUE (link_uuid),
 	CONSTRAINT link_url_uq UNIQUE (url)
@@ -111,14 +114,14 @@ ALTER TABLE public.link OWNER TO justwrite_u;
 -- object: public.comment | type: TABLE --
 -- DROP TABLE IF EXISTS public.comment CASCADE;
 CREATE TABLE public.link_comment(
-        link_comment_id bigserial NOT NULL,
-        link_comment_uuid uuid default uuid_generate_v4() NOT NULL,
-        link_id bigint not null,
-        login text NOT NULL,
-        body text NOT NULL,
-        path ltree NOT NULL,
-        created timestamp with time zone NOT NULL DEFAULT now(),
-        last_updated timestamp with time zone,
+  link_comment_id bigserial NOT NULL,
+  link_comment_uuid text NOT NULL,
+  link_id bigint not null,
+  login text NOT NULL,
+  body text NOT NULL,
+  path ltree NOT NULL,
+  created timestamp with time zone NOT NULL DEFAULT now(),
+  last_updated timestamp with time zone,
 	CONSTRAINT link_comment_id_pk PRIMARY KEY (link_comment_id),
 	CONSTRAINT link_comment_uuid_uq UNIQUE (link_comment_uuid)
 
@@ -184,8 +187,9 @@ ALTER TABLE public.topic_to_topic OWNER TO justwrite_u;
 -- DROP TABLE IF EXISTS public.book CASCADE;
 CREATE TABLE public.book(
 	book_id bigserial NOT NULL,
-	book_uuid uuid default uuid_generate_v4() NOT NULL,
+	book_uuid text NOT NULL,
 	name text NOT NULL,
+	slug text not null,
 	public boolean NOT NULL DEFAULT FALSE,
 	writable boolean NOT NULL DEFAULT FALSE,
 	created timestamp with time zone NOT NULL DEFAULT now(),
@@ -230,7 +234,7 @@ ALTER TABLE public.book_to_link OWNER TO justwrite_u;
 -- DROP TABLE IF EXISTS public.subject CASCADE;
 CREATE TABLE public.subject(
 	subject_id bigserial NOT NULL,
-	subject_uuid uuid default uuid_generate_v4() NOT NULL,
+	subject_uuid text NOT NULL,
 	name text NOT NULL,
 	public boolean NOT NULL DEFAULT FALSE,
 	created timestamp with time zone NOT NULL DEFAULT now(),
@@ -274,6 +278,13 @@ ON DELETE NO ACTION ON UPDATE NO ACTION;
 -- ALTER TABLE public.post_to_topic DROP CONSTRAINT IF EXISTS post_to_topic_topic_fk CASCADE;
 ALTER TABLE public.post_to_topic ADD CONSTRAINT post_to_topic_topic_fk FOREIGN KEY (topic)
 REFERENCES public.topic (name) MATCH FULL
+ON DELETE NO ACTION ON UPDATE NO ACTION;
+-- ddl-end --
+
+-- object: post_login_fk | type: CONSTRAINT --
+-- ALTER TABLE public.post DROP CONSTRAINT IF EXISTS post_login_fk CASCADE;
+ALTER TABLE public.link ADD CONSTRAINT link_login_fk FOREIGN KEY (login)
+REFERENCES public.user (login) MATCH FULL
 ON DELETE NO ACTION ON UPDATE NO ACTION;
 -- ddl-end --
 
